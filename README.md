@@ -11,7 +11,7 @@ Proyecto Integrador del equipo 7
 - Iris Ailed Ramos Vivas
 - Daniel Nava Garcia (Daniel)
 - Gerardo Javier Ortega Iturbe
-- Santiago Garcia 
+- Santiago Uriel Garcia Cordova (Santiago)
 
 ## Pagina
 https://santiagougc07.github.io/Operacion_Andromeda/
