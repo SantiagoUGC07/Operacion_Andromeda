@@ -1,0 +1,25 @@
+.texto{
+    font-family: 'Montserrat' !important;
+    text-align: justify;
+    
+}
+
+.titulo{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: #140714;
+    color: rgb(219, 223, 231);
+}
+
+
+
+.rainbow-button{
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(231, 219, 219);
+    text-decoration: none;
+    border: 5px solid rgb(231, 219, 219);
+    padding: 10px;
+}
