@@ -9,7 +9,7 @@ Proyecto Integrador del equipo 7
 - Josué Leonel Hernández Hernández
 - Luis Roberto Alarcon Olmos
 - Iris Ailed Ramos Vivas
-- Daniel Nava Garcia
+- Daniel Nava Garcia (Daniel)
 - Gerardo Javier Ortega Iturbe
 - Santiago Uriel Garcia Cordova
 
