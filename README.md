@@ -6,7 +6,7 @@ Proyecto Integrador del equipo 7
 
 - Eduardo Diaz Anaya
 - José Manuel Carvajal Rodríguez
-- Josué Leonel Hernández Hernández
+- Josué Leonel Hernández Hernández (Josh)
 - Luis Roberto Alarcon Olmos
 - Iris Ailed Ramos Vivas
 - Daniel Nava Garcia (Daniel)
