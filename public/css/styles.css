@@ -1,25 +1,61 @@
-.texto{
-    font-family: 'Montserrat' !important;;
-    text-align: justify;
-    
+body{
+    background-image: url(public/assets/img/background.png);
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+    image-rendering: pixelated;
+    margin: 0px;
+    border: 0px;
 }
 
-.titulo{
+h2{
+    text-shadow: 1px 1px 2px black, 0 0 1em #707aed, 0 0 0.2em #ede5f1; 
     font-family: 'Orbitron', sans-serif;
     text-align: center;
+    color: #ede5f1; 
 }
 
-body{
-    background-color: #140714;
-    color: rgb(219, 223, 231);
+.text{
+    font-family: 'Montserrat' !important;;
+    text-align: justify;
+    color: #ede5f1;
 }
 
+.rrss-icon{
+    height: 64px;
+    image-rendering: pixelated;
+}
 
-
-.rainbow-button{
-    font-family: 'Press Start 2P', cursive;
+.btn-game{
+    font-family: 'Press Start 2P';
     color: rgb(231, 219, 219);
     text-decoration: none;
     border: 5px solid rgb(231, 219, 219);
     padding: 10px;
+}
+.btn-game:hover{
+    text-decoration: none;
+    color: #ede5f1;
+}
+
+.logo-image{
+    display: block;
+    width: 100%;
+    height: 100px;
+    transform: scale(1);
+    z-index: 1;
+    transition: 1s;
+}
+
+.logo-image:hover{
+    transform: scale(1.2);
+    z-index: 1;
+    transition: 1s;
+}
+
+.display-logos{
+    display: flex;    
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
