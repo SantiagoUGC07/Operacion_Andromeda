@@ -47,7 +47,7 @@
  */
 
 .footer{
-    background-image: url(public/assets/img/footer.png);
+    background-image: url('../../public/assets/img/footer.png');
     background-size: 100%;
     image-rendering: pixelated;
     padding-top: 150px;
