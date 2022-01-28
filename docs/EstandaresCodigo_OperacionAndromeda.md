@@ -187,11 +187,74 @@ La clave para la construcción de programas es la descomposición del proceso en
 
 ## Estilo de Código HTML
 
+- Declarar siempre el tipo de documento como la primera línea en el documento:
 
+- Evitar mezclar nombres en mayúsculas y minúsculas en las etiqueta
+- Utilizar minúsculas en los nombres de elementos
+- Cerrar todos los elementos HTML
+
+- Cerrar los elementos HTML con una La barra oblicua (/)
+
+  <meta charset="utf-8"/>
+
+- Usar minúsculas nombres de los atributos
+
+- Utilizar comillas dobles en los id y clases.
+
+- La mezcla de estilos no es bueno
+- Los valores indicados son más fáciles de leer
+
+- Utilizar siempre el **alt** atributo con imágenes. Es importante cuando la imagen no se puede ver.
+- Siempre definir tamaño de la imagen. Se reduce el parpadeo ya que el navegador puede reservar espacio para las imágenes antes de cargarse.
+- Evitar las líneas de código largo (código de más de 80 caracteres).
+
+- No añadir líneas en blanco sin una razón.
+
+- Para facilitar la lectura, añadir líneas en blanco para separar los bloques de código grandes o lógicos.
+
+- Para facilitar la lectura, añadir 2 tabulaciones.
+- No utilizar líneas en blanco innecesarios y sangría. 
+- No es necesario el uso de líneas en blanco entre elementos cortos y relacionados. 
+- No es necesario aplicar la sangría cada elemento.
+
+- No omitir las etiquetas <html>, <head> y <body> 
+
+- Para asegurar una interpretación apropiada y correcta indexación de los motores de búsqueda, tanto el lenguaje como la codificación de caracteres debe definirse lo antes posible en un documento.
+
+- Breves comentarios deben escribirse en una sola línea, con un espacio después 
+
+  <!-- espacio antes y despues --> 
+
+- Comentarios largo, que abarca muchas líneas, se deben escribir con <!-- y --> En líneas separadas:
+
+  <!--
+   This is a long comment example. This is a long comment example. This is a long comment example.
+   This is a long comment example. This is a long comment example. This is a long comment example.
+  -->
+
+- Aplicar sangría de dos espacios a los comentarios largos.
+
+- Utilice la sintaxis sencilla para unir las hojas de estilo
+
+  <link rel="stylesheet" href="styles.css">
+
+- Utilice la sintaxis sencilla para cargar scripts externos. 
+
+  <script src="myscript.js">
+
+- Utilizar siempre los nombres de archivo en minúsculas.
+- Los archivos HTML deben tener una extensión **.html**
 
 ## Estilo de Código CSS
 
-
+- Coloque el soporte de apertura en la misma línea que el selector.
+- Utilizar un espacio antes del paréntesis de apertura.
+- Utiliza una tabulación de sangría.
+- Utilizar el espacio después de cada coma o punto y coma.
+- Utilice punto y coma después de cada pareja propiedad-valor, incluyendo la última.
+- Utilizar comillas alrededor de valores si el valor contiene espacios.
+- Coloque el cierre de un bloque de código en una nueva línea, sin espacios iniciales.
+- Evitar las líneas de más de 80 caracteres.
 
 ## Estilo de Código JavaScript
 
