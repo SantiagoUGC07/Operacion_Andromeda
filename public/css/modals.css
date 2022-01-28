@@ -1,0 +1,19 @@
+.modal-body{
+    background-color: red;
+}
+
+.modal-header{
+    background-color: green;
+}
+
+
+.modal-footer{
+    background-color: blue;
+}
+
+
+
+.modal-content{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+

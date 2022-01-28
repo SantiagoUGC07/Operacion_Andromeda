@@ -12,6 +12,7 @@ h2{
     font-family: 'Orbitron', sans-serif;
     text-align: center;
     color: #ede5f1; 
+    margin: 8px 0px;
 }
 
 .text{
@@ -27,9 +28,9 @@ h2{
 
 .btn-game{
     font-family: 'Press Start 2P';
-    color: rgb(231, 219, 219);
+    color: #ede5f1;
     text-decoration: none;
-    border: 5px solid rgb(231, 219, 219);
+    border: 5px solid #ede5f1;
     padding: 10px;
 }
 .btn-game:hover{

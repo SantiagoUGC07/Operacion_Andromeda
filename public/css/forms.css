@@ -1,0 +1,9 @@
+.form-control{
+    background-color: #ede5f1;
+    font-family: 'Montserrat';
+    color: black !important;
+}
+
+.form-control::placeholder{
+    font-family: 'Orbitron', sans-serif;
+}

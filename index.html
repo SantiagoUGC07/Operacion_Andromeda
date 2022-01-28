@@ -20,6 +20,8 @@
 
     <link rel="stylesheet" href="public/css/styles.css">
     <link rel="stylesheet" href="public/css/navbar-footer.css">
+    <link rel="stylesheet" href="public/css/modals.css">
+    <link rel="stylesheet" href="public/css/forms.css">
 
     <title>Andromeda</title>
 </head>
@@ -65,9 +67,121 @@
             </div>
         </nav>
     </header>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-center">
+                    <img src="public/assets/img/icons/logo.webp" class="img-brand " srcset="">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button> 
+                </div>
+                <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+
+                <div class="modal-body">
+                    <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="signIn" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">Iniciar Sesion</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="signUp" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">Registrarse</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <h2>Iniciar sesión en Andromeda</h2>
+                            <form>
+                                <div class="form-group">
+                                    <!-- <label for="inputEmail">Email address</label> -->
+                                    <input type="email" class="form-control" id="inputEmail"
+                                        aria-describedby="emailHelp" placeholder="Introduzca el correo electrónico">
+                                </div>
+                                <div class="form-group">
+                                    <!-- <label for="inputPassword">Password</label> -->
+                                    <input type="password" class="form-control" id="inputPassword"
+                                        placeholder="Introduzca la contraseña">
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Mantener sesión iniciada</label>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" class="btn-game" alt="Button">ENTRAR</a>
+                                </div>
+                                
+
+                            </form>
+
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <h2>Crear una cuenta</h2>
+                            <form>
+                                <div>
+                                    <p>Por favor complete la información a continuación:</p>
+                                </div>
+                                <div class="form-group">
+                                    <!-- <label for="inputName">Nombre(s)</label> -->
+                                    <input type="text" class="form-control" id="inputName"
+                                        aria-describedby="emailHelp" placeholder="Nombre(s)">
+                                </div>
+
+                                <div class="form-group">
+                                    <!-- <label for="inputLastName">Apellido(s)</label> -->
+                                    <input type="text" class="form-control" id="inputLastName"
+                                        aria-describedby="emailHelp" placeholder="Apellido(s)">
+                                </div>
+                                <div>
+                                    <p>Datos de contacto:</p>
+                                </div>
+                                <div class="form-group">
+                                    <!-- <label for="inputEmail">Email address</label> -->
+                                    <input type="email" class="form-control" id="inputEmail"
+                                        aria-describedby="emailHelp" placeholder="Introduzca el correo electrónico">
+                                    <small id="emailHelp" class="form-text text-muted d-flex justify-content-end">
+                                        Nunca compartiremos tu correo electrónico con nadie más.
+                                    </small>
+                                </div>
+                                <div class="form-group">
+                                    <!-- <label for="inputPassword">Password</label> -->
+                                    <input type="password" class="form-control" id="inputPassword"
+                                        placeholder="Introduzca la contraseña">
+                                </div>
+                                <div class="form-group">
+                                    <!-- <label for="inputPassword">Password</label> -->
+                                    <input type="password" class="form-control" id="inputPassword"
+                                        placeholder="Repite la contraseña">
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">He leído y acepto los términos y condiciones de uso, asi como la Politica de privacidad de Andromeda</label>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" class="btn-game " alt="Button">CREAR MI CUENTA</a>
+                                </div>
+                                
+                            </form>    
+                        </div>
+                    </div>
+
+                </div>
+                <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
-        <h2 class="titulo">
+        <h2 class="title">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </h2>
         <div class="row">
@@ -160,8 +274,8 @@
                 praesentium?
             </p>
         </div>
-        <a href="#" class="btn-game" alt="Button">COMPRAR
-        </a>
+
+        <a href="#" class="btn-game" alt="Button">COMPRAR</a>
         <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
     </div>
     <footer class="row footer">
@@ -199,4 +313,5 @@
         integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
