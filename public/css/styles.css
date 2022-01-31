@@ -34,7 +34,9 @@ h2{
 }
 .btn-game:hover{
     text-decoration: none;
-    color: #ede5f1;
+    /* color: #ede5f1; */
+    color: #25003d;
+    background-color: #ede5f1dc;
 }
 
 .logo-image{
@@ -60,4 +62,31 @@ h2{
     flex-wrap: wrap;
 }
 
+.footer{
+    width: 100%;    /* se arregla el desbordamiento del footer (Lalo) */
+}
+
+/* ============ start---contact us ============ */
+.contact{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+    width: 100%;
+}
+
+.contact-textarea{
+    resize: none;
+}
+
+.contact-h2{
+    text-align: center;
+}
+
+.contact__button{
+    text-align: center;
+}
+
+/* ============ end---contact us ============ */
 

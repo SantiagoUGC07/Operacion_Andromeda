@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- //////////////////////// Fonts Google ////////////////////////////////// -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&family=Press+Start+2P&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="icon" href="public/assets/img/icons/Space_Invader.webp">
+    <link rel="stylesheet" href="public/css/styles.css">
+    <link rel="stylesheet" href="public/css/navbar-footer.css">
+
+    <title>Andromeda - Contact Us</title>
+</head>
+<body>
+    <!-- //////////////////////// Navbar ////////////////////////////////// -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand ml-5" href="#">
+                <img src="public/assets/img/icons/logo.webp" class="img-brand" srcset="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown mr-5">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">PC Gamer</a>
+                            <a class="dropdown-item" href="#">Accesorios</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown mr-5">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-expanded="false">
+                            <img src="public/assets/img/icons/cuenta-color.png" class="icon-nav">
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Pedidos</a>
+                            <a class="dropdown-item" href="#">Cerrar Sesion</a>
+                        </div>
+                    </li>
+                    <li class="nav-item  mr-5">
+                        <a class="nav-link" href="#">
+                            <img src="public/assets/img/icons/carrito-color.png" class="icon-nav">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- //////////////////////// contact us ////////////////////////////////// -->
+    <div class="container contact">
+        <div class="contact-h2">
+            <img src="public/assets/img/other/h2__contact.png" alt="">
+        </div>
+        <form>
+            <h2 class="mt-4">Formulario de Contacto</h2>
+            <br>    
+            <p>Si necesitas ponerte en contacto con nosotros, puedes hacerlo mediante el siguiente formulario:</p>
+            
+            <div class="row mb-3">
+                <div class="col-md-7 themed-grid-col">
+                    <!-- //////////// Left-form ////////////////// -->
+                    <div class="form-group">
+                        <label for="inputAddress">Nombre</label>
+                        <input type="text" class="form-control" id="contact-inputName" placeholder="Nombre(s)">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Apellido</label>
+                        <input type="text" class="form-control" id="contact-inputLasName" placeholder="Apellidos">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Correo Electronico</label>
+                        <input type="email" class="form-control" id="contact-inputEmail" placeholder="example@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Numero Celular</label>
+                        <input type="tel" class="form-control" id="contact-inputCel" placeholder="+(52) 55 6853 - 7343">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Motivo</label>
+                        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                            <option selected>Selecciona uno...</option>
+                            <option value="1">Empresarial</option>
+                            <option value="2">Problema con envio</option>
+                            <option value="3">Comentarios</option>
+                            <option value="4">Asesoria para comprar</option>
+                            <option value="5">Devoluciones</option>
+                            <option value="5">Contactar</option>
+                            <option value="0">Otro</option>
+                        </select>
+                        
+                    </div>
+                </div>
+                <div class="col-md-5 themed-grid-col">
+                    <!-- //////////// Left-form ////////////////// -->
+                    <div class="form-group">
+                        <label for="inputAddress">Mensaje </label>
+                        <textarea class="form-control contact-textarea" name="message" id="contact-inputMessage" cols="30" rows="10" placeholder="Ingresa tu mensaje aqui..."></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="contact__button">
+                <a href="#" class="btn-game" alt="Button">
+                    Enviar
+                </a>
+            </div>
+        </form>
+    </div>
+
+
+
+    <!-- //////////////////////// Footer ////////////////////////////////// -->
+    <footer class="row footer">
+        <div class="col-xl-4 col-lg-6 col-sm-12 display-logos">
+            <ul class="text">
+                <li type="square">Acerca de nosotros</li>
+                <li type="square">Preguntas Frecuentes </li>
+                <li type="square">Contacto</li>
+            </ul>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-sm-12 display-logos ">
+            <p class="text">
+                <img src="public/assets/img/icons/carta-color.png" class="rrss-icon">
+                contacto@andromeda.mx
+            </p>
+            <p class="text justify-content-center">
+                <img src="public/assets/img/icons/mapa-color.png" class="rrss-icon">
+                Cto Juan Pablo II 2457, La Hacienda, 72570 Puebla, Pue.
+            </p>
+        </div>
+        <div class="col-xl-4 col-lg-12 col-sm-12 display-logos">
+            <img src="public/assets/img/icons/tiktok.png" class="rrss-icon ">
+            <img src="public/assets/img/icons/tiktok.png" class="rrss-icon ">
+            <img src="public/assets/img/icons/tiktok.png" class="rrss-icon ">
+        </div>
+    </footer>
+
+    <!-- //////////////////////// Scripts ////////////////////////////////// -->
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+</body>
+</html>
