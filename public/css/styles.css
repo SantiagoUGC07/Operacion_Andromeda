@@ -65,6 +65,20 @@ h2{
 .footer{
     width: 100%;    /* se arregla el desbordamiento del footer (Lalo) */
 }
+/* ============ start---Backgroud__input ============ */
+
+.input__bg{
+    color: #ea3a76; 
+    border: none;
+    background: linear-gradient(180deg, #c04bf280 28.33%, #6232a680 71.67%);;
+}
+
+.input__bg::placeholder { 
+    color: #ffffff60; 
+    font-style: italic;
+}
+
+/* ============ end---Backgroud__input ============ */
 
 /* ============ start---contact us ============ */
 .contact{
