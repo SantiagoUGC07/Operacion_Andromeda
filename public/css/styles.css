@@ -5,6 +5,7 @@ body{
     image-rendering: pixelated;
     margin: 0px;
     border: 0px;
+    font-family: 'Orbitron';
 }
 
 h2{
@@ -104,6 +105,17 @@ h2{
 
 /* ============ end---contact us ============ */
 
+<<<<<<< HEAD
+.table-cart{
+    margin-left: 400px;
+    text-align: center;
+}
+
+.table-header-cart{
+    margin: 100px;
+}
+
+=======
 
 
 /*==========About us========*/
@@ -130,3 +142,4 @@ h2{
     color: #ede5f1;
     margin-right: auto;
 }
+>>>>>>> a456461c903e7d4c5c362215e4cb41d05fcdbc80
