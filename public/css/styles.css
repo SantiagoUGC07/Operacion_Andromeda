@@ -106,7 +106,7 @@ h2{
 
 
 
-/*==========About us========*/
+/*================ About us ================*/
 .textA
 {
     font-family: 'Montserrat' !important;;
@@ -114,7 +114,21 @@ h2{
     color: #ede5f1;
     margin: auto;
 }
-
+.textSM
+{
+    text-shadow: 1px 1px 2px black, 0 0 1em #707aed, 0 0 0.2em #ede5f1; 
+    font-family: 'Orbitron', sans-serif;
+    text-align: right;
+    color: #ede5f1; 
+    margin-right: auto;
+}
+.textSV
+{
+    text-shadow: 1px 1px 2px black, 0 0 1em #707aed, 0 0 0.2em #ede5f1; 
+    font-family: 'Orbitron', sans-serif;
+    text-align: left;
+    color: #ede5f1; 
+}
 .textM
 {
     font-family: 'Montserrat' !important;;
@@ -130,3 +144,21 @@ h2{
     color: #ede5f1;
     margin-right: auto;
 }
+.backVision
+{
+    background-image: url("/public/assets/img/other/Creatividad.png");
+    background-repeat: no-repeat; */
+    margin-right: 10px;
+    
+
+}
+
+
+.input__bg_card{
+    color: #ea3a76; 
+    border: none;
+    background: linear-gradient(180deg, #c04bf280 28.33%, #6232a680 71.67%);;
+}
+
+
+
