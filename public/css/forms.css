@@ -1,0 +1,23 @@
+label, select{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.form-control{
+/*     background-color: #ede5f1;
+    color: black !important; */
+    background: linear-gradient(180deg, #c04bf280 28.33%, #6232a680 71.67%);
+    color: #ea3a76; 
+    border: none;
+    font-family: 'Montserrat';
+
+}
+
+.form-control::placeholder{
+    color: #ffffff60; 
+    font-family: 'Orbitron', sans-serif;
+    font-style: italic;
+
+}
+
+

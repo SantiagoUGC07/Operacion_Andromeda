@@ -1,16 +1,16 @@
-.bg-dark {
+.bg-dark  {
     /* background: linear-gradient(90deg, rgb(0, 255, 55) 0%, rgba(38, 0, 255, 0)) !important; */
     /* background: linear-gradient(0deg, #181a35 100%, #ffffff ) !important; */
-    background: linear-gradient(0deg,  #ffffff00, #3e287a) !important;
+    background: linear-gradient(0deg,  #ffffff00, #602085) !important;
 }
 
 .dropdown-menu{
-    /* background: linear-gradient(0deg,#ffffff00 , #3e287a, #ffffff00) !important; */
-    background: #3e287a !important;
+    /* background: linear-gradient(0deg,#ffffff00 , #602085, #ffffff00) !important; */
+    background: #602085 !important;
 }
 
 .img-brand{
-    height: 64px;
+    height: 45px;
 }
 
 .navbar-brand{
@@ -35,22 +35,28 @@
 
 .dropdown-item:hover{
     background-color: transparent !important;
-    /* background: #3e287a !important; */
     text-shadow: 1px 1px 2px black, 0 0 1em #707aed, 0 0 0.2em #ede5f1;   
 }
-
-/* footer */
-
-/* .footer{
-    background: linear-gradient(180deg,  #ffffff00, #3e287a) !important;
-}
- */
 
 .footer{
     background-image: url('../../public/assets/img/footer.png');
     background-size: 100%;
     image-rendering: pixelated;
     padding-top: 150px;
+    margin: 0px;
+    border: 0px;
  }
 
- 
+.footer{
+    width: 100%;    /* se arregla el desbordamiento del footer (Lalo) */
+}
+
+ .rrss-icon{
+    height: 64px;
+    image-rendering: pixelated;
+}
+
+.contact-icon{
+    height: 32px;
+}
+

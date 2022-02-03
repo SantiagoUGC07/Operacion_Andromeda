@@ -6,33 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Andromeda</title>
+
+    <!-- //////////////////////// Fonts Google ////////////////////////////////// -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&family=Press+Start+2P&display=swap"
         rel="stylesheet">
 
+    <!-- //////////////////////// Bootstrap ////////////////////////////////// -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
+    <!-- //////////////////////// Icono ////////////////////////////////// -->
+    <link rel="icon" href="../assets/img/icons/andromeda-logo.png">
 
-
-    <link rel="icon" href="public/assets/img/icons/Space_Invader.webp">
-
-    <link rel="stylesheet" href="public/css/styles.css">
-    <link rel="stylesheet" href="public/css/navbar-footer.css">
-    <link rel="stylesheet" href="public/css/modals.css">
-    <link rel="stylesheet" href="public/css/forms.css">
-    <link rel="stylesheet" href="public/css/carrito.css">
-    <link rel="stylesheet" href="public/css/metodo-de-envio.css">
-
-    <title>Andromeda</title>
+    <!-- //////////////////////// Hojas de estilo ////////////////////////////////// -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/navbar-footer.css">
+    <link rel="stylesheet" href="../css/modals.css">
+    <link rel="stylesheet" href="../css/forms.css">
+    <link rel="stylesheet" href="../css/tab.css">
+    <link rel="stylesheet" href="../css/cartas.css">
+    <link rel="stylesheet" href="../css/icon-accordion.css">
+    <link rel="stylesheet" href="../css/carrito.css">
 </head>
 
 <body>
+    <!-- //////////////////////// Navbar ////////////////////////////////// -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand ml-5" href="#">
-                <img src="public/assets/img/icons/logo.webp" class="img-brand" srcset="">
+            <a class="navbar-brand ml-5" href="../../index.html"">
+                <img src="../assets/img/icons/logo.webp" class="img-brand">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,16 +58,20 @@
                     <li class="nav-item dropdown mr-5">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-expanded="false">
-                            <img src="public/assets/img/icons/cuenta-color.png" class="icon-nav">
+                            <img src="../assets/img/icons/cuenta-color.png" class="icon-nav">
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Pedidos</a>
-                            <a class="dropdown-item" href="#">Cerrar Sesion</a>
+                            <a class="dropdown-item" data-toggle="modal" data-target="#login-modal">
+                                Pedidos
+                            </a>
+                            <a class="dropdown-item">
+                                Cerrar sesión
+                            </a>
                         </div>
                     </li>
                     <li class="nav-item  mr-5">
-                        <a class="nav-link" href="#">
-                            <img src="public/assets/img/icons/carrito-color.png" class="icon-nav">
+                        <a class="nav-link" href="../html/cart.html">
+                            <img src="../assets/img/icons/carrito-color.png" class="icon-nav">
                         </a>
                     </li>
                 </ul>
@@ -70,9 +79,113 @@
         </nav>
     </header>
 
+    <!-- //////////////////////// modal ////////////////////////////////// -->
+    <div class="modal fade" id="login-modal" tabindex="-1" aria-labelledby="login-modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-center">
+                    <div class="">
+                        <img src="../assets/img/icons/logo.webp" class="img-brand">
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <!-- <span aria-hidden="true">&times;</span> -->
+                        <img src="../assets/img/icons/cerrar.png" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav nav-tabs d-flex justify-content-center" id="myLogin" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="sign-in-tab" data-toggle="tab" href="#sign-in" role="tab"
+                                aria-controls="sign-in" aria-selected="true">Iniciar Sesion</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="sign-up-tab" data-toggle="tab" href="#sign-up" role="tab"
+                                aria-controls="sign-up" aria-selected="false">Registrarse</a>
+                        </li>
+                    </ul>
 
+                    <div class="tab-content">
+                        <div class="tab-pane show active fade" id="sign-in" role="tabpanel"
+                            aria-labelledby="sign-in-tab">
+                            <h2>Iniciar sesión en Andromeda</h2>
+                            <form>
+                                <div class="form-group">
+                                    <!-- <label for="inputEmail">Email address</label> -->
+                                    <input type="email" class="form-control" id="inputEmail"
+                                        aria-describedby="emailHelp" placeholder="Introduzca su correo electrónico">
+                                </div>
+                                <div class="form-group">
+                                    <!-- <label for="inputPassword">Password</label> -->
+                                    <input type="password" class="form-control" id="inputPassword"
+                                        placeholder="Introduzca la contraseña">
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Mantener sesión iniciada</label>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" class="btn-game" alt="Button">ENTRAR</a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="sign-up" role="tabpanel" aria-labelledby="sign-up-tab">
+                            <h2>Crear una cuenta</h2>
+                            <form>
+                                <div>
+                                    <p>Por favor complete la información a continuación:</p>
+                                </div>
+                                <div class="form-group">
+                                    <!-- <label for="inputName">Nombre(s)</label> -->
+                                    <input type="text" class="form-control" id="inputName" aria-describedby="emailHelp"
+                                        placeholder="Nombre(s)">
+                                </div>
 
+                                <div class="form-group">
+                                    <!-- <label for="inputLastName">Apellido(s)</label> -->
+                                    <input type="text" class="form-control" id="inputLastName"
+                                        aria-describedby="emailHelp" placeholder="Apellido(s)">
+                                </div>
+                                <div>
+                                    <p>Datos de contacto:</p>
+                                </div>
+                                <div class="form-group">
+                                    <!-- <label for="inputEmail">Introduzca el correo electrónico</label> -->
+                                    <input type="email" class="form-control" id="inputEmail"
+                                        aria-describedby="emailHelp" placeholder="Introduzca el correo electrónico">
+                                    <small id="emailHelp" class="form-text text-muted d-flex justify-content-end">
+                                        Nunca compartiremos tu correo electrónico con nadie más.
+                                    </small>
+                                </div>
+                                <div class="form-group">
+                                    <!-- <label for="inputPassword">Password</label> -->
+                                    <input type="password" class="form-control" id="inputPassword"
+                                        placeholder="Introduzca la contraseña">
+                                </div>
+                                <div class="form-group">
+                                    <!-- <label for="inputPassword">Password</label> -->
+                                    <input type="password" class="form-control" id="inputPassword"
+                                        placeholder="Repite la contraseña">
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">He leído y acepto los términos y
+                                        condiciones de uso, asi como la Politica de privacidad de Andromeda</label>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" class="btn-game " alt="Button">CREAR MI CUENTA</a>
+                                </div>
 
+                            </form>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <p>Andromeda © 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
         <h2 class="title">
@@ -283,44 +396,87 @@
 
 
         <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
-    </div>
-    <footer class="row footer">
-        <div class="col-xl-4 col-lg-6 col-sm-12 display-logos">
-            <ul class="text">
-                <li type="square">Acerca de nosotros</li>
-                <li type="square">Preguntas Frecuentes </li>
-                <li type="square">Contacto</li>
-            </ul>
-        </div>
-        <div class="col-xl-4 col-lg-6 col-sm-12 display-logos ">
-            <p class="text">
-                <img src="public/assets/img/icons/carta-color.png" class="rrss-icon">
-                contacto@andromeda.mx
-            </p>
-            <p class="text justify-content-center">
-                <img src="public/assets/img/icons/mapa-color.png" class="rrss-icon">
-                Cto Juan Pablo II 2457, La Hacienda, 72570 Puebla, Pue.
-            </p>
-        </div>
-        <div class="col-xl-4 col-lg-12 col-sm-12 display-logos">
-            <img src="public/assets/img/icons/tiktok.png" class="rrss-icon ">
-            <img src="public/assets/img/icons/tiktok.png" class="rrss-icon ">
-            <img src="public/assets/img/icons/tiktok.png" class="rrss-icon ">
-        </div>
-    </footer>
-
-    <script src="public/js/tabs.js"></script>
-
-    <script src="assets/js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
-        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
+        <footer class="footer page-footer">
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-sm-12">
+                    <h4>Enlaces de interés</h4>
+                    <ul>
+                        <li type="square">
+                            <a href="../html/about_us.html" class="text-decoration-none">Nuestra empresa</a>
+                        </li>
+                        <li type="square">
+                            <a href="../html/faq.html" class="text-decoration-none">Preguntas Frecuentes</a>
+                        </li>
+                        <li type="square">
+                            <a href="../html/contact-us.html" class="text-decoration-none">Contácto y sugerencias</a>
+                        </li>
+                        <li type="square">
+                            <a href="../html/pc-gamer-delios.html" class="text-decoration-none">Nuestro mejor equipo</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-sm-12">
+                    <h4>Ponerse en contacto</h4>
+                    <ul>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="../assets/img/icons/mapa-color.png" class="contact-icon">
+                            </div>
+                            <p class="pull-right body-text ml-1">
+                                Oficinas <span class="text-muted">(No se atienden clientes en esta ubicación)</span> <br>
+                                Cto Juan Pablo II 2457 <br>
+                                Col. La Hacienda <br>
+                                CP. 72570 <br>
+                                Puebla, Pue., México
+                            </p>
+                        </li>
+                        <li class="media ">
+                            <div class="pull-left">
+                                <img src="../assets/img/icons/carta-color.png" class="contact-icon">
+                            </div>
+                            <p class="pull-right body-text ml-1">
+                                contacto@andromeda.mx
+                            </p>
+                        </li>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="../assets/img/icons/telefono.png" class="contact-icon">
+                            </div>
+                            <p class="pull-right body-text ml-1">
+                                (55) 5837 1453
+                            </p>
+                        </li>
+                    </ul>
+    
+                </div>
+                <div class="col-xl-4 col-lg-12 col-sm-12 ">
+                    <h4>Siguenos en nuestras redes sociales</h4>
+                    <div class="d-flex justify-content-around">
+                        <img src="../assets/img/icons/tiktok.png" class="rrss-icon image-animation">
+                        <img src="../assets/img/icons/instagram.png" class="rrss-icon image-animation">
+                        <img src="../assets/img/icons/facebook.png" class="rrss-icon image-animation">
+                        <img src="../assets/img/icons/linkedin.png" class="rrss-icon image-animation">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="text-center mb-0">Andromeda © 2022</p>
+            </div>
+        </footer>
+    
+        <!-- //////////////////////// Scripts ////////////////////////////////// -->
+        <script src="../js/login.js"></script>
+        <script src="../js/cart.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+            integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+            crossorigin="anonymous"></script>
+    </body>
+    </html>

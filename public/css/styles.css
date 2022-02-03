@@ -5,92 +5,88 @@ body{
     image-rendering: pixelated;
     margin: 0px;
     border: 0px;
-    font-family: 'Orbitron';
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
 }
 
-h2{
-    text-shadow: 1px 1px 2px black, 0 0 1em #707aed, 0 0 0.2em #ede5f1; 
-    font-family: 'Orbitron', sans-serif;
-    text-align: center;
-    color: #ede5f1; 
+h1,h2, h3, h4, h5, a, th{
+    font-family: 'Orbitron', sans-serif !important;
+    text-align: center !important;;
 }
 
-.text{
-    font-family: 'Montserrat' !important;;
-    text-align: justify;
+h1, h2{
+    text-shadow: 1px 1px 2px black, 0 0 1em #707aed, 0 0 0.2em #ffffff !important;
+}
+
+a, p, h1, h2, h3, h4, h5, th, td, label, .white-text{
+    color: #ede5f1 !important;
+}
+
+p, td, label, .montserrat-text{
+    font-family: 'Montserrat' !important;
+}
+
+a:hover{
+    text-shadow: 1px 1px 2px black, 0 0 1em #707aed, 0 0 0.2em #ede5f1 !important; 
+    color: #ede5f1 !important;
+}
+
+li{
     color: #ede5f1;
 }
 
-.rrss-icon{
-    height: 64px;
-    image-rendering: pixelated;
+th{
+    color: #ede5f1;
 }
 
-.btn-game{
-    font-family: 'Press Start 2P';
-    color: rgb(231, 219, 219);
-    text-decoration: none;
-    border: 5px solid rgb(231, 219, 219);
-    padding: 10px;
-}
-.btn-game:hover{
-    text-decoration: none;
-    /* color: #ede5f1; */
-    color: #25003d;
-    background-color: #ede5f1dc;
-}
-
-.logo-image{
+.image-animation{
     display: block;
-    width: 100%;
-    height: 100px;
+
     transform: scale(1);
     z-index: 1;
     transition: 1s;
 }
 
-.logo-image:hover{
+.image-animation:hover{
     transform: scale(1.2);
     z-index: 1;
     transition: 1s;
 }
 
-.display-logos{
-    display: flex;    
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
+::-webkit-scrollbar{
+    width: 12px;
+} 
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(rgb(156, 138, 255), #FF3575);
 }
 
-.footer{
-    width: 100%;    /* se arregla el desbordamiento del footer (Lalo) */
+.btn-game{
+    font-family: 'Press Start 2P' !important;
+    color: #ede5f1;
+    text-decoration: none;
+    border: 5px solid #ede5f1;
+    padding: 10px;
+    text-shadow: none !important;
 }
-/* ============ start---Backgroud__input ============ */
-
-.input__bg{
-    color: #ea3a76; 
-    border: none;
-    background: linear-gradient(180deg, #c04bf280 28.33%, #6232a680 71.67%);;
+.btn-game:hover{
+    text-decoration: none;
+    /* color: #ede5f1; */
+    color: #25003d !important;
+    background-color: #ede5f1;
+    text-shadow: none !important;
 }
 
-.input__bg::placeholder { 
-    color: #ffffff60; 
-    font-style: italic;
+.text-muted{
+    color: #5a525e !important;
 }
 
-/* ============ end---Backgroud__input ============ */
-
-/* ============ start---contact us ============ */
-.contact{
+/* .contact{
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-}
+} */
 
-.footer{
-    width: 100%;
-}
 
+/* 
 .contact-textarea{
     resize: none;
 }
@@ -102,10 +98,10 @@ h2{
 .contact__button{
     text-align: center;
 }
-
+ */
 /* ============ end---contact us ============ */
 
-<<<<<<< HEAD
+/* <<<<<<< HEAD
 .table-cart{
     margin-left: 400px;
     text-align: center;
@@ -116,30 +112,4 @@ h2{
 }
 
 =======
-
-
-/*==========About us========*/
-.textA
-{
-    font-family: 'Montserrat' !important;;
-    text-align: justify;
-    color: #ede5f1;
-    margin: auto;
-}
-
-.textM
-{
-    font-family: 'Montserrat' !important;;
-    text-align: justify;
-    color: #ede5f1;
-    margin-left: auto;
-}
-
-.textV
-{
-    font-family: 'Montserrat' !important;;
-    text-align: justify;
-    color: #ede5f1;
-    margin-right: auto;
-}
->>>>>>> a456461c903e7d4c5c362215e4cb41d05fcdbc80
+ */

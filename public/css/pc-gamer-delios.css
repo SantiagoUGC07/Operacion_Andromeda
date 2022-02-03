@@ -25,14 +25,8 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+/* poner esto en javascript */
 
-/* SCROLLBAR */
-::-webkit-scrollbar{
-    width: 12px;
-} 
-::-webkit-scrollbar-thumb{
-    background: linear-gradient(rgb(156, 138, 255), #FF3575);
-}
 
 /* SLIDER PRODUCTO */
 #color-slider{
@@ -102,6 +96,8 @@ h1 {
 .btn_comprar:hover::after{
     transform: rotate(150deg);
 }
+
+/* crear los estilos para botones */
 
 /* BOTON AGREGAR */
 .btn_agregar {

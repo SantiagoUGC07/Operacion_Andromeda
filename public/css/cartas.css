@@ -1,0 +1,13 @@
+.card{
+    background-color: transparent !important;
+} 
+
+/* Santiago */
+.card-body{
+    background: linear-gradient(180deg, #c04bf280 28.33%, #6232a680 71.67%);
+}
+
+/* Original que se trajo del figma */
+.card-header, .box-color{
+    background-color: #011640;
+}
