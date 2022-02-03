@@ -105,6 +105,7 @@ h2{
 
 /* ============ end---contact us ============ */
 
+<<<<<<< HEAD
 .table-cart{
     margin-left: 400px;
     text-align: center;
@@ -114,3 +115,31 @@ h2{
     margin: 100px;
 }
 
+=======
+
+
+/*==========About us========*/
+.textA
+{
+    font-family: 'Montserrat' !important;;
+    text-align: justify;
+    color: #ede5f1;
+    margin: auto;
+}
+
+.textM
+{
+    font-family: 'Montserrat' !important;;
+    text-align: justify;
+    color: #ede5f1;
+    margin-left: auto;
+}
+
+.textV
+{
+    font-family: 'Montserrat' !important;;
+    text-align: justify;
+    color: #ede5f1;
+    margin-right: auto;
+}
+>>>>>>> a456461c903e7d4c5c362215e4cb41d05fcdbc80
