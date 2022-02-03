@@ -104,3 +104,29 @@ h2{
 
 /* ============ end---contact us ============ */
 
+
+
+/*==========About us========*/
+.textA
+{
+    font-family: 'Montserrat' !important;;
+    text-align: justify;
+    color: #ede5f1;
+    margin: auto;
+}
+
+.textM
+{
+    font-family: 'Montserrat' !important;;
+    text-align: justify;
+    color: #ede5f1;
+    margin-left: auto;
+}
+
+.textV
+{
+    font-family: 'Montserrat' !important;;
+    text-align: justify;
+    color: #ede5f1;
+    margin-right: auto;
+}
