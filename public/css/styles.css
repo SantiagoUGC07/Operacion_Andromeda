@@ -5,6 +5,7 @@ body{
     image-rendering: pixelated;
     margin: 0px;
     border: 0px;
+    font-family: 'Orbitron';
 }
 
 h2{
@@ -103,4 +104,13 @@ h2{
 }
 
 /* ============ end---contact us ============ */
+
+.table-cart{
+    margin-left: 400px;
+    text-align: center;
+}
+
+.table-header-cart{
+    margin: 100px;
+}
 
