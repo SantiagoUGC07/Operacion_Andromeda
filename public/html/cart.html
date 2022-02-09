@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Andromeda</title>
+
+    <!-- //////////////////////// Fonts Google ////////////////////////////////// -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+
+    <!-- //////////////////////// Bootstrap ////////////////////////////////// -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <!-- //////////////////////// Icono ////////////////////////////////// -->
+    <link rel="icon" href="../assets/img/icons/andromeda-logo.png">
+
+    <!-- //////////////////////// Hojas de estilo ////////////////////////////////// -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/navbar-footer.css">
+    <link rel="stylesheet" href="../css/modals.css">
+    <link rel="stylesheet" href="../css/forms.css">
+    <link rel="stylesheet" href="../css/tab.css">
+    <link rel="stylesheet" href="../css/cartas.css">
+    <link rel="stylesheet" href="../css/icon-accordion.css">
+    <link rel="stylesheet" href="../css/carrito.css">
+    <link rel="stylesheet" href="../css/animacion.css">
+</head>
+
+<body>
+    <!-- //////////////////////// Navbar ////////////////////////////////// -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand ml-5" href="../../index.html"">
+                <img src=" ../assets/img/icons/logo.webp" class="img-brand">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown mr-5">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">PC Gamer</a>
+                            <a class="dropdown-item" href="#">Accesorios</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown mr-5">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-expanded="false">
+                            <img src="../assets/img/icons/cuenta-color.png" class="icon-nav">
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" data-toggle="modal" data-target="#login-modal">
+                                Pedidos
+                            </a>
+                            <a class="dropdown-item">
+                                Cerrar sesión
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item  mr-5">
+                        <a class="nav-link" href="../html/cart.html">
+                            <img src="../assets/img/icons/carrito-color.png" class="icon-nav">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- //////////////////////// modal ////////////////////////////////// -->
+    <div class="modal fade" id="login-modal" tabindex="-1" aria-labelledby="login-modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-center">
+                    <div class="">
+                        <img src="../assets/img/icons/logo.webp" class="img-brand">
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <!-- <span aria-hidden="true">&times;</span> -->
+                        <img src="../assets/img/icons/cerrar.png" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav nav-tabs d-flex justify-content-center" id="myLogin" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="sign-in-tab" data-toggle="tab" href="#sign-in" role="tab"
+                                aria-controls="sign-in" aria-selected="true">Iniciar Sesion</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="sign-up-tab" data-toggle="tab" href="#sign-up" role="tab"
+                                aria-controls="sign-up" aria-selected="false">Registrarse</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div class="tab-pane show active fade" id="sign-in" role="tabpanel"
+                            aria-labelledby="sign-in-tab">
+                            <h2>Iniciar sesión en Andromeda</h2>
+                            <form>
+                                <div class="form-group">
+                                    <!-- <label for="inputEmail">Email address</label> -->
+                                    <input type="email" class="form-control" id="inputEmail"
+                                        aria-describedby="emailHelp" placeholder="Introduzca su correo electrónico">
+                                </div>
+                                <div class="form-group">
+                                    <!-- <label for="inputPassword">Password</label> -->
+                                    <input type="password" class="form-control" id="inputPassword"
+                                        placeholder="Introduzca la contraseña">
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Mantener sesión iniciada</label>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" class="btn-game" alt="Button">ENTRAR</a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="sign-up" role="tabpanel" aria-labelledby="sign-up-tab">
+                            <h2>Crear una cuenta</h2>
+                            <form>
+                                <div>
+                                    <p>Por favor complete la información a continuación:</p>
+                                </div>
+                                <div class="form-group">
+                                    <!-- <label for="inputName">Nombre(s)</label> -->
+                                    <input type="text" class="form-control" id="inputName" aria-describedby="emailHelp"
+                                        placeholder="Nombre(s)">
+                                </div>
+
+                                <div class="form-group">
+                                    <!-- <label for="inputLastName">Apellido(s)</label> -->
+                                    <input type="text" class="form-control" id="inputLastName"
+                                        aria-describedby="emailHelp" placeholder="Apellido(s)">
+                                </div>
+                                <div>
+                                    <p>Datos de contacto:</p>
+                                </div>
+                                <div class="form-group">
+                                    <!-- <label for="inputEmail">Introduzca el correo electrónico</label> -->
+                                    <input type="email" class="form-control" id="inputEmail"
+                                        aria-describedby="emailHelp" placeholder="Introduzca el correo electrónico">
+                                    <small id="emailHelp" class="form-text text-muted d-flex justify-content-end">
+                                        Nunca compartiremos tu correo electrónico con nadie más.
+                                    </small>
+                                </div>
+                                <div class="form-group">
+                                    <!-- <label for="inputPassword">Password</label> -->
+                                    <input type="password" class="form-control" id="inputPassword"
+                                        placeholder="Introduzca la contraseña">
+                                </div>
+                                <div class="form-group">
+                                    <!-- <label for="inputPassword">Password</label> -->
+                                    <input type="password" class="form-control" id="inputPassword"
+                                        placeholder="Repite la contraseña">
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">He leído y acepto los términos y
+                                        condiciones de uso, asi como la Politica de privacidad de Andromeda</label>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" class="btn-game " alt="Button">CREAR MI CUENTA</a>
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <p>Andromeda © 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+        <h1 class="title">
+            Carrito de Compras
+        </h1>
+        <div>
+            <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="carrito-tab" data-toggle="tab" href="#carrito" role="tab"
+                        aria-controls="carrito" aria-selected="true">Carrito</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="direccion-tab" data-toggle="tab" href="#direccion" role="tab"
+                        aria-controls="direccion" aria-selected="false">Direccion de envio</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="envio-tab" data-toggle="tab" href="#envio" role="tab" aria-controls="envio"
+                        aria-selected="false">Metodo de envio</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pago-tab" data-toggle="tab" href="#pago" role="tab" aria-controls="pago"
+                        aria-selected="false">Forma de pago</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="revisa-tab" data-toggle="tab" href="#revisa" role="tab"
+                        aria-controls="revisa" aria-selected="false">Revisa tu pedido</a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane active box-color borde-blanco p-3" id="carrito" role="tabpanel"
+                    aria-labelledby="carrito-tab">
+                    <h3>Articulos en tu carrito</h3><!-- TU TITULO -->
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Eliminar</th>
+                                <th scope="col">Producto</th>
+                                <th scope="col">Precio</th>
+                                <th scope="col">Cantidad</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="../assets/img/icons/quitar.png" alt="" srcset="">
+                                    </th>
+                                <td>Pc</td>
+                                <td>$4000.00</td>
+                                <td>1</td>
+                                <td>$4,000.00</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../assets/img/icons/quitar.png" alt="" srcset="">
+                                    </th>
+                                <td>Pc-2</td>
+                                <td>$5,000.00</td>
+                                <td>3</td>
+                                <td>$15,000.00</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../assets/img/icons/quitar.png" alt="" srcset="">
+                                    </th>
+                                <td>Pc-3</td>
+                                <td>$3,000.00</td>
+                                <td>2</td>
+                                <td>$6,000.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12"></div>
+                        <div class="col-md-4 col-sm-12  box-color">
+                            <h5>Resumen de tus articulos</h5>
+                            <p>Total de productos</p>
+                            <p>MXN $ 48,120.00</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <a class="btn-game que-este-en-la-derecha" alt="Button">CONTINUAR</a>
+                    </div>
+                </div>
+
+
+                <div class="tab-pane box-color borde-blanco p-3" id="direccion" role="tabpanel"
+                    aria-labelledby="direccion-tab">
+                    <div>
+                        <h3>Datos sobre la dirección envío</h3><!-- TU TITULO -->
+                        <div class="row">
+                            <div class="col-xl-6 col-sm-12">
+                                <!-- Información de la persona que recibira el producto: -->
+                                <h4 style="margin-top: 10px;">Información de la persona que recibira el producto: </h4>
+                                <label>Nombre: <input type="text" name="nombre" placeholder=""></label>
+                                <label>Apellido: <input type="text" name="apellido" placeholder=""></label>
+                                <label>Correo electronico: <input type="email" name="email" placeholder=""></label>
+                                <label>Numero telefónico: <input type="phone" name="phone" placeholder=""></label>
+                            </div>
+                            <div class="col-xl-6 col-sm-12">
+                                <!-- Dirección -->
+                                <h4 style="margin-top: 10px;">Dirección de envío: </h4>
+                                <div>
+                                    <label class="my-1" for="">País:</label>
+                                    <input type="text" class="form-control" id="" name="" placeholder="">
+                                </div>
+                                <div>
+                                    <label class="my-1" for="">Estado:</label>
+                                    <input type="text" class="form-control" id="" name="" placeholder="">
+                                </div>
+                                <div>
+                                    <label class="my-1" for="">Ciudad:</label>
+                                    <input type="text" class="form-control" id="" name="" placeholder="">
+                                </div>
+                                <div>
+                                    <label class="my-1" for="">Dirección:</label>
+                                    <input type="text" class="form-control" id="" name="" placeholder="">
+                                </div>
+                                <div>
+                                    <label class="my-1" for="">Codigo Postal:</label>
+                                    <input type="text" class="form-control" id="" name="" placeholder="">
+                                </div>
+                                <label>Num.ext: <input type="number" name="Num.ext" placeholder=""></label>
+                                <label>Num.int: <input type="number" name="Num.int" placeholder=""></label>
+                                <label>Información adicional: <input type="text" name="Información adicional"
+                                        placeholder=""></label>
+                            </div>
+
+
+
+
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <a class="btn-game que-este-en-la-derecha" alt="Button">CONTINUAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane box-color borde-blanco p-3" id="envio" role="tabpanel" aria-labelledby="envio-tab">
+   
+                        <h3>Metodo de envio</h3><!-- TU TITULO -->
+                        <div class="text">
+                            <p>
+                                <!-- BORRA TODO <p> Y PON AHI LAS OPCIONES DE ENVIO -->
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati, ullam vitae
+                                aperiam blanditiis magnam fugiat fuga magni saepe maiores nemo inventore similique et
+                                soluta facere eligendi veritatis ad repellat provident alias quae sed possimus corporis!
+                                Quod architecto doloremque facere fugit dolorum facilis velit optio quisquam delectus,
+                                nihil reiciendis, in inventore veniam incidunt sed deserunt iusto fugiat. Tenetur
+                                dignissimos debitis assumenda officiis ducimus suscipit aperiam! Hic, distinctio. Est
+                                excepturi expedita error natus aut repellendus tempore quam distinctio, provident magnam
+                                fuga, delectus sequi eum. Quaerat, modi excepturi vero deserunt accusamus cumque magnam
+                                assumenda ab, dolorum, sequi totam expedita impedit obcaecati molestias!
+                            </p>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <a class="btn-game que-este-en-la-derecha" alt="Button">CONTINUAR</a>
+                        </div>
+        
+                </div>
+                <div class="tab-pane box-color borde-blanco p-3" id="pago" role="tabpanel" aria-labelledby="pago-tab">
+             
+                        <h3>Forma de pago</h3><!-- TU TITULO -->
+                        <div class="text">
+                            <div class="tab-pane" id="pago" role="tabpanel" aria-labelledby="pago-tab">
+                                <div class="p-3">
+                                    <h2>Forma de pago</h2><!-- TU TITULO -->
+                                    <div class="text">
+                                        <h5>¿Cómo quieres pagar?</h5>
+                        <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio1">Tarjeta de crédito</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio2">Tarjeta de débito</label>
+                        </div>
+                        
+                        <div class="row">
+                        <form class="text col-xl-6 col-sm-12"">
+                        <h5>Introduce tus datos</h5>    
+                        <div class="">
+                        <div class="col-12">
+                        <input type="text" class="form-control" placeholder="Introduce tu tarjeta XXXX-XXXX-XXXX-XXXX">
+                        </div>
+                        <div class="col-12">
+                        <input type="text" class="form-control" placeholder="Nombre y Apellido">
+                        </div>
+                        <div class="col-12">
+                        <input type="text" class="form-control" placeholder="Fecha de Vencimiento">
+                        </div>
+                        <div class="col-12">
+                        <input type="text" class="form-control" placeholder="CVV">
+                        </div>
+                        </div>
+                        </form>
+                        <div class="text col-xl-6 col-sm-12" 
+                        ;">
+                        <!-- Imagen-->
+                        <p style="text-align: center;">Articulos</p>
+                        <div>Silla Gamer</div>
+                        <div>Silla Gamer</div>
+                        <hr>
+                        <div>Total</div>
+                        <hr>
+                        
+                        </div>
+                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <a class="btn-game que-este-en-la-derecha" alt="Button">CONTINUAR</a>
+                        </div>
+        
+                </div>
+                <div class="tab-pane box-color borde-blanco p-3" id="revisa" role="tabpanel" aria-labelledby="revisa-tab">
+   
+                        <h3>Revisa tu pedido</h3><!-- TU TITULO -->
+                        <div class="row">
+                            <div class="text col-xl-8 col-sm-12" style="background-color: brown;">
+                                <!-- Información de la persona que recibira el producto: -->
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati, ullam
+                                    vitae
+                                    aperiam blanditiis magnam fugiat fuga magni saepe maiores nemo inventore similique
+                                    et
+                                    soluta facere eligendi veritatis ad repellat provident alias quae sed possimus
+                                    corporis!
+                                    Quod architecto doloremque facere fugit dolorum facilis velit optio quisquam
+                                    delectus,
+                                    nihil reiciendis, in inventore veniam incidunt sed deserunt iusto fugiat. Tenetur
+                                    dignissimos debitis assumenda officiis ducimus suscipit aperiam! Hic, distinctio.
+                                    Est
+                                    excepturi expedita error natus aut repellendus tempore quam distinctio, provident
+                                    magnam
+                                    fuga, delectus sequi eum. Quaerat, modi excepturi vero deserunt accusamus cumque
+                                    magnam
+                                    assumenda ab, dolorum, sequi totam expedita impedit obcaecati molestias!
+                                </p>
+                            </div>
+                            <div class="text col-xl-4 col-sm-12" style="background-color: green;">
+                                <!-- Dirección -->
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati, ullam
+                                    vitae
+                                    aperiam blanditiis magnam fugiat fuga magni saepe maiores nemo inventore similique
+                                    et
+                                    soluta facere eligendi veritatis ad repellat provident alias quae sed possimus
+                                    corporis!
+                                    Quod architecto doloremque facere fugit dolorum facilis velit optio quisquam
+                                    delectus,
+                                    nihil reiciendis, in inventore veniam incidunt sed deserunt iusto fugiat. Tenetur
+                                    dignissimos debitis assumenda officiis ducimus suscipit aperiam! Hic, distinctio.
+                                    Est
+                                    excepturi expedita error natus aut repellendus tempore quam distinctio, provident
+                                    magnam
+                                    fuga, delectus sequi eum. Quaerat, modi excepturi vero deserunt accusamus cumque
+                                    magnam
+                                    assumenda ab, dolorum, sequi totam expedita impedit obcaecati molestias!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <a class="btn-game que-este-en-la-derecha" alt="Button">CONTINUAR</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+    </div>
+    <footer class="footer">
+        <div class="row">
+            <div class="col-xl-4 col-lg-6 col-sm-12">
+                <h4>Enlaces de interés</h4>
+                <ul>
+                    <li class="media">
+                        <div class="pull-left">
+                            <img src="../assets/img/icons/li.png" class="li-icon">
+                        </div>
+                        <a href="../html/about_us.html" class="text-decoration-none pull-right ml-1">Nuestra empresa</a>
+                    </li>
+                    <li class="media">
+                        <div class="pull-left">
+                            <img src="../assets/img/icons/li.png" class="li-icon">
+                        </div>
+                        <a href="../html/faq.html" class="text-decoration-none pull-right ml-1">Preguntas Frecuentes</a>
+                    </li>
+                    <li class="media">
+                        <div class="pull-left">
+                            <img src="../assets/img/icons/li.png" class="li-icon">
+                        </div>
+                        <a href="../html/contact-us.html" class="text-decoration-none pull-right ml-1">Contácto y sugerencias</a>
+                    </li>
+                    <li class="media">
+                        <div class="pull-left">
+                            <img src="../assets/img/icons/li.png" class="li-icon">
+                        </div>
+                        <a href="../html/pc-gamer-delios.html" class="text-decoration-none pull-right ml-1">Nuestro mejor equipo</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-sm-12">
+                <h4>Ponerse en contacto</h4>
+                <ul>
+                    <li class="media">
+                        <div class="pull-left">
+                            <img src="../assets/img/icons/mapa-color.png" class="contact-icon">
+                        </div>
+                        <p class="pull-right ml-1">
+                            Oficinas <span class="text-muted">(No se atienden clientes en esta ubicación)</span> <br>
+                            Cto Juan Pablo II 2457 <br>
+                            Col. La Hacienda <br>
+                            CP. 72570 <br>
+                            Puebla, Pue., México
+                        </p>
+                    </li>
+                    <li class="media ">
+                        <div class="pull-left">
+                            <img src="../assets/img/icons/carta-color.png" class="contact-icon">
+                        </div>
+                        <p class="pull-right ml-1">
+                            contacto@andromeda.mx
+                        </p>
+                    </li>
+                    <li class="media">
+                        <div class="pull-left">
+                            <img src="../assets/img/icons/telefono.png" class="contact-icon">
+                        </div>
+                        <p class="pull-right ml-1">
+                            (55) 5837 1453
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xl-4 col-lg-12 col-sm-12">
+                <h4>Siguenos en nuestras redes sociales</h4>
+                <div class="d-flex justify-content-around">
+                    <img src="../assets/img/icons/tiktok.png" class="rrss-icon image-animation">
+                    <img src="../assets/img/icons/instagram.png" class="rrss-icon image-animation">
+                    <img src="../assets/img/icons/facebook.png" class="rrss-icon image-animation">
+                    <img src="../assets/img/icons/linkedin.png" class="rrss-icon image-animation">
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="text-center mb-0">Andromeda © 2022</p>
+        </div>
+    </footer>
+    <!-- //////////////////////// Scripts ////////////////////////////////// -->
+
+
+    <script src="public/js/login.js"></script>
+    <script src="public/js/script.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="public/js/carousel.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+</body>
+</html>

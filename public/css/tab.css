@@ -1,0 +1,15 @@
+.nav-tabs .nav-link{
+    color: #ede5f1 !important;
+    background-color: transparent;
+}
+
+.nav-tabs .nav-link.active {
+    color: #602085 !important;
+    font-weight: bold;
+    background-color: #ede5f1 !important;
+    border-color: #ede5f1 !important;
+}
+
+table{
+    border-color: black;
+}

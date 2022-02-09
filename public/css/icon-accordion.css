@@ -1,0 +1,10 @@
+/* Pone iconos chiquitos sobre el texto */
+.icon-on-text {
+    height: 24px;
+    margin: 0px 6px;
+}
+/* Pone un objeto todo hacia la derecha */
+.que-este-en-la-derecha{
+    margin-right: 0px;
+    margin-left: auto;
+}

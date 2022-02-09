@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+
+    <link rel='icon' href="../assets/img/icons/favicon.webp" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet"></script>
+        
+    <link rel="stylesheet" href="../css/pc-gamer-delios.css">
+
+    <link rel="stylesheet" href="../css/modals.css">
+    <link rel="stylesheet" href="../css/others.css">
+
+    
+    <title>PC GAMER DELIOS 50I</title>
+</head>
+<body>
+<!-- ///////////// HEADER ///////////// -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand ml-5" href="../../index.html"">
+            <img src=" ../assets/img/icons/logo.webp" class="img-brand">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown mr-5">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        Productos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">PC Gamer</a>
+                        <a class="dropdown-item" href="#">Accesorios</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown mr-5">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        <img src="../assets/img/icons/cuenta-color.png" class="icon-nav">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" data-toggle="modal" data-target="#login-modal">
+                            Pedidos
+                        </a>
+                        <a class="dropdown-item">
+                            Cerrar sesión
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item  mr-5">
+                    <a class="nav-link" href="../html/cart.html">
+                        <img src="../assets/img/icons/carrito-color.png" class="icon-nav">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+
+<!-- ///////////// MODAL /////////////-->
+    <div class="modal fade" id="login-modal" tabindex="-1" aria-labelledby="login-modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-center">
+                    <div class="">
+                        <img src="../assets/img/icons/logo.webp" class="img-brand">
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img src="../assets/img/icons/cerrar.png" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav nav-tabs d-flex justify-content-center" id="myLogin" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="sign-in-tab" data-toggle="tab" href="#sign-in" role="tab"
+                                aria-controls="sign-in" aria-selected="true">Iniciar Sesion</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="sign-up-tab" data-toggle="tab" href="#sign-up" role="tab"
+                                aria-controls="sign-up" aria-selected="false">Registrarse</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div class="tab-pane show active fade" id="sign-in" role="tabpanel"
+                            aria-labelledby="sign-in-tab">
+                            <h2>Iniciar sesión en Andromeda</h2>
+                            <form>
+                                <div class="form-group">
+                                    
+                                    <input type="email" class="form-control" id="inputEmail"
+                                        aria-describedby="emailHelp" placeholder="Introduzca su correo electrónico">
+                                </div>
+                                <div class="form-group">
+                                    
+                                    <input type="password" class="form-control" id="inputPassword"
+                                        placeholder="Introduzca la contraseña">
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Mantener sesión iniciada</label>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" class="btn-game" alt="Button">ENTRAR</a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="sign-up" role="tabpanel" aria-labelledby="sign-up-tab">
+                            <h2>Crear una cuenta</h2>
+                            <form>
+                                <div>
+                                    <p>Por favor complete la información a continuación:</p>
+                                </div>
+                                <div class="form-group">
+                                    
+                                    <input type="text" class="form-control" id="inputName" aria-describedby="emailHelp"
+                                        placeholder="Nombre(s)">
+                                </div>
+
+                                <div class="form-group">
+                                    
+                                    <input type="text" class="form-control" id="inputLastName"
+                                        aria-describedby="emailHelp" placeholder="Apellido(s)">
+                                </div>
+                                <div>
+                                    <p>Datos de contacto:</p>
+                                </div>
+                                <div class="form-group">
+                                    
+                                    <input type="email" class="form-control" id="inputEmail"
+                                        aria-describedby="emailHelp" placeholder="Introduzca el correo electrónico">
+                                    <small id="emailHelp" class="form-text text-muted d-flex justify-content-end">
+                                        Nunca compartiremos tu correo electrónico con nadie más.
+                                    </small>
+                                </div>
+                                <div class="form-group">
+                                   
+                                    <input type="password" class="form-control" id="inputPassword"
+                                        placeholder="Introduzca la contraseña">
+                                </div>
+                                <div class="form-group">
+                                    
+                                    <input type="password" class="form-control" id="inputPassword"
+                                        placeholder="Repite la contraseña">
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">He leído y acepto los términos y
+                                        condiciones de uso, asi como la Politica de privacidad de Andromeda</label>
+                                </div>
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" class="btn-game " alt="Button">CREAR MI CUENTA</a>
+                                </div>
+
+                            </form>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <p>Andromeda © 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ///////////// PRODUCTO /////////////-->
+    <section class="container-fluid">
+
+        <div class="row px-4 px-md-5 pt-4">
+
+            <!-- ///////////// SLIDER PRODUCTO ///////////// -->
+            <div class="col-md-6 order-md-1 col-sm-12 order-sm-1 py-5 p-md-5">
+                <div class="color-slider">
+                    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-touch="false" data-interval="false"><div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../assets/img/productos/Deepcool-Matrexx-50-4f.webp"
+                                        class="d-block w-100" alt="Deepcool-Matrexx-50-4f">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/img/productos/Deepcool-Matrexx-50-4f-2.webp"
+                            class="d-block w-100" alt="Deepcool-Matrexx-50-4f">
+                        </div>
+                                <div class="carousel-item">
+                                    <img src="../assets/img/productos/Deepcool-Matrexx-50-4f-3.webp"
+                                        class="d-block w-100" alt="Deepcool-Matrexx-50-4f">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-target="#carouselExampleControlsNoTouching"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-target="#carouselExampleControlsNoTouching"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </button>
+                        </div>
+                </div>
+                
+            </div>
+
+            <!-- ///////////// NOMBRE - PRECIO - BOTONES ///////////// -->
+            <div class="col-md-6 order-md-2 col-sm-12 order-sm-2 pb-5 p-md-5 titulo">
+                <h1>
+                    PC GAMER DELIOS 50I
+                </h1>
+                <p class="precio-normal">
+                    $ 40,850
+                </p>
+                <p class="precio-oferta">
+                    $34,129
+                </p>
+                <p class="mensualidad">
+                    Disponible a 12 pagos desde $3,836
+                </p>
+
+                <button class="btn_comprar">COMPRAR AHORA</button>
+                <button class="btn_agregar">AGREGAR A CARRITO</button>
+
+            </div>
+
+            <!-- ///////////// PERSONALIZAR ///////////// -->
+            <div class="col-md-6 order-md-4 col-sm-12 order-sm-3 pt-5 px-md-5">
+
+            
+                <h3>
+                    MEMORIA RAM
+                </h3>
+                <p class="texto-personalizar">
+                    ¿Cuánta memoria RAM necesitas?
+                </p>
+                
+                <form id="ram-form">
+                    <div class="ram">
+                    <input class="boton-input" id="ram-a" type="radio" name="ram" value="ram-a">
+                    <label class="texto-input" for="ram-a">16GB</label>
+                    </div>
+                    <div class="ram">
+                    <input class="boton-input" id="ram-b" type="radio" name="ram" value="ram-b">
+                    <label class="texto-input" for="ram-b">32GB</label>
+                    </div>
+
+                    <div class="ram-2">
+                    <input class="boton-input" id="ram-c" type="radio" name="ram" value="ram-c">
+                    <label class="texto-input" for="ram-c">64GB</label>
+                    </div>
+                </form>                
+    
+                <h3>
+                    DISCO DURO
+                </h3>
+                <p class="texto-personalizar">
+                    ¿Cuánto espacio en almacenamiento necesitas?
+                </p>
+
+                <form id="disc-form">
+                    <div class="disc">
+                    <input class="boton-input" id="disc-a" type="radio" name="disc" value="disc-a">
+                    <label class="texto-input" for="disc-a">1TB</label>
+                    </div>
+
+                    <div class="disc">
+                    <input class="boton-input" id="disc-b" type="radio" name="disc" value="disc-b">
+                    <label class="texto-input" for="disc-b">2TB</label>
+                    </div>
+
+                    <div class="disc-2">
+                    <input class="boton-input" id="disc-c" type="radio" name="disc" value="disc-c">
+                    <label class="texto-input" for="disc-c">3TB</label>
+                    </div>
+                </form>
+
+                <div class="row no-gutters mt-3">
+                    <div class="col-md-1-sm-2">
+                      <img src="../assets/img/icons/gpu-sg.svg" alt="tarjeta gráfica">
+                    </div>
+                    <div class="col-md-5-sm-4 mr-5">
+                        <p class="titulo">Gráficos</p>
+                        <p class="subtitulo">RTX 2060 6GB</p>
+                    </div>
+                    <div class="col-md-1-sm-2">
+                        <img src="../assets/img/icons/processor-sg.svg" alt="procesador">
+                      </div>
+                      <div class="col-md-4-sm-4 ml-2">
+                          <p class="titulo">Procesador</p>
+                          <p class="subtitulo">Intel i5 10400F</p>
+                      </div>
+                </div>   
+            </div>
+
+            <!-- ///////////// CARACTERISTICAS ///////////// -->
+            <div class="col-md-6 order-md-3 col-sm-12 order-sm-4 pt-5 p-md-5">
+                <h2>
+                    ACERCA DE ESTA PC
+                </h2>
+                <p class="descripcion-pc">
+                    La PC Gamer Delios 50i es un arma que aprovecharás en el campo de batalla, ya sea jugando títulos de
+                    última generación con muy buen nivel gráfico. Una computadora capaz de realizar stream en plataformas
+                    como Youtube y Twicht a nivel profesional. Optimizada a tu presupuesto, personalizable y actualizable a
+                    futuro. Aniquila a tus rivales. Si lo deseas, podrás personalizarla al pedirla.
+                </p>
+
+                <div class="row no-gutters mt-5 px-3">     
+                    <div class="col-md-6">
+                        <ul class="lista">
+                            <li>Uso de Oficina</li>
+                            <li>Fotografía y Diseño</li>
+                            <li>Edición de Video</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="lista">
+                            <li>Juegos Ligeros</li>
+                            <li>Juegos VR</li>
+                            <li>Streaming</li>
+                            <box-icon type='solid' name='badge-check'></box-icon>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+
+    </section>
+
+<!-- ///////////// OTROS PRODUCTOS ///////////// -->
+    <Section class="container-fluid p-5 mb-0">
+
+        <div class="row py-5 px-3">
+
+            <div class="col-md-12">
+                <h2>COMPLEMENTA TU SETUP GAMER</h2>
+            </div>
+
+           <div class="col-md-2 p-3 m-3 cart-otros-productos" style="width: 18rem;">
+               <img class="img-otros-productos" src="../assets/img/productos/Monitor-Acer-ED273-144Hz-1.webp" alt="Monitor de pc">
+               <p class="nombre-otrosProductos">MONITOR GAMER CURVO ACER</p>
+               <p class="precio-otrosProductos">$5,597</p>
+               <button class="btn-agregar2">AGREGAR</button>
+           </div>
+
+           <div class="col-md-2 p-3 m-3 cart-otros-productos" style="width: 18rem;">
+            <img class="img-otros-productos" src="../assets/img/productos/Monitor-Acer-ED273-144Hz-1.webp" alt="Monitor de pc">
+            <p class="nombre-otrosProductos">MONITOR GAMER CURVO ACER</p>
+            <p class="precio-otrosProductos">$5,597</p>
+            <button class="btn-agregar2">AGREGAR</button>
+           </div>
+
+           <div class="col-md-2 p-3 m-3 cart-otros-productos" style="width: 18rem;">
+            <img class="img-otros-productos" src="../assets/img/productos/Monitor-Acer-ED273-144Hz-1.webp" alt="Monitor de pc">
+            <p class="nombre-otrosProductos">MONITOR GAMER CURVO ACER</p>
+            <p class="precio-otrosProductos">$5,597</p>
+            <button class="btn-agregar2">AGREGAR</button>
+           </div>
+
+           <div class="col-lg-2 p-3 m-3 cart-otros-productos">
+            <img class="img-otros-productos" src="../assets/img/productos/Monitor-Acer-ED273-144Hz-1.webp" alt="Monitor de pc">
+            <p class="nombre-otrosProductos">MONITOR GAMER CURVO ACER</p>
+            <p class="precio-otrosProductos">$5,597</p>
+            <button class="btn-agregar2">AGREGAR</button>
+           </div>
+
+           <div class="col-md-12 pr-5">
+            <p class=""><a href="#"><p class="enlace-otrosProductos">Ver todos los Accesorios</p></a>
+           </div>
+
+        </div>
+        
+    </Section>
+
+<!-- ///////////// FOOTER ///////////// -->
+<footer class="footer">
+    <div class="row">
+        <div class="col-xl-4 col-lg-6 col-sm-12">
+            <h4>Enlaces de interés</h4>
+            <ul>
+                <li class="media">
+                    <div class="pull-left">
+                        <img src="../assets/img/icons/li.png" class="li-icon">
+                    </div>
+                    <a href="../html/about_us.html" class="text-decoration-none pull-right ml-1 footer-decoration">Nuestra empresa</a>
+                </li>
+                <li class="media">
+                    <div class="pull-left">
+                        <img src="../assets/img/icons/li.png" class="li-icon">
+                    </div>
+                    <a href="../html/faq.html" class="text-decoration-none pull-right ml-1 footer-decoration">Preguntas Frecuentes</a>
+                </li>
+                <li class="media">
+                    <div class="pull-left">
+                        <img src="../assets/img/icons/li.png" class="li-icon">
+                    </div>
+                    <a href="../html/contact-us.html" class="text-decoration-none pull-right ml-1 footer-decoration">Contácto y sugerencias</a>
+                </li>
+                <li class="media">
+                    <div class="pull-left">
+                        <img src="../assets/img/icons/li.png" class="li-icon">
+                    </div>
+                    <a href="../html/pc-gamer-delios.html" class="text-decoration-none pull-right ml-1 footer-decoration">Nuestro mejor equipo</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-sm-12">
+            <h4>Ponerse en contacto</h4>
+            <ul>
+                <li class="media">
+                    <div class="pull-left">
+                        <img src="../assets/img/icons/mapa-color.png" class="contact-icon">
+                    </div>
+                    <p class="pull-right ml-1">
+                        Oficinas <span class="text-muted">(No se atienden clientes en esta ubicación)</span> <br>
+                        Cto Juan Pablo II 2457 <br>
+                        Col. La Hacienda <br>
+                        CP. 72570 <br>
+                        Puebla, Pue., México
+                    </p>
+                </li>
+                <li class="media ">
+                    <div class="pull-left">
+                        <img src="../assets/img/icons/carta-color.png" class="contact-icon">
+                    </div>
+                    <p class="pull-right ml-1">
+                        contacto@andromeda.mx
+                    </p>
+                </li>
+                <li class="media">
+                    <div class="pull-left">
+                        <img src="../assets/img/icons/telefono.png" class="contact-icon">
+                    </div>
+                    <p class="pull-right ml-1">
+                        (55) 5837 1453
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="col-xl-4 col-lg-12 col-sm-12">
+            <h4>Siguenos en nuestras redes sociales</h4>
+            <div class="d-flex justify-content-around">
+                <img src="../assets/img/icons/tiktok.png" class="rrss-icon image-animation">
+                <img src="../assets/img/icons/instagram.png" class="rrss-icon image-animation">
+                <img src="../assets/img/icons/facebook.png" class="rrss-icon image-animation">
+                <img src="../assets/img/icons/linkedin.png" class="rrss-icon image-animation">
+            </div>
+        </div>
+    </div>
+    <div>
+        <p class="text-center mb-0">Andromeda © 2022</p>
+    </div>
+    </footer> 
+
+    
+
+
+<!-- ------------------------------------------------------------------ -->
+    <!-- PRELOADER -->
+    <div id="loader">
+        <img src="../assets/img/loading.gif" alt="loading" width="200px" />
+    </div>
+
+    <!-- SCRIPT BOOTSTRAP TEMPLATE -->
+    <script type="text/javascript">
+        var loader = document.getElementById("loader");
+        window.addEventListener("load", function () {
+            loader.style.height = "100px";
+            loader.style.width = "100px";
+            loader.style.borderRadius = "50%";
+            loader.style.visibility = "hidden"
+        });
+    </script>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    
+    <script src="../js/login.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+/* Para que no moleste */
+.card{
+    background-color: transparent !important;
+} 
+/* El color del header de una carta que propuso  desde figma */
+.card-header, .box-color{
+    background-color: #3d1572;
+}
+/* El color del cuerpo de una carta que propuso Santiago */
+.card-body{
+    background: linear-gradient(180deg, #c04bf280 28.33%, #6232a680 71.67%);
+}

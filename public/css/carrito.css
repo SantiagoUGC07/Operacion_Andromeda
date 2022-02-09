@@ -1,44 +1,6 @@
-/* ============ start---Backgroud__input ============ */
-
-.input__bg{
-    color: #ea3a76; 
-    border: none;
-    background: linear-gradient(180deg, #c04bf280 28.33%, #6232a680 71.67%);;
-}
-
-.input__bg::placeholder { 
-    color: #ffffff60; 
-    font-style: italic;
-}
-
-
-.products-summary{
-    text-align: center;
-    margin-left: 800px;
-    margin-top: 20px;
-    position: absolute;
-    padding: 15px;
+/* Borde blanco de la tabla del carrito */
+.borde-blanco{
     border-style:solid;
     border-width: 1px;
-    border-color: white;
-    
+    border-color: #ede5f1;
 }
-
-#carrito{
-    border-style:solid;
-    border-width: 1px;
-    border-color: white;
-}
-
-#color-font-table{
-    color: white;
-}
-
-.btn-game{
-    position: absolute;
-    margin-top: 180px;
-    margin-left: 938px  ;
-}
-
-
-/* ============ end---Backgroud__input ============ */
