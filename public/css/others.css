@@ -1,0 +1,51 @@
+.footer{
+    width: 100%;
+    /* background-size: 50% 50%; */
+    background-image: url('../../public/assets/img/resources/footer.png');
+    background-size: cover;
+    image-rendering: pixelated;
+    padding-top: 150px;
+    margin: 0px;
+    border: 0px;
+    /* width: 100%;    /* se arregla el desbordamiento del footer (Lalo) */ 
+}
+/* Tamaño de los iconos de redes sociales */
+.rrss-icon{
+    height: 64px;
+    image-rendering: pixelated;
+}
+/* Tamaño de los iconos de contacto */
+.contact-icon{
+    height: 32px;
+}
+.li-icon{
+    height: 24px;
+    width: 32px;
+}
+/* Desbordamiento */
+.row{
+    margin: 0px !important;
+}
+.image-animation{
+    display: block;
+
+    transform: scale(1);
+    z-index: 1;
+    transition: 1s;
+}
+
+.image-animation:hover{
+    transform: scale(1.2);
+    z-index: 1;
+    transition: 1s;
+}
+
+
+.footer-decoration {
+    color: #ede5f1 !important;
+}
+
+.footer-decoration:hover {
+    text-shadow: 1px 1px 2px black, 0 0 1em #707aed, 0 0 0.2em #ede5f1 !important;
+    color: #ede5f1 !important;
+}
