@@ -1,0 +1,6 @@
+/* Borde blanco de la tabla del carrito */
+.borde-blanco{
+    border-style:solid;
+    border-width: 1px;
+    border-color: #ede5f1;
+}
