@@ -1,4 +1,5 @@
-.container__pedidos {
+
+/* .container__pedidos */.container__historia_pedidos {
     /* Borde */
     border: 4px solid transparent;
     -moz-border-image: -moz-linear-gradient(top, #192156 0%, #250E3C 100%);
@@ -16,6 +17,42 @@
     margin-bottom: 20px;
 }
 
+.container__pedidos{
+    margin-top: 5%;
+}
+
 .subtitle__bold{
     font-weight: bold;
+}
+
+.descripcion__pedido{
+    margin-bottom: 8%;
+}
+
+.estatus__pedido{
+    text-align: right;
+}
+
+.fotos__pedido{
+        display: inline-block;
+        flex-wrap: wrap;
+}
+
+.img__pedido{
+    width: auto; 
+    max-height: 150px;
+    border: 2px solid #401748ad;
+    border-radius: 20%;
+}
+
+.letras__red{
+    color: red;
+}
+
+.letras__orange{
+    color: orange;
+}
+
+.letras__green{
+    color: green;
 }
