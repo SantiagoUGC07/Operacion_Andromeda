@@ -1,0 +1,21 @@
+.container__pedidos {
+    /* Borde */
+    border: 4px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top, #192156 0%, #250E3C 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #192156 0%, #250E3C 100%);
+    border-image: linear-gradient(to bottom, #192156 0%, #250E3C 100%);
+    border-image-slice: 1;
+
+    padding: 10px;
+}
+
+
+.container__misDatos, .container__direcciones, .container__acceso{
+    border: 3px solid #ffffff;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.subtitle__bold{
+    font-weight: bold;
+}

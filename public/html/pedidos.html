@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="../css/icon-accordion.css">
     <link rel="stylesheet" href="../css/carrito.css">
     <link rel="stylesheet" href="../css/animacion.css">
+    <link rel="stylesheet" href="../css/pedidos.css">
 </head>
 
 <body>
@@ -38,7 +39,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand ml-5" href="../../index.html"">
-                <img src="../assets/img/icons/logo.webp" class="img-brand">
+                <img src=" ../assets/img/icons/logo.webp" class="img-brand">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -187,67 +188,103 @@
             </div>
         </div>
     </div>
-    <!-- //////////////////////// contact us ////////////////////////////////// -->
-    <div class="container contact">
-    
-        <div class="d-flex justify-content-center mb-4">
-            <img src="../assets/img/other/h2__contact.png">
+    <!-- //////////////////////// PEDIDOS ////////////////////////////////// -->
+    <h2>Seccion de Pedidos</h2>
+
+    <div class="container container__pedidos">
+
+        <div class="row mb-3">
+            <!-- //////////// Left-form ////////////////// -->
+            <div class="col-lg-4 themed-grid-col pedidos__left">
+                <div class="container__datos misDatos">
+                    <h4>Mis Datos</h4>
+                    <div class="container__misDatos">
+                        <div>
+                            <p>Nombre: Eduardo Diaz Anaya</p>
+                        </div>
+                        <div>
+                            <p>Fecha de Nacimeinto: 09/10/1998</p>
+                        </div>
+                        <div>
+                            <p>Genero: Hombre</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__datos direcciones">
+                    <h4>Direcciones</h4>
+                    <div class="container__direcciones">
+                        <div>
+                            <p class="subtitle__bold">Eduardo Diaz Anaya</p>
+                        </div>
+                        <div>
+                            <p class="pedido__direccion">
+                                Península de California, 69
+                                Unidad Habitacional El Rosa
+                                Tlalnepantla de Baz
+                                Tlalnepantla, MEX, 54090, MX
+                            </p>
+                            <p class="pedidos__cel">
+                                55 1234-5678
+                            </p>
+                        </div>
+                        <div>
+                            <p class="subtitle__bold">Andres Manuel Lopez</p>
+                        </div>
+                        <div>
+                            <p class="pedido__direccion">
+                                Península de California, 69
+                                Unidad Habitacional El Rosa
+                                Tlalnepantla de Baz
+                                Tlalnepantla, MEX, 54090, MX
+                            </p>
+                            <p class="pedidos__cel">
+                                55 1234-5678
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__datos metodo__acceso">
+                    <h4>Datos de Acceso</h4>
+                    <div class="container__acceso">
+                        <div>
+                            <p class="subtitle__bold">Correo Electronico</p>
+                            <p>eduardo9dza@gmail.com</p>
+                        </div>
+                        <div>
+                            <p class="subtitle__bold">Contraseña</p>
+                        </div>
+                        <div>
+                            <p>*********</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //////////// Left-form ////////////////// -->
+            <div class="col-lg-8 themed-grid-col">
+                <div class="container__historia_pedidos">
+                    <h4>Historial de Pedidos</h4>
+                    <div class="title__pedidos">
+                        <div class="row mb-3">
+                            <div class="col-lg-4 themed-grid-col">
+                                <div class="num__pedido ">
+                                    <p class="subtitle__bold">Tu pedido: AMX07444632</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 themed-grid-col">
+                                <div class="estatus__pedido">
+                                    <p>Estatus: <span class="pedido__orange">en proceso de envio</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="descripcion__pedido">
+                        <div class="descripcion">
+                            <p>8 de junio de 2021 | $1,469.02 | 2 artículos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <h2>Formulario de Contacto</h2>
-        <p class="text-center">Si necesitas ponerte en contacto con nosotros, puedes hacerlo mediante el siguiente formulario:</p>
-       
-        <form>
-            <div class="row mb-3">
-                <div class="col-lg-7 themed-grid-col">
-                    <!-- //////////// Left-form ////////////////// -->
-                    <div>
-                        <label class="my-1" for="inputNombre">Nombre</label><!-- Lo que pongas en |for="inputNombre"| -->
-                        <input type="text" class="form-control" id="inputNombre" placeholder="Nombre(s)" name="inputNombre">
-                        <!-- Tiene que tener el mismo nombre el id="inputNombre" -->
-                        <!-- En el caso de arriba, solo van a poder existir un solo for="inputNombre" y un id="inputNombre" -->
-                        <!-- Por buenas practicas, el input lleva una etiqueta llamada name="", por buenas practicas, tambien debe ser el mismo nombre que tenia for="" y id=""-->
-                    </div>
-                    <div>
-                        <label class="my-1" for="inputAddress">Apellido</label>
-                        <input type="text" class="form-control" id="contact-inputLasName" placeholder="Apellidos">
-                    </div>
-                    <div>
-                        <label class="my-1" for="inputAddress">Correo Electronico</label>
-                        <input type="email" class="form-control" id="contact-inputEmail" placeholder="example@example.com">
-                    </div>
-                    <div>
-                        <label class="my-1" for="inputAddress">Numero Celular</label>
-                        <input type="tel" class="form-control" id="contact-inputCel" placeholder="+(52) 55 6853 - 7343">
-                    </div>
-                    <div>
-                        <label class="my-1" for="inputAddress">Motivo</label>
-                        <select class="mr-sm-2 form-control " id="inlineFormCustomSelectPref">
-                            <option selected>Selecciona uno...</option>
-                            <option value="1">Empresarial</option>
-                            <option value="2">Problema con envio</option>
-                            <option value="3">Comentarios</option>
-                            <option value="4">Asesoria para comprar</option>
-                            <option value="5">Devoluciones</option>
-                            <option value="5">Contactar</option>
-                            <option value="0">Otro</option>
-                        </select>
-                        
-                    </div>
-                </div>
-                <div class="col-lg-5 themed-grid-col">
-                    <!-- //////////// Left-form ////////////////// -->
-                    <div>
-                        <label class="my-1" for="inputAddress">Mensaje </label>
-                        <textarea class="form-control" name="message" id="contact-inputMessage" cols="30" rows="10" placeholder="Ingresa tu mensaje aqui..."></textarea>
-                    </div>
-                </div>
-            </div>
-            <div class="contact__button">
-                <a href="#" class="btn-game" alt="Button">
-                    Enviar
-                </a>
-            </div>
-        </form>
     </div>
 
 
@@ -274,13 +311,15 @@
                         <div class="pull-left">
                             <img src="../assets/img/icons/li.png" class="li-icon">
                         </div>
-                        <a href="../html/contact-us.html" class="text-decoration-none pull-right ml-1">Contácto y sugerencias</a>
+                        <a href="../html/contact-us.html" class="text-decoration-none pull-right ml-1">Contácto y
+                            sugerencias</a>
                     </li>
                     <li class="media">
                         <div class="pull-left">
                             <img src="../assets/img/icons/li.png" class="li-icon">
                         </div>
-                        <a href="../html/pc-gamer-delios.html" class="text-decoration-none pull-right ml-1">Nuestro mejor equipo</a>
+                        <a href="../html/pc-gamer-delios.html" class="text-decoration-none pull-right ml-1">Nuestro
+                            mejor equipo</a>
                     </li>
                 </ul>
             </div>
@@ -348,4 +387,5 @@
         integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
