@@ -1,0 +1,110 @@
+/* HEADER */
+.bg-dark  {
+    /* background: linear-gradient(60deg, #1100ff 2%, #0f1a85 ) !important; */
+    background-color: #0e00ce !important;
+    border-bottom: 2px groove #FF3575;
+    box-shadow: 0px 0px 30px #FF3575;
+}
+.img-brand{
+    height: 42px;
+}
+.navbar-brand{
+    padding: 0px !important;
+}
+.icon-nav{
+    height: 32px;
+    image-rendering: pixelated;
+}
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #ffffff !important;   
+}
+/* El color de la letra del menu y el efecto al pasar el mouse */
+.dropdown-item{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff !important;
+    cursor: pointer;
+}
+
+.dropdown-item:hover{
+    background-color: transparent !important;
+    text-shadow: 1px 1px 20px #FF3575, 0 0 1em #FF3575, 0 0 0.2em #FF3575;   
+}
+.dropdown-menu{
+    background: #0e00ce !important;
+}
+
+/* FOOTER */
+#color-footer{
+    background-color: #0f1a85;
+}
+#img-footer2{
+    width: 100%;
+    opacity: 0%;
+}
+#img-footer{
+    background-image: url(../assets/img/planeta-pixelart.webp);
+    background-size: cover;
+    background-position: top;
+    /* background-attachment: fixed; */
+}
+.logo-footer{
+    width: 100%;
+    border-bottom: 2px dashed #FF3575;
+    padding-bottom: 6px;
+}
+.op-andromeda{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: .8rem;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.rrss-icon{
+    width: 7%;
+    margin-top: 20px;
+}
+.titulo-listaFooter{
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-shadow: -1px 1px #FF3575;
+}
+.lista-footer li{
+    list-style-image: url(../assets/img/icons/checklist2.webp);
+    margin-bottom: 5px;
+}
+.lista-footer li a{
+    color: white;
+    font-size: .9rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.footer-tel li{
+    list-style-image: url(../assets/img/icons/telefono.png);
+}
+.footer-tel li a{
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: end;
+    letter-spacing: 3px;
+    text-shadow: -1px 1px #FF3575;
+    color: white;
+}
+.footer-email li{
+    list-style-image: url(../assets/img/icons/carta-color.png);
+}
+.footer-email li a{
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: end;
+    letter-spacing: 1px;
+    text-shadow: -1px 1px #FF3575;
+    color: white;
+}
