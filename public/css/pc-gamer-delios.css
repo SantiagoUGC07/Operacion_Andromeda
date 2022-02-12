@@ -10,7 +10,16 @@
 }
 body{
     background-color: #140714;
+    background-image: url(../assets/img/stars_pixelart.webp);
+    background-size: contain;
+    background-attachment: fixed;
 }
+
+.fondo-color{
+    background-color: #140714b9;
+    box-shadow: 0px 0px 20px #140714;
+}
+
 /* PRELOADER */
 #loader{
     height: 1500px;

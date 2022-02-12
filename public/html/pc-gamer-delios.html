@@ -20,62 +20,63 @@
     </script>
 
     <link rel="stylesheet" href="../css/pc-gamer-delios.css">
-    <link rel="stylesheet" href="../css/footer2.css">
+    <link rel="stylesheet" href="../css/header-footer.css">
 
-    <!-- <link rel="stylesheet" href="../css/modals.css"> -->
+    <link rel="stylesheet" href="../css/modals.css">
+    <link rel="stylesheet" href="../css/animacion.css">
 
     <title>PC GAMER DELIOS 50I</title>
 </head>
 
 <body>
     <!-- ///////////// HEADER ///////////// -->
-    <!-- <header>
+    <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand ml-5" href="../../index.html"">
+            <a class="navbar-brand ml-5" href="../../index.html"">
             <img src=" ../assets/img/icons/logo.webp" class="img-brand">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown mr-5">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-toggle="dropdown" aria-expanded="false">
-                        Productos
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">PC Gamer</a>
-                        <a class="dropdown-item" href="#">Accesorios</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown mr-5">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-toggle="dropdown" aria-expanded="false">
-                        <img src="../assets/img/icons/cuenta-color.png" class="icon-nav">
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" data-toggle="modal" data-target="#login-modal">
-                            Pedidos
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown mr-5">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            Productos
                         </a>
-                        <a class="dropdown-item">
-                            Cerrar sesión
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="../html/productos.html">PC Gamer</a>
+                            <a class="dropdown-item" href="../html/accesorios.html">Accesorios</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown mr-5">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-expanded="false">
+                            <img src="../assets/img/icons/cuenta-color.png" class="icon-nav">
                         </a>
-                    </div>
-                </li>
-                <li class="nav-item  mr-5">
-                    <a class="nav-link" href="../html/cart.html">
-                        <img src="../assets/img/icons/carrito-color.png" class="icon-nav">
-                    </a>
-                </li>
-            </ul>
-        </div>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" data-toggle="modal" data-target="#login-modal">
+                                Pedidos
+                            </a>
+                            <a class="dropdown-item">
+                                Cerrar Sesión
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item  mr-5">
+                        <a class="nav-link" href="../html/cart.html">
+                            <img src="../assets/img/icons/carrito-color.png" class="icon-nav">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-    </header> -->
+    </header>
 
     <!-- ///////////// MODAL /////////////-->
-    <!-- <div class="modal fade" id="login-modal" tabindex="-1" aria-labelledby="login-modalLabel" aria-hidden="true">
+    <div class="modal fade" id="login-modal" tabindex="-1" aria-labelledby="login-modalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header d-flex justify-content-center">
@@ -179,12 +180,12 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <!-- ///////////// PRODUCTO PRINCIPAL ///////////-->
-    <section class="container">
+    <section class="container fondo-color">
 
-        <div class="row px-4 px-md-2 pt-4">
+        <div class="row px-4 px-md-2 mt-5">
 
             <!-- ///////////// COLUMNA 1 ///////////// -->
             <div class="col-sm-12 col-md-6 py-5 p-md-5">
@@ -375,9 +376,9 @@
     </section>
 
     <!-- ///////////// OTROS PRODUCTOS ///////////// -->
-    <Section class="container">
+    <Section class="container fondo-color">
 
-        <div class="row py-5 px-4">
+        <div class="row pt-5 mb-2 px-4">
 
             <div class="col-md-12">
                 <h2>COMPLEMENTA TU SETUP GAMER</h2>
@@ -431,11 +432,21 @@
     </Section>
 
     <!-- ///////////// FOOTER ///////////// -->
-    <section class="mt-5" id="footer">
+    <section id="img-footer" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <img id="img-footer2" src="../assets/img/planeta-pixelart.webp" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="color-footer">
+
         <div class="container">
 
             <div class="row px-1 pt-5">
-                <div class="col-md-4 col-sm12 order-1 pt-3 pb-2">
+
+                <div class="col-md-4 col-sm12 order-md-1 order-sm-3 py-3">
 
                     <p class="titulo-listaFooter">NAVEGACIÓN</p>
 
@@ -453,130 +464,48 @@
                                 class="text-decoration-none pull-right ml-1 footer-decoration">Contácto y
                                 Sugerencias</a>
                         </li>
-                        <li>
-                            <a class="lista-footer" href="../html/pc-gamer-delios.html"
-                                class="text-decoration-none pull-right ml-1 footer-decoration">Nuestra mejor PC</a>
-                        </li>
                     </ul>
                 </div>
 
-                <div class="col-md-4 col-sm12 order-2 pt-3">
+                <div class="col-md-4 col-sm12 order-md-2 order-sm-1 py-3">
                     <img class="logo-footer" src="../assets/img/icons/logo.webp">
 
                     <div class="d-flex justify-content-around">
                         <img src="../assets/img/icons/facebook.webp" class="rrss-icon image-animation">
-                        <img src="../assets/img/icons/tiktok.webp" class="rrss-icon image-animation">
                         <img src="../assets/img/icons/instagram.webp" class="rrss-icon image-animation">
+                        <img src="../assets/img/icons/tiktok.webp" class="rrss-icon image-animation">
+                        <img src="../assets/img/icons/twitch.webp" class="rrss-icon image-animation">
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm12 order-3 pt-3">
-                    <div class="contacto-footer">
-                        <img src="../assets/img/icons/telefono.png" class="contacto-icon">
+                <div class="col-md-4 col-sm12 order-md-3 order-sm-2 py-3">
+
+                    <div class="d-flex justify-content-end mt-5">
+                        <ul class="footer-tel">
+                            <li>
+                                <a class="footer-tel" href=""
+                                    class="text-decoration-none pull-right ml-1 footer-decoration">(55) 5837 1453</a>
+                            </li>
+                        </ul>
                     </div>
-                    <p class="texto-contacto-tel">
-                        (55) 5837 1453
-                    </p>
-                    <div class="contacto-footer">
-                        <img src="../assets/img/icons/carta-color.png" class="contacto-icon">
+                    
+                    <div class="d-flex justify-content-end">
+                        <ul class="footer-email">
+                            <li>
+                                <a class="footer-email" href=""
+                                    class="text-decoration-none pull-right ml-1 footer-decoration">contacto@andromeda.com</a>
+                            </li>
+                        </ul>
                     </div>
-                    <p class="texto-contacto">
-                        contacto@andromeda.mx
-                    </p>
+
                 </div>
 
-                <div class="col-12 order-4">
-                    <p class="op-andromeda">
-                        ©2022 Operación Andromeda
-                    </p>
+                <div class="col-12 order-md-4 order-sm-4 mt-3">
+                    <p class="op-andromeda">Operación Andromeda © 2022</p>
                 </div>
             </div>
         </div>
     </section>
-
-
-
-    <!-- <footer class="footer">
-    <div class="row">
-        <div class="col-xl-4 col-lg-6 col-sm-12">
-            <h4>Enlaces de interés</h4>
-            <ul>
-                <li class="media">
-                    <div class="pull-left">
-                        <img src="../assets/img/icons/li.png" class="li-icon">
-                    </div>
-                    <a href="../html/about_us.html" class="text-decoration-none pull-right ml-1 footer-decoration">Nuestra empresa</a>
-                </li>
-                <li class="media">
-                    <div class="pull-left">
-                        <img src="../assets/img/icons/li.png" class="li-icon">
-                    </div>
-                    <a href="../html/faq.html" class="text-decoration-none pull-right ml-1 footer-decoration">Preguntas Frecuentes</a>
-                </li>
-                <li class="media">
-                    <div class="pull-left">
-                        <img src="../assets/img/icons/li.png" class="li-icon">
-                    </div>
-                    <a href="../html/contact-us.html" class="text-decoration-none pull-right ml-1 footer-decoration">Contácto y sugerencias</a>
-                </li>
-                <li class="media">
-                    <div class="pull-left">
-                        <img src="../assets/img/icons/li.png" class="li-icon">
-                    </div>
-                    <a href="../html/pc-gamer-delios.html" class="text-decoration-none pull-right ml-1 footer-decoration">Nuestro mejor equipo</a>
-                </li>
-            </ul>
-        </div>
-        <div class="col-xl-4 col-lg-6 col-sm-12">
-            <h4>Ponerse en contacto</h4>
-            <ul>
-                <li class="media">
-                    <div class="pull-left">
-                        <img src="../assets/img/icons/mapa-color.png" class="contact-icon">
-                    </div>
-                    <p class="pull-right ml-1">
-                        Oficinas <span class="text-muted">(No se atienden clientes en esta ubicación)</span> <br>
-                        Cto Juan Pablo II 2457 <br>
-                        Col. La Hacienda <br>
-                        CP. 72570 <br>
-                        Puebla, Pue., México
-                    </p>
-                </li>
-                <li class="media ">
-                    <div class="pull-left">
-                        <img src="../assets/img/icons/carta-color.png" class="contact-icon">
-                    </div>
-                    <p class="pull-right ml-1">
-                        contacto@andromeda.mx
-                    </p>
-                </li>
-                <li class="media">
-                    <div class="pull-left">
-                        <img src="../assets/img/icons/telefono.png" class="contact-icon">
-                    </div>
-                    <p class="pull-right ml-1">
-                        (55) 5837 1453
-                    </p>
-                </li>
-            </ul>
-        </div>
-        <div class="col-xl-4 col-lg-12 col-sm-12">
-            <h4>Siguenos en nuestras redes sociales</h4>
-            <div class="d-flex justify-content-around">
-                <img src="../assets/img/icons/tiktok.png" class="rrss-icon image-animation">
-                <img src="../assets/img/icons/instagram.png" class="rrss-icon image-animation">
-                <img src="../assets/img/icons/facebook.png" class="rrss-icon image-animation">
-                <img src="../assets/img/icons/linkedin.png" class="rrss-icon image-animation">
-            </div>
-        </div>
-    </div>
-    <div>
-        <p class="text-center mb-0">Andromeda © 2022</p>
-    </div>
-    </footer>  -->
-
-
-
 
     <!-- ------------------------------------------------------------------ -->
     <!-- PRELOADER -->
