@@ -2,8 +2,8 @@
 .bg-dark  {
     /* background: linear-gradient(60deg, #1100ff 2%, #0f1a85 ) !important; */
     background-color: #0e00ce !important;
-    border-bottom: 2px groove #FF3575;
-    box-shadow: 0px 0px 30px #FF3575;
+    border-bottom: 2px groove #7500fa;
+    box-shadow: 0px 0px 30px #7500fa;
 }
 .img-brand{
     height: 42px;
@@ -36,6 +36,8 @@
 }
 .dropdown-menu{
     background: #0e00ce !important;
+    border: 2px groove #0e00ce;
+    box-shadow: -1px 1px 10px #0e00ce;
 }
 
 /* FOOTER */
