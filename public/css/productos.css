@@ -1,0 +1,17 @@
+.producttitle {height: 10rem;
+    background-image: url(../assets/img/galaxia_pixelart.webp) ;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2rem; }
+
+
+.cartaproductos{margin: auto;
+background-color: #011640;
+border: 2px solid rgb(156, 138, 255);
+border-radius: 8px;
+display: inline-block;}
+
