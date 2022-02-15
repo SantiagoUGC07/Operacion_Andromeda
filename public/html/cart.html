@@ -37,7 +37,7 @@
     <!-- //////////////////////// Navbar ////////////////////////////////// -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand ml-5" href="../../index.html"">
+            <a class="navbar-brand ml-5" href="../../index.html">
                 <img src=" ../assets/img/icons/logo.webp" class="img-brand">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -325,22 +325,62 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane box-color borde-blanco p-3" id="envio" role="tabpanel" aria-labelledby="envio-tab">
+                <div class="tab-pane box-color p-3" id="envio" role="tabpanel" aria-labelledby="envio-tab">
    
-                        <h3>Metodo de envio</h3><!-- TU TITULO -->
-                        <div class="text">
-                            <p>
-                                <!-- BORRA TODO <p> Y PON AHI LAS OPCIONES DE ENVIO -->
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati, ullam vitae
-                                aperiam blanditiis magnam fugiat fuga magni saepe maiores nemo inventore similique et
-                                soluta facere eligendi veritatis ad repellat provident alias quae sed possimus corporis!
-                                Quod architecto doloremque facere fugit dolorum facilis velit optio quisquam delectus,
-                                nihil reiciendis, in inventore veniam incidunt sed deserunt iusto fugiat. Tenetur
-                                dignissimos debitis assumenda officiis ducimus suscipit aperiam! Hic, distinctio. Est
-                                excepturi expedita error natus aut repellendus tempore quam distinctio, provident magnam
-                                fuga, delectus sequi eum. Quaerat, modi excepturi vero deserunt accusamus cumque magnam
-                                assumenda ab, dolorum, sequi totam expedita impedit obcaecati molestias!
-                            </p>
+                        <!-- TU TITULO -->
+                        <div class="text row">
+                            <div class="d-inline-block p-3 col-7 borde-blanco" >
+                              <div><p class="font-weight-bolder">SELECCIONAR METODO DE ENTREGA</p></div>
+                              <div>
+                                 <div class="d-inline-block w-50" >
+                                    <p class="mb-0">Envio a domicilio</p>
+                                    <p>lunes, 14.04.2022 - miercoles 16.04.2022</p>
+                                 </div>
+                                 <div class="custom-control custom-radio d-inline-block float-right">
+                                    <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadio4">MXN 60.00</label>
+                                 </div>
+                              </div>
+                              <div>
+                                <div class="d-inline-block w-50" >
+                                    <p class="mb-0">Envio express</p>
+                                    <p>lunes, 14.04.2022 - miercoles 16.04.2022</p>
+                                 </div>
+                                 <div class="custom-control custom-radio d-inline-block float-right">
+                                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadio2">MXN 100.00</label>
+                                 </div>
+                              </div>
+                              <div>
+                                 <div class="d-inline-block w-50" >
+                                    <p class="mb-0">Entrega en tienda</p>
+                                    <p>lunes, 14.04.2022 - miercoles 16.04.2022</p>
+                                 </div>
+                                 <div class="custom-control custom-radio d-inline-block float-right">
+                                    <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadio3">Gratis</label>
+                                 </div>
+                              </div>
+                            </div>
+                            <div class="d-inline-block p-3 col-5">
+                                <div>
+                                    <div>
+                                        <p class="font-weight-bolder text-center mb-4">RESUMEN</p>
+                                    </div>
+                                    <div class="row px-4 h-100">
+                                        <div class="d-inline-block col-6">
+                                            <p class="float-left"># productos</p></div>
+                                        <div class="d-inline-block col-6">
+                                            <p class="float-right">MXN $1,000.00</p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <p>Chat de servicio al cliente</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            
                         </div>
                         <div class="d-flex justify-content-end">
                             <a class="btn-game que-este-en-la-derecha" alt="Button">CONTINUAR</a>
@@ -411,45 +451,97 @@
                         <div class="row">
                             <div class="text col-xl-8 col-sm-12" style="background-color: brown;">
                                 <!-- Información de la persona que recibira el producto: -->
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati, ullam
-                                    vitae
-                                    aperiam blanditiis magnam fugiat fuga magni saepe maiores nemo inventore similique
-                                    et
-                                    soluta facere eligendi veritatis ad repellat provident alias quae sed possimus
-                                    corporis!
-                                    Quod architecto doloremque facere fugit dolorum facilis velit optio quisquam
-                                    delectus,
-                                    nihil reiciendis, in inventore veniam incidunt sed deserunt iusto fugiat. Tenetur
-                                    dignissimos debitis assumenda officiis ducimus suscipit aperiam! Hic, distinctio.
-                                    Est
-                                    excepturi expedita error natus aut repellendus tempore quam distinctio, provident
-                                    magnam
-                                    fuga, delectus sequi eum. Quaerat, modi excepturi vero deserunt accusamus cumque
-                                    magnam
-                                    assumenda ab, dolorum, sequi totam expedita impedit obcaecati molestias!
-                                </p>
+                                <div>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Eliminar</th>
+                                            <th scope="col">Producto</th>
+                                            <th scope="col">Precio</th>
+                                            <th scope="col">Cantidad</th>
+                                            <th scope="col">Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="../assets/img/icons/quitar.png" alt="" srcset="">
+                                                </th>
+                                            <td>Pc</td>
+                                            <td>$4000.00</td>
+                                            <td>1</td>
+                                            <td>$4,000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="../assets/img/icons/quitar.png" alt="" srcset="">
+                                                </th>
+                                            <td>Pc-2</td>
+                                            <td>$5,000.00</td>
+                                            <td>3</td>
+                                            <td>$15,000.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="../assets/img/icons/quitar.png" alt="" srcset="">
+                                                </th>
+                                            <td>Pc-3</td>
+                                            <td>$3,000.00</td>
+                                            <td>2</td>
+                                            <td>$6,000.00</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </div>
+                                <div>
+                                    <div>
+                                        <p class="d-inline-block w-50">Juan Carlos Gonzales</p>
+                                        <p class="d-inline-block">gonzales.sancho@gmail.com</p>
+                                           <div>
+                                               <p class="w-50">
+                                                   cel 5568531587
+                                                   Wilson Ferreira Aldunate 918  cp: 15600 
+                                                   Gustavo A. Madero, CDMX, México
+                                               </p>
+                                           </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="d-inline-block col-4"><p>Envío estimado: </p><p>(3-5 días)</p></div>
+                                        <div class="d-inline-block col-4"><p>Numero de pedido: </p><p>ADMD9287DJ</p></div>
+                                        <div class="d-inline-block col-4"><p>Numero de guía: </p><p>193830310913SA</p></div> 
+                                    </div>
+                                    <div>
+                                        <p>Metodo de pago:</p>
+                                        <p>Metodo confirmado</p>
+                                        <p>Tarjeta de credito:
+                                            xxxx-xxxx-xxxx-0156 
+                                            Fecha de vencimiento:    05/23     cvv:  ***
+                                        <p>
+                                    </div>
+                                </div>
                             </div>
                             <div class="text col-xl-4 col-sm-12" style="background-color: green;">
                                 <!-- Dirección -->
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci obcaecati, ullam
-                                    vitae
-                                    aperiam blanditiis magnam fugiat fuga magni saepe maiores nemo inventore similique
-                                    et
-                                    soluta facere eligendi veritatis ad repellat provident alias quae sed possimus
-                                    corporis!
-                                    Quod architecto doloremque facere fugit dolorum facilis velit optio quisquam
-                                    delectus,
-                                    nihil reiciendis, in inventore veniam incidunt sed deserunt iusto fugiat. Tenetur
-                                    dignissimos debitis assumenda officiis ducimus suscipit aperiam! Hic, distinctio.
-                                    Est
-                                    excepturi expedita error natus aut repellendus tempore quam distinctio, provident
-                                    magnam
-                                    fuga, delectus sequi eum. Quaerat, modi excepturi vero deserunt accusamus cumque
-                                    magnam
-                                    assumenda ab, dolorum, sequi totam expedita impedit obcaecati molestias!
-                                </p>
+                                <div class="rounded  h-100 " style="background-color: #011640;">
+                                   <div class="rounded">
+                                    <img src="../assets/img/productos/Silla-Gamer-RGB-Balam-Rush-2.webp" class="rounded mx-auto d-block " style=" height: 100px; width: 100px;" alt="...">
+                                   </div>
+    
+                                   <br>
+    
+                                   <p class="">Articulos:2</p>
+                                   
+                                   <div class="bo" style="border-top: 1px, solid, #CF4DBA; bb: 1px, solid, #CF4DBA">
+                                       <p class="d-inline-block">Silla gamer</p><p class="d-inline-block">$ 3,000.00</p><br>                            
+                                       <p class="d-inline-block">Silla gamer</p><p class="d-inline-block">$ 3,000.00</p><br>                            
+                                       <p class="d-inline-block">Costo de envío</p><p class="d-inline-block">$ 99.00</p><br>                                                         
+                                   </div>
+    
+                                   <div>
+                                       <p class="d-inline-block">TOTAL + IVA</p>
+                                       <p class="d-inline-block"> $ 99.00</p>
+                                   </div>
+                                </div>
                             </div>
                         </div>
                         <div class="d-flex justify-content-end">
