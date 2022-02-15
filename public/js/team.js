@@ -1,5 +1,5 @@
  
- $('.carousel-team').slick({
+/*$('.carousel-team').slick({
     slidesToShow: 1,
     slidesToScroll: 2,
     arrows: false,
@@ -13,4 +13,33 @@
     dots: true,
     centerMode: true,
     focusOnSelect: true
-  });
+});*/
+
+
+/*
+<script type="text/javascript">
+    jQuery(function(){
+    jQuery('#showall').click(function(){
+    jQuery('.target').show();
+    });
+
+    jQuery('.single').click(function(){
+      jQuery('.target').hide();
+      jQuery('#div'+$(this).attr('target')).show();
+    });
+    });
+</script>*/
+
+function hola()
+{
+jQuery('#showall').click(function(){
+jQuery('.target').show();
+});
+
+jQuery('.single').click(function(){
+  jQuery('.target').hide();
+  jQuery('#div'+$(this).attr('target')).show();
+});
+}
+hola();
+
