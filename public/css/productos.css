@@ -1,17 +1,36 @@
-.producttitle {height: 10rem;
-    background-image: url(../assets/img/galaxia_pixelart.webp) ;
+.producttitle {
+    height: 10rem;
+    background-image: url(../assets/img/galaxia_pixelart.webp);
     background-position: center;
     background-size: cover;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+}
 
+/*se movio al estilo de cartas.css porque era una carta*/
 
-.cartaproductos{margin: auto;
-background-color: #011640;
-border: 2px solid rgb(156, 138, 255);
-border-radius: 8px;
-display: inline-block;}
+.precio-texto {
+    font-weight: 800;
+    font-size: 1.5em;
+    color: #ede5f1;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
 
+.nombre-producto-texto {
+    font-weight: 800;
+    font-size: 1.17em;
+    font-weight: bolder;
+    color: #ede5f1;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    
+
+    letter-spacing: 1px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
