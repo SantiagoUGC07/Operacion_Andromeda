@@ -3,10 +3,6 @@
     height: 600px;
 }
 
-.foto-secundaria {
-    width: 50px;
-}
-
 .blanco-y-negro {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -17,19 +13,18 @@
     text-align: center;
     color: white;
     background: linear-gradient(180deg, #c04bf280 28.33%, #6232a680 71.67%);
-
 }
 
 .pregunta {
     font-family: 'Orbitron', sans-serif;
     font-size: 12pt;
-    color: rgb(37, 35, 37)
+    color: rgb(102, 94, 102)
 }
 
 .respuesta{
     font-family: 'Montserrat';
-    font-weight: bold;
-    font-size: 13pt;
+    font-weight: 800;
+    font-size: 15pt;
     color: black
 }
 
@@ -41,23 +36,27 @@
 }
 
 .spaceship{
-    background-image: url('../assets/img/resources/spaceship.png');
+    background-image: url('../assets/img/resources/team/spaceship.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .folder{
-    background-image: url('../assets/img/resources/folder.png');
+    background-image: url('../assets/img/resources/team/folder.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .hoja{
-    background-color: rgb(168, 148, 164);
+    background-image: url('../assets/img/resources/team/paper.png');
+    background-size: 100%;
     padding: 10px;
     margin: 50px;
     transform: rotate(5deg);
+    box-shadow: -4px 4px 5px black;
+    
 }
 ul {
     padding: 0px !important;
 }
+
