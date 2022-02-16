@@ -2,11 +2,10 @@
 .bg-dark  {
     /* background: linear-gradient(60deg, #1100ff 2%, #0f1a85 ) !important; */
     background-color: #0e00ce !important;
-    border-bottom: 2px groove #7500fa;
-    box-shadow: 0px 0px 30px #7500fa;
+    box-shadow: -3px 3px 20px #7500FA;
 }
 .img-brand{
-    height: 42px;
+    width: 290px;
 }
 .navbar-brand{
     padding: 0px !important;
@@ -19,9 +18,8 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     letter-spacing: 1px;
-    color: #ffffff !important;   
+    color: #ffffff !important;
 }
-/* El color de la letra del menu y el efecto al pasar el mouse */
 .dropdown-item{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -29,14 +27,13 @@
     color: #ffffff !important;
     cursor: pointer;
 }
-
 .dropdown-item:hover{
     background-color: transparent !important;
     text-shadow: 1px 1px 20px #FF3575, 0 0 1em #FF3575, 0 0 0.2em #FF3575;   
 }
 .dropdown-menu{
     background: #0e00ce !important;
-    border: 2px groove #0e00ce;
+    /* border: 2px solid #0e00ce; */
     box-shadow: -1px 1px 10px #0e00ce;
 }
 
@@ -69,6 +66,7 @@
 .rrss-icon{
     width: 7%;
     margin-top: 20px;
+    filter: grayscale(30%);
 }
 .titulo-listaFooter{
     margin-bottom: 10px;

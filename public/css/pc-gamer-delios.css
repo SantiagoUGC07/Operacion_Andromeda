@@ -58,7 +58,7 @@ body{
 h1 {
     font-family: 'Orbitron', sans-serif;
     font-weight: 900;
-    font-size: 4.3rem;
+    font-size: 4rem;
     letter-spacing: 1px;
     -webkit-text-stroke: .5px #011640; 
     text-shadow: -3px 4px #FF3575;
@@ -73,18 +73,18 @@ h1 {
 }
 .precio-oferta{
     font-weight: 800;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 .mensualidad{
     font-weight: 500;
-    font-size: 1rem;
+    font-size: .9rem;
     letter-spacing: 1px;
 }
 
 /* BOTON COMPRA */
 .btn-comprar {
     display: inline-flex;
-    width: 340px;
+    width: 90%;
     height: 70px;
     align-items: center;
     justify-content: center;
@@ -124,7 +124,7 @@ h1 {
 /* BOTON AGREGAR */
 .btn-agregar {
     display: inline-flex;
-    width: 340px;
+    width: 90%;
     height: 70px;
     align-items: center;
     justify-content: center;
@@ -162,20 +162,14 @@ h1 {
 }
 
  /* CARACTERISTICAS */
- h2{
-     font-weight: 800;
-     font-size: 1.6rem;
-     letter-spacing: 1px;
- }
- h3{
+ h4{
     font-weight: 800;
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
-    margin-bottom: -2px;
- }
+}
 .descripcion-pc{
     text-align: justify;
-    font-weight: 500;
+    font-weight: 400;
     font-size: .9rem;
 }
 .texto-personalizar{
@@ -190,6 +184,12 @@ h1 {
 }
 
 /* RAM - DISCO DURO */
+h3{
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: -2px;
+ }
 .texto-input{
     font-weight: 800;
     font-size: 1rem;
@@ -244,6 +244,12 @@ h1 {
     font-size: .8rem;
 }
 /* OTROS PRODUCTOS */
+h2{
+    font-weight: 900;
+    font-size: 1.9rem;
+    letter-spacing: 1px;
+    text-shadow: -1px 2px #FF3575;
+}
 .cart-otros-productos{
     width: 248px; 
     height: auto;

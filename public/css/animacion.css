@@ -24,7 +24,7 @@
 
     transform: scale(1);
     z-index: 1;
-    transition: 1s;
+    transition: .5s;
 }
 
 .image-animation:hover{
