@@ -1,6 +1,4 @@
-
-.fondoTeam
-{
+.fondoTeam {
     background-image: url('/public/assets/img/other/Usuario.png');
     display: flex;
     background-size: cover;
@@ -8,40 +6,91 @@
     align-items: center;
 }
 
-.backTeam
-{
+.backTeam {
     background-image: url('/public/assets/img/other/vs.jpg');
     /*margin: 0 auto; /*para ponerle un MARGEN en todos los dados en la parte EXTERNA del bloque*/
     /*font-size: 60px; /* para aumentar el TAMAÑO de la LETRA*/
     /*padding: 20px; /*para hacer un MARGEN dentro del BLOQUE*/
-     /*border-radius: 80px;/*para CURVEAR EL BORDE, se puede hacer un CIRCULO o un OVALO*/
-     width: 100%;
+    /*border-radius: 80px;/*para CURVEAR EL BORDE, se puede hacer un CIRCULO o un OVALO*/
+    width: 100%;
     text-align: center;
     /*background-size: cover;*/
     display: flex;
 
 }
 
-.bordeTeam
-{
+.bordeTeam {
     border-radius: 80px;
 }
 
-.cardTeam
-{  
-    border: 10px  solid#3d1572;
+.cardTeam {
+    border: 10px solid#3d1572;
     background: #3d1572;
     box-shadow: 0 0 40px #3d1572, 0 0 40px #3d1572, 0 0 80px #3d1572;
     height: 500px;
     transition: 0.2s;
 }
 
-.cardmuestra
-{
-    height: 500px;
-    text-align: center;
-    width: 300px;
-    display: flex;
-    margin: 20px;
+/* ------------------------------------------------------------------ */
+.foto-principal {
+    height: 600px;
 }
 
+.foto-secundaria {
+    width: 50px;
+}
+
+.blanco-y-negro {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.nombre-del-integrante{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: white;
+    background: linear-gradient(180deg, #c04bf280 28.33%, #6232a680 71.67%);
+
+}
+
+.pregunta {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12pt;
+    color: rgb(37, 35, 37)
+}
+
+.respuesta{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 13pt;
+    color: black
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spaceship{
+    background-image: url('../assets/img/resources/spaceship.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.folder{
+    background-image: url('../assets/img/resources/folder.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hoja{
+    background-color: rgb(168, 148, 164);
+    padding: 10px;
+    margin: 50px;
+    transform: rotate(5deg);
+}
+ul {
+    padding: 0px !important;
+}
