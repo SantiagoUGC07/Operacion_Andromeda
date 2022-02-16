@@ -68,6 +68,18 @@
     margin-top: 20px;
     filter: grayscale(30%);
 }
+.fx-zoom{
+    display: block;
+
+    transform: scale(1);
+    z-index: 1;
+    transition: .4s;
+}
+.fx-zoom:hover{
+    transform: scale(1.2);
+    z-index: 1;
+    transition: 1s;
+}
 .titulo-listaFooter{
     margin-bottom: 10px;
     padding-left: 20px;
