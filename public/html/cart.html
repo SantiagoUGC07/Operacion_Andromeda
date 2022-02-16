@@ -28,9 +28,7 @@
     <link rel="stylesheet" href="../css/forms.css">
     <link rel="stylesheet" href="../css/tab.css">
     <link rel="stylesheet" href="../css/cartas.css">
-    <link rel="stylesheet" href="../css/icon-accordion.css">
     <link rel="stylesheet" href="../css/carrito.css">
-    <link rel="stylesheet" href="../css/animacion.css">
 </head>
 
 <body>
@@ -262,14 +260,14 @@
                     </table>
                     <div class="row">
                         <div class="col-md-8 col-sm-12"></div>
-                        <div class="col-md-4 col-sm-12  box-color">
+                        <div class="col-md-4 col-sm-12">
                             <h5>Resumen de tus articulos</h5>
                             <p>Total de productos</p>
                             <p>MXN $ 48,120.00</p>
                         </div>
                     </div>
                     <div class="d-flex justify-content-end">
-                        <a class="btn-game que-este-en-la-derecha" alt="Button">CONTINUAR</a>
+                        <a class="btn-game" alt="Button">CONTINUAR</a>
                     </div>
                 </div>
 
@@ -279,274 +277,335 @@
                     <div>
                         <h3>Datos sobre la dirección envío</h3><!-- TU TITULO -->
                         <div class="row">
-                            <div class="col-xl-6 col-sm-12">
-                                <!-- Información de la persona que recibira el producto: -->
-                                <h4 style="margin-top: 10px;">Información de la persona que recibira el producto: </h4>
-                                <label>Nombre: <input type="text" name="nombre" placeholder=""></label>
-                                <label>Apellido: <input type="text" name="apellido" placeholder=""></label>
-                                <label>Correo electronico: <input type="email" name="email" placeholder=""></label>
-                                <label>Numero telefónico: <input type="phone" name="phone" placeholder=""></label>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="pr-3">
+                                    <!-- Información de la persona que recibira el producto: -->
+                                    <h4>Información de la persona que recibira el producto: </h4>
+                                    <div>
+                                        <label class="my-1" for="">Nombre: </label>
+                                        <input type="text" class="form-control" name="" id="">
+                                    </div>
+                                    <div>
+                                        <label class="my-1" for="">Apellido: </label>
+                                        <input type="text" class="form-control" name="" id="">
+                                    </div>
+                                    <div>
+                                        <label class="my-1" for="">Correo electronico: </label>
+                                        <input type="email" class="form-control" name="" id="">
+                                    </div>
+                                    <div>
+                                        <label class="my-1" for="">Numero telefónico: </label>
+                                        <input type="email" class="form-control" name="" id="">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-xl-6 col-sm-12">
+                            <div class="col-lg-6 col-md-12">
                                 <!-- Dirección -->
-                                <h4 style="margin-top: 10px;">Dirección de envío: </h4>
-                                <div>
-                                    <label class="my-1" for="">País:</label>
-                                    <input type="text" class="form-control" id="" name="" placeholder="">
+                                <div class="pl-3">
+                                    <h4>Dirección de envío: </h4>
+                                    <div>
+                                        <label class="my-1" for="">Calle:</label>
+                                        <input type="text" class="form-control" name="" id="">
+                                    </div>
+                                    <div>
+                                        <label class="my-1" for="">Num.ext:</label>
+                                        <input type="text" class="form-control" name="" id="">
+                                    </div>
+                                    <div>
+                                        <label class="my-1" for="">Num.int:</label>
+                                        <input type="text" class="form-control" name="" id="">
+                                    </div>
+                                    <div>
+                                        <label class="my-1" for="">Estado de la República</label>
+                                        <select name="estado" class="form-control">
+                                            <option value="no">Seleccione uno...</option>
+                                            <option value="Aguascalientes">Aguascalientes</option>
+                                            <option value="Baja California">Baja California</option>
+                                            <option value="Baja California Sur">Baja California Sur</option>
+                                            <option value="Campeche">Campeche</option>
+                                            <option value="Chiapas">Chiapas</option>
+                                            <option value="Chihuahua">Chihuahua</option>
+                                            <option value="CDMX">Ciudad de México</option>
+                                            <option value="Coahuila">Coahuila</option>
+                                            <option value="Colima">Colima</option>
+                                            <option value="Durango">Durango</option>
+                                            <option value="Estado de México">Estado de México</option>
+                                            <option value="Guanajuato">Guanajuato</option>
+                                            <option value="Guerrero">Guerrero</option>
+                                            <option value="Hidalgo">Hidalgo</option>
+                                            <option value="Jalisco">Jalisco</option>
+                                            <option value="Michoacán">Michoacán</option>
+                                            <option value="Morelos">Morelos</option>
+                                            <option value="Nayarit">Nayarit</option>
+                                            <option value="Nuevo León">Nuevo León</option>
+                                            <option value="Oaxaca">Oaxaca</option>
+                                            <option value="Puebla">Puebla</option>
+                                            <option value="Querétaro">Querétaro</option>
+                                            <option value="Quintana Roo">Quintana Roo</option>
+                                            <option value="San Luis Potosí">San Luis Potosí</option>
+                                            <option value="Sinaloa">Sinaloa</option>
+                                            <option value="Sonora">Sonora</option>
+                                            <option value="Tabasco">Tabasco</option>
+                                            <option value="Tamaulipas">Tamaulipas</option>
+                                            <option value="Tlaxcala">Tlaxcala</option>
+                                            <option value="Veracruz">Veracruz</option>
+                                            <option value="Yucatán">Yucatán</option>
+                                            <option value="Zacatecas">Zacatecas</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label class="my-1" for="">Ciudad:</label>
+                                        <input type="text" class="form-control" name="" id="">
+                                    </div>
+                                    <div>
+                                        <label class="my-1" for="">Codigo Postal:</label>
+                                        <input type="text" class="form-control" name="" id="">
+                                    </div>
+                                    <div>
+                                        <label class="my-1" for="">Información adicional:</label>
+                                        <input type="text" class="form-control" name="" id="">
+                                    </div>
                                 </div>
-                                <div>
-                                    <label class="my-1" for="">Estado:</label>
-                                    <input type="text" class="form-control" id="" name="" placeholder="">
-                                </div>
-                                <div>
-                                    <label class="my-1" for="">Ciudad:</label>
-                                    <input type="text" class="form-control" id="" name="" placeholder="">
-                                </div>
-                                <div>
-                                    <label class="my-1" for="">Dirección:</label>
-                                    <input type="text" class="form-control" id="" name="" placeholder="">
-                                </div>
-                                <div>
-                                    <label class="my-1" for="">Codigo Postal:</label>
-                                    <input type="text" class="form-control" id="" name="" placeholder="">
-                                </div>
-                                <label>Num.ext: <input type="number" name="Num.ext" placeholder=""></label>
-                                <label>Num.int: <input type="number" name="Num.int" placeholder=""></label>
-                                <label>Información adicional: <input type="text" name="Información adicional"
-                                        placeholder=""></label>
                             </div>
-
-
-
-
                         </div>
                         <div class="d-flex justify-content-end">
-                            <a class="btn-game que-este-en-la-derecha" alt="Button">CONTINUAR</a>
+                            <a class="btn-game " alt="Button">CONTINUAR</a>
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane box-color p-3" id="envio" role="tabpanel" aria-labelledby="envio-tab">
-   
-                        <!-- TU TITULO -->
-                        <div class="text row">
-                            <div class="d-inline-block p-3 col-7 borde-blanco" >
-                              <div><p class="font-weight-bolder">SELECCIONAR METODO DE ENTREGA</p></div>
-                              <div>
-                                 <div class="d-inline-block w-50" >
-                                    <p class="mb-0">Envio a domicilio</p>
-                                    <p>lunes, 14.04.2022 - miercoles 16.04.2022</p>
-                                 </div>
-                                 <div class="custom-control custom-radio d-inline-block float-right">
-                                    <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
-                                    <label class="custom-control-label" for="customRadio4">MXN 60.00</label>
-                                 </div>
-                              </div>
-                              <div>
-                                <div class="d-inline-block w-50" >
-                                    <p class="mb-0">Envio express</p>
-                                    <p>lunes, 14.04.2022 - miercoles 16.04.2022</p>
-                                 </div>
-                                 <div class="custom-control custom-radio d-inline-block float-right">
-                                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                                    <label class="custom-control-label" for="customRadio2">MXN 100.00</label>
-                                 </div>
-                              </div>
-                              <div>
-                                 <div class="d-inline-block w-50" >
-                                    <p class="mb-0">Entrega en tienda</p>
-                                    <p>lunes, 14.04.2022 - miercoles 16.04.2022</p>
-                                 </div>
-                                 <div class="custom-control custom-radio d-inline-block float-right">
-                                    <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
-                                    <label class="custom-control-label" for="customRadio3">Gratis</label>
-                                 </div>
-                              </div>
-                            </div>
-                            <div class="d-inline-block p-3 col-5">
+                <div class="tab-pane box-color borde-blanco p-3" id="envio" role="tabpanel" aria-labelledby="envio-tab">
+                    <h3>Datos sobre tipo de envio</h3>
+                    <!-- TU TITULO -->
+                    <div class="text row">
+                        <div class="col-lg-8 col-md-12">
+                            <div class="pr-3">
+                                <h4>SELECCIONAR METODO DE ENTREGA</h4>
                                 <div>
-                                    <div>
-                                        <p class="font-weight-bolder text-center mb-4">RESUMEN</p>
+                                    <div class="d-inline-block w-50">
+                                        <p class="mb-0">Envio a domicilio</p>
+                                        <p>lunes, 14.04.2022 - miercoles 16.04.2022</p>
                                     </div>
-                                    <div class="row px-4 h-100">
-                                        <div class="d-inline-block col-6">
-                                            <p class="float-left"># productos</p></div>
-                                        <div class="d-inline-block col-6">
-                                            <p class="float-right">MXN $1,000.00</p>
-                                        </div>
-                                    </div>
-                                    <div class="text-center">
-                                        <p>Chat de servicio al cliente</p>
+                                    <div class="custom-control custom-radio d-inline-block float-right">
+                                        <input type="radio" id="customRadio4" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio4">MXN 60.00</label>
                                     </div>
                                 </div>
-
+                                <div>
+                                    <div class="d-inline-block w-50">
+                                        <p class="mb-0">Envio express</p>
+                                        <p>lunes, 14.04.2022 - miercoles 16.04.2022</p>
+                                    </div>
+                                    <div class="custom-control custom-radio d-inline-block float-right">
+                                        <input type="radio" id="customRadio2" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio2">MXN 100.00</label>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="d-inline-block w-50">
+                                        <p class="mb-0">Entrega en tienda</p>
+                                        <p>lunes, 14.04.2022 - miercoles 16.04.2022</p>
+                                    </div>
+                                    <div class="custom-control custom-radio d-inline-block float-right">
+                                        <input type="radio" id="customRadio3" name="customRadio"
+                                            class="custom-control-input">
+                                        <label class="custom-control-label" for="customRadio3">Gratis</label>
+                                    </div>
+                                </div>
                             </div>
-                            
                         </div>
-                        <div class="d-flex justify-content-end">
-                            <a class="btn-game que-este-en-la-derecha" alt="Button">CONTINUAR</a>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="ml-3">
+                                <div class="p-3" style="background-color: #011640;">
+                                    <img class="col-12" src="../assets/img/productos/Silla-Gamer-RGB-Balam-Rush-2.webp">
+                                    <h4>Articulos:2</h4>
+                                    <div class="bo">
+                                        <p class="d-inline-block">Silla gamer</p>
+                                        <p class="d-inline-block">$ 3,000.00</p><br>
+                                        <p class="d-inline-block">Silla gamer</p>
+                                        <p class="d-inline-block">$ 3,000.00</p><br>
+                                        <p class="d-inline-block">Costo de envío</p>
+                                        <p class="d-inline-block">$ 99.00</p><br>
+                                    </div>
+                                    <div>
+                                        <p class="d-inline-block">TOTAL + IVA</p>
+                                        <p class="d-inline-block"> $ 99.00</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-        
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <a class="btn-game " alt="Button">CONTINUAR</a>
+                    </div>
                 </div>
                 <div class="tab-pane box-color borde-blanco p-3" id="pago" role="tabpanel" aria-labelledby="pago-tab">
-             
-                        <h3>Forma de pago</h3><!-- TU TITULO -->
-                        <div class="text">
-                            <div class="tab-pane" id="pago" role="tabpanel" aria-labelledby="pago-tab">
-                                <div class="p-3">
-                                    <h2>Forma de pago</h2><!-- TU TITULO -->
-                                    <div class="text">
-                                        <h5>¿Cómo quieres pagar?</h5>
-                        <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio1">Tarjeta de crédito</label>
+                    <h3>Datos sobre la forma de pago</h3><!-- TU TITULO -->
+                    <div class="row">
+                        <div class="col-xl-8 col-sm-12">
+                            <form class="pr-3">
+                                <h4>¿Cómo quieres pagar?</h4>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadio1" name="customRadio"
+                                        class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadio1">Tarjeta de
+                                        crédito</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="customRadio2" name="customRadio"
+                                        class="custom-control-input">
+                                    <label class="custom-control-label" for="customRadio2">Tarjeta de débito</label>
+                                </div>
+                                <h4>Introduce tus datos</h4>
+                                <div class="">
+                                    <div class="">
+                                        <label class="my-1" for="">Introduce tu tarjeta:</label>
+                                        <input type="text" class="form-control" placeholder="XXXX-XXXX-XXXX-XXXX"
+                                            name="" id="">
+                                    </div>
+                                    <div class="">
+                                        <label class="my-1" for="">Nombre y Apellido:</label>
+                                        <input type="text" class="form-control"
+                                            placeholder="Tal y como aparece en el plastico" name="" id="">
+                                    </div>
+                                    <div class="">
+                                        <label class="my-1" for="">Fecha de Vencimiento:</label>
+                                        <input type="text" class="form-control" placeholder="03/22" name="" id="">
+                                    </div>
+                                    <div class="">
+                                        <label class="my-1" for="">Ciudad:</label>
+                                        <input type="text" class="form-control" placeholder="077" name="" id="">
+                                    </div>
+                                </div>
+                            </form>
                         </div>
-                        <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio2">Tarjeta de débito</label>
-                        </div>
-                        
-                        <div class="row">
-                        <form class="text col-xl-6 col-sm-12"">
-                        <h5>Introduce tus datos</h5>    
-                        <div class="">
-                        <div class="col-12">
-                        <input type="text" class="form-control" placeholder="Introduce tu tarjeta XXXX-XXXX-XXXX-XXXX">
-                        </div>
-                        <div class="col-12">
-                        <input type="text" class="form-control" placeholder="Nombre y Apellido">
-                        </div>
-                        <div class="col-12">
-                        <input type="text" class="form-control" placeholder="Fecha de Vencimiento">
-                        </div>
-                        <div class="col-12">
-                        <input type="text" class="form-control" placeholder="CVV">
-                        </div>
-                        </div>
-                        </form>
-                        <div class="text col-xl-6 col-sm-12" 
-                        ;">
-                        <!-- Imagen-->
-                        <p style="text-align: center;">Articulos</p>
-                        <div>Silla Gamer</div>
-                        <div>Silla Gamer</div>
-                        <hr>
-                        <div>Total</div>
-                        <hr>
-                        
-                        </div>
-                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="ml-3">
+                                <div class="p-3" style="background-color: #011640;">
+                                    <img class="col-12" src="../assets/img/productos/Silla-Gamer-RGB-Balam-Rush-2.webp">
+                                    <h4>Articulos:2</h4>
+                                    <div class="bo">
+                                        <p class="d-inline-block">Silla gamer</p>
+                                        <p class="d-inline-block">$ 3,000.00</p><br>
+                                        <p class="d-inline-block">Silla gamer</p>
+                                        <p class="d-inline-block">$ 3,000.00</p><br>
+                                        <p class="d-inline-block">Costo de envío</p>
+                                        <p class="d-inline-block">$ 99.00</p><br>
+                                    </div>
+                                    <div>
+                                        <p class="d-inline-block">TOTAL + IVA</p>
+                                        <p class="d-inline-block"> $ 99.00</p>
                                     </div>
                                 </div>
                             </div>
-                        
                         </div>
-                        <div class="d-flex justify-content-end">
-                            <a class="btn-game que-este-en-la-derecha" alt="Button">CONTINUAR</a>
-                        </div>
-        
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <a class="btn-game " alt="Button">CONTINUAR</a>
+                    </div>
                 </div>
-                <div class="tab-pane box-color borde-blanco p-3" id="revisa" role="tabpanel" aria-labelledby="revisa-tab">
-   
-                        <h3>Revisa tu pedido</h3><!-- TU TITULO -->
-                        <div class="row">
-                            <div class="text col-xl-8 col-sm-12" style="background-color: brown;">
-                                <!-- Información de la persona que recibira el producto: -->
+                <div class="tab-pane box-color borde-blanco p-3" id="revisa" role="tabpanel"
+                    aria-labelledby="revisa-tab">
+
+                    <h3>Revisa tu pedido</h3><!-- TU TITULO -->
+                    <div class="row">
+                        <div class="col-lg-8 col-md-12">
+                            <!-- Información de la persona que recibira el producto: -->
+                            <div class="pr-3">
                                 <div>
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Eliminar</th>
-                                            <th scope="col">Producto</th>
-                                            <th scope="col">Precio</th>
-                                            <th scope="col">Cantidad</th>
-                                            <th scope="col">Total</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <img src="../assets/img/icons/quitar.png" alt="" srcset="">
-                                                </th>
-                                            <td>Pc</td>
-                                            <td>$4000.00</td>
-                                            <td>1</td>
-                                            <td>$4,000.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <img src="../assets/img/icons/quitar.png" alt="" srcset="">
-                                                </th>
-                                            <td>Pc-2</td>
-                                            <td>$5,000.00</td>
-                                            <td>3</td>
-                                            <td>$15,000.00</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <img src="../assets/img/icons/quitar.png" alt="" srcset="">
-                                                </th>
-                                            <td>Pc-3</td>
-                                            <td>$3,000.00</td>
-                                            <td>2</td>
-                                            <td>$6,000.00</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Producto</th>
+                                                <th scope="col">Precio</th>
+                                                <th scope="col">Cantidad</th>
+                                                <th scope="col">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Pc</td>
+                                                <td>$4000.00</td>
+                                                <td>1</td>
+                                                <td>$4,000.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Pc-2</td>
+                                                <td>$5,000.00</td>
+                                                <td>3</td>
+                                                <td>$15,000.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Pc-3</td>
+                                                <td>$3,000.00</td>
+                                                <td>2</td>
+                                                <td>$6,000.00</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                                 <div>
                                     <div>
                                         <p class="d-inline-block w-50">Juan Carlos Gonzales</p>
                                         <p class="d-inline-block">gonzales.sancho@gmail.com</p>
-                                           <div>
-                                               <p class="w-50">
-                                                   cel 5568531587
-                                                   Wilson Ferreira Aldunate 918  cp: 15600 
-                                                   Gustavo A. Madero, CDMX, México
-                                               </p>
-                                           </div>
+                                        <div>
+                                            <p class="w-50">
+                                                cel 5568531587
+                                                Wilson Ferreira Aldunate 918 cp: 15600
+                                                Gustavo A. Madero, CDMX, México
+                                            </p>
+                                        </div>
                                     </div>
                                     <div class="row">
-                                        <div class="d-inline-block col-4"><p>Envío estimado: </p><p>(3-5 días)</p></div>
-                                        <div class="d-inline-block col-4"><p>Numero de pedido: </p><p>ADMD9287DJ</p></div>
-                                        <div class="d-inline-block col-4"><p>Numero de guía: </p><p>193830310913SA</p></div> 
+                                        <div class="d-inline-block col-4">
+                                            <p>Envío estimado: </p>
+                                            <p>(3-5 días)</p>
+                                        </div>
+                                        <div class="d-inline-block col-4">
+                                            <p>Numero de pedido: </p>
+                                            <p>ADMD9287DJ</p>
+                                        </div>
+                                        <div class="d-inline-block col-4">
+                                            <p>Numero de guía: </p>
+                                            <p>193830310913SA</p>
+                                        </div>
                                     </div>
                                     <div>
                                         <p>Metodo de pago:</p>
                                         <p>Metodo confirmado</p>
                                         <p>Tarjeta de credito:
-                                            xxxx-xxxx-xxxx-0156 
-                                            Fecha de vencimiento:    05/23     cvv:  ***
+                                            xxxx-xxxx-xxxx-0156
+                                            Fecha de vencimiento: 05/23 cvv: ***
                                         <p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="text col-xl-4 col-sm-12" style="background-color: green;">
-                                <!-- Dirección -->
-                                <div class="rounded  h-100 " style="background-color: #011640;">
-                                   <div class="rounded">
-                                    <img src="../assets/img/productos/Silla-Gamer-RGB-Balam-Rush-2.webp" class="rounded mx-auto d-block " style=" height: 100px; width: 100px;" alt="...">
-                                   </div>
-    
-                                   <br>
-    
-                                   <p class="">Articulos:2</p>
-                                   
-                                   <div class="bo" style="border-top: 1px, solid, #CF4DBA; bb: 1px, solid, #CF4DBA">
-                                       <p class="d-inline-block">Silla gamer</p><p class="d-inline-block">$ 3,000.00</p><br>                            
-                                       <p class="d-inline-block">Silla gamer</p><p class="d-inline-block">$ 3,000.00</p><br>                            
-                                       <p class="d-inline-block">Costo de envío</p><p class="d-inline-block">$ 99.00</p><br>                                                         
-                                   </div>
-    
-                                   <div>
-                                       <p class="d-inline-block">TOTAL + IVA</p>
-                                       <p class="d-inline-block"> $ 99.00</p>
-                                   </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="ml-3">
+                                <div class="p-3" style="background-color: #011640;">
+                                    <img class="col-12" src="../assets/img/productos/Silla-Gamer-RGB-Balam-Rush-2.webp">
+                                    <h4>Articulos:2</h4>
+                                    <div class="bo">
+                                        <p class="d-inline-block">Silla gamer</p>
+                                        <p class="d-inline-block">$ 3,000.00</p><br>
+                                        <p class="d-inline-block">Silla gamer</p>
+                                        <p class="d-inline-block">$ 3,000.00</p><br>
+                                        <p class="d-inline-block">Costo de envío</p>
+                                        <p class="d-inline-block">$ 99.00</p><br>
+                                    </div>
+                                    <div>
+                                        <p class="d-inline-block">TOTAL + IVA</p>
+                                        <p class="d-inline-block"> $ 99.00</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="d-flex justify-content-end">
-                            <a class="btn-game que-este-en-la-derecha" alt="Button">CONTINUAR</a>
-                        </div>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <a class="btn-game " alt="Button">CONTINUAR</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -573,13 +632,15 @@
                         <div class="pull-left">
                             <img src="../assets/img/icons/li.png" class="li-icon">
                         </div>
-                        <a href="../html/contact-us.html" class="text-decoration-none pull-right ml-1">Contácto y sugerencias</a>
+                        <a href="../html/contact-us.html" class="text-decoration-none pull-right ml-1">Contácto y
+                            sugerencias</a>
                     </li>
                     <li class="media">
                         <div class="pull-left">
                             <img src="../assets/img/icons/li.png" class="li-icon">
                         </div>
-                        <a href="../html/pc-gamer-delios.html" class="text-decoration-none pull-right ml-1">Nuestro mejor equipo</a>
+                        <a href="../html/pc-gamer-delios.html" class="text-decoration-none pull-right ml-1">Nuestro
+                            mejor equipo</a>
                     </li>
                 </ul>
             </div>
@@ -632,19 +693,14 @@
     </footer>
     <!-- //////////////////////// Scripts ////////////////////////////////// -->
 
-
-    <script src="public/js/login.js"></script>
-    <script src="public/js/script.js"></script>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="public/js/carousel.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    <!-- //////////////////////// Bootstrap 4.6 ////////////////////////////////// -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
-        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
 </body>
+</body>
+
 </html>

@@ -10,3 +10,9 @@
 .card-body{
     background: linear-gradient(180deg, #c04bf280 28.33%, #6232a680 71.67%);
 }
+
+.cartaproductos{
+    background-color: #011640;
+    border: 2px solid rgb(156, 138, 255);
+    border-radius: 8px;
+}

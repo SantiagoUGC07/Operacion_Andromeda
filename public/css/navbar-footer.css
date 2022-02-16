@@ -7,6 +7,7 @@
 /* El logo */
 .img-brand{
     height: 45px;
+    image-rendering: pixelated;
 }
 .navbar-brand{
     padding: 0px !important;
@@ -58,4 +59,18 @@
 /* Desbordamiento */
 .row{
     margin: 0px !important;
+}
+/* animacion de iconos del footer */
+.image-animation{
+    display: block;
+
+    transform: scale(1);
+    z-index: 1;
+    transition: 1s;
+}
+
+.image-animation:hover{
+    transform: scale(1.2);
+    z-index: 1;
+    transition: 1s;
 }
