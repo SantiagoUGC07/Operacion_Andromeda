@@ -244,6 +244,7 @@ h3{
 }
 /* OTROS PRODUCTOS */
 h2{
+    font-family: 'Orbitron', sans-serif;
     font-weight: 900;
     font-size: 1.9rem;
     letter-spacing: 1px;
@@ -328,6 +329,14 @@ h2{
     letter-spacing: 1px;
     font-weight: 800;
 }
+/* FAQ */
 .color-faq{
     background-color: #011640;
+}
+.respuesta-faq{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    font-size: .9rem;
+    text-align: justify;
 }

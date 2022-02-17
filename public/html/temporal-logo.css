@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1b2373;
+}
+.logo{
+    height: 40%;
+    margin-top: 30vh;
+}
