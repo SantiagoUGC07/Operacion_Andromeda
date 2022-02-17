@@ -1,24 +1,3 @@
-.fondoTeam {
-    background-image: url('/public/assets/img/other/Usuario.png');
-    display: flex;
-    background-size: cover;
-    text-align: center;
-    align-items: center;
-}
-
-.backTeam {
-    background-image: url('/public/assets/img/other/vs.jpg');
-    /*margin: 0 auto; /*para ponerle un MARGEN en todos los dados en la parte EXTERNA del bloque*/
-    /*font-size: 60px; /* para aumentar el TAMAÑO de la LETRA*/
-    /*padding: 20px; /*para hacer un MARGEN dentro del BLOQUE*/
-    /*border-radius: 80px;/*para CURVEAR EL BORDE, se puede hacer un CIRCULO o un OVALO*/
-    width: 100%;
-    text-align: center;
-    /*background-size: cover;*/
-    display: flex;
-
-}
-/* ------------------------------------------------------------------ */
 .foto-principal {
     height: 600px;
 }
