@@ -6,6 +6,9 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: red;
 }
+.container{
+    min-height: 60vh;
+}
 /* Textos  */
 h1, h2, h3, h4, h5, a, th {
     font-family: 'Orbitron', sans-serif !important;
@@ -62,7 +65,12 @@ a:hover {
     padding-left: 0px !important;
 }
 @media (max-width: 992px) {
-    .hidden-mobile {
+    .hidden-mobile-992 {
+      display: none;
+    }
+}
+@media (max-width: 768px) {
+    .hidden-mobile-768 {
       display: none;
     }
 }
