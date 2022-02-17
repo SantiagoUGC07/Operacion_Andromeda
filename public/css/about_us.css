@@ -16,4 +16,10 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .hidden-mobile-usuario {
+    display: none;
+  }
+}
+
 
