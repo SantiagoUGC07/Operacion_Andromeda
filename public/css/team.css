@@ -19,18 +19,6 @@
 
 }
 
-.bordeTeam {
-    border-radius: 80px;
-}
-
-.cardTeam {
-    border: 10px solid#3d1572;
-    background: #3d1572;
-    box-shadow: 0 0 40px #3d1572, 0 0 40px #3d1572, 0 0 80px #3d1572;
-    height: 500px;
-    transition: 0.2s;
-}
-
 /* ------------------------------------------------------------------ */
 .foto-principal {
     height: 600px;
