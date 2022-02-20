@@ -29,14 +29,16 @@
     <link rel="stylesheet" href="../css/tab.css">
     <link rel="stylesheet" href="../css/cartas.css">
     <link rel="stylesheet" href="../css/carrito.css">
+    <link rel="stylesheet" href="../css/botones.css">
 </head>
 
 <body>
     <!-- //////////////////////// Navbar ////////////////////////////////// -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand ml-5" href="../../index.html">
-                <img src="../assets/img/icons/logo.webp" class="img-brand hidden-mobile-768">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="../assets/img/icons/logo.webp" class="img-brand show-big">
+                <img src="../assets/img/icons/logo_small.webp" class="img-brand show-small">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,16 +46,29 @@
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown mr-5">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-expanded="false">
-                            Productos
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="../html/productos.html">PC Gamer</a>
-                            <a class="dropdown-item" href="../html/accesorios.html">Accesorios</a>
-                        </div>
+                    <li class="nav-item active menu-big mr-5">
+                        <a class="nav-link" href="../html/productos.html">PC Gamer</a>
                     </li>
+
+                    <li class="nav-item active menu-big mr-5">
+                             
+                        <a class="nav-link" href="../html/accesorios.html">Accesorios</a>
+                    </li>
+              
+                    <div class="menu-small">
+                        <li class="nav-item dropdown mr-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="../html/productos.html">PC Gamer</a>
+                                <a class="dropdown-item" href="../html/accesorios.html">Accesorios</a>
+                            </div>
+                        </li>
+                    </div>
+
+
                     <li class="nav-item dropdown mr-5">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-expanded="false">
@@ -90,7 +105,9 @@
                         <img src="../assets/img/icons/quitar.png" alt="cerrar">
                     </button>
                     <div class="modal-he">
-                        <img src="../assets/img/icons/logo.webp" class="img-brand ">
+                  <!--       <img src="../assets/img/icons/logo.webp" class="img-brand"> -->
+                        <img src="../assets/img/icons/logo.webp" class="img-brand show-big">
+                        <img src="../assets/img/icons/logo_small.webp" class="img-brand show-small">
                     </div>
                 </div>
                 <div class="modal-body">
@@ -126,7 +143,9 @@
                                         iniciada</label>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <a href="#" class="btn-game" alt="Button">ENTRAR</a>
+                                    <button class="btn-color-small mb-2">
+                                        Entrar
+                                    </button>
                                 </div>
                             </form>
                         </div>
@@ -174,7 +193,10 @@
                                         condiciones de uso, asi como la Politica de privacidad de Andromeda</label>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <a href="#" class="btn-game " alt="Button">CREAR MI CUENTA</a>
+                                    <button class="btn-color-small mb-2">
+                                        Crear mi cuenta
+                                    </button>
+          
                                 </div>
 
                             </form>
@@ -270,7 +292,9 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-end">
-                        <a class="btn-game" alt="Button">CONTINUAR</a>
+                        <button class="btn-color-small mt-3">
+                            <a class="btn-game" alt="Button">CONTINUAR</a>
+                        </button>           
                     </div>
                 </div>
 
@@ -372,7 +396,9 @@
                             </div>
                         </div>
                         <div class="d-flex justify-content-end">
-                            <a class="btn-game " alt="Button">CONTINUAR</a>
+                            <button class="btn-color-small mt-3">
+                                <a class="btn-game" alt="Button">CONTINUAR</a>
+                            </button> 
                         </div>
                     </div>
                 </div>
@@ -440,7 +466,9 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-end">
-                        <a class="btn-game " alt="Button">CONTINUAR</a>
+                        <button class="btn-color-small mt-3">
+                            <a class="btn-game" alt="Button">CONTINUAR</a>
+                        </button> 
                     </div>
                 </div>
                 <div class="tab-pane box-color borde-blanco p-3" id="pago" role="tabpanel" aria-labelledby="pago-tab">
@@ -505,7 +533,9 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-end">
-                        <a class="btn-game " alt="Button">CONTINUAR</a>
+                        <button class="btn-color-small mt-3">
+                            <a class="btn-game" alt="Button">CONTINUAR</a>
+                        </button> 
                     </div>
                 </div>
                 <div class="tab-pane box-color borde-blanco p-3" id="revisa" role="tabpanel"
@@ -607,7 +637,9 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-end">
-                        <a class="btn-game " alt="Button">CONTINUAR</a>
+                        <button class="btn-color-small mt-3">
+                            <a class="btn-game" alt="Button">CONTINUAR</a>
+                        </button> 
                     </div>
                 </div>
             </div>
@@ -635,15 +667,13 @@
                         <div class="pull-left">
                             <img src="../assets/img/icons/li.png" class="li-icon">
                         </div>
-                        <a href="../html/contact-us.html" class="text-decoration-none pull-right ml-1">Contácto y
-                            sugerencias</a>
+                        <a href="../html/contact-us.html" class="text-decoration-none pull-right ml-1">Contácto y sugerencias</a>
                     </li>
                     <li class="media">
                         <div class="pull-left">
                             <img src="../assets/img/icons/li.png" class="li-icon">
                         </div>
-                        <a href="../html/team.html" class="text-decoration-none pull-right ml-1">Conoce a la
-                            tripulacion andromeda</a>
+                        <a href="../html/team.html" class="text-decoration-none pull-right ml-1">Conoce a la tripulacion andromeda</a>
                     </li>
                 </ul>
             </div>
@@ -654,27 +684,30 @@
                         <div class="pull-left">
                             <img src="../assets/img/icons/carta-color.png" class="contact-icon">
                         </div>
-                        <p class="pull-right ml-1">
-                            contacto@andromeda.mx
-                        </p>
+                        <a class="footer-email" href="mailto:contacto@andromeda.com">
+                            <p class="pull-right ml-1">
+                                contacto@andromeda.mx
+                            </p>
+                        </a>
                     </li>
                     <li class="media">
                         <div class="pull-left">
                             <img src="../assets/img/icons/telefono.png" class="contact-icon">
                         </div>
-                        <p class="pull-right ml-1">
-                            (55) 5837 1453
-                        </p>
+                        <a class="footer-tel" target="blank" href="https://api.whatsapp.com/send?phone=525611859713&amp;text=Hola%20quiero%20cotizar%20mi%20PC">
+                        <p class="pull-right ml-1">(55) 5837 1453</p>
+                        </a>
+                        
                     </li>
                 </ul>
             </div>
             <div class="col-xl-4 col-lg-12 col-sm-12">
                 <h4>Siguenos en nuestras redes sociales</h4>
                 <div class="d-flex justify-content-around">
-                    <img src="../assets/img/icons/tiktok.png" class="rrss-icon image-animation">
-                    <img src="../assets/img/icons/instagram.png" class="rrss-icon image-animation">
-                    <img src="../assets/img/icons/facebook.png" class="rrss-icon image-animation">
-                    <img src="../assets/img/icons/linkedin.png" class="rrss-icon image-animation">
+                    <a href="https://www.tiktok.com/es/" target="blank"><img src="../assets/img/icons/tiktok.png" class="rrss-icon image-animation"></a>
+                    <a href="https://www.instagram.com/?hl=es-la" target="blank"> <img src="../assets/img/icons/instagram.png" class="rrss-icon image-animation"> </a>
+                    <a href="https://es-la.facebook.com/" target="blank"><img src="../assets/img/icons/facebook.png" class="rrss-icon image-animation"></a>
+                    <a href="https://mx.linkedin.com/" target="blank"><img src="../assets/img/icons/linkedin.png" class="rrss-icon image-animation"></a>
                 </div>
             </div>
         </div>

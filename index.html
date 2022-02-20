@@ -15,8 +15,7 @@
         rel="stylesheet">
 
     <!-- //////////////////////// Bootstrap ////////////////////////////////// -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
     <!-- //////////////////////// Slick ////////////////////////////////// -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
@@ -45,27 +44,42 @@
 
 <body>
     <!-- //////////////////////// Navbar ////////////////////////////////// -->
+    <!-- //////////////////////// Navbar ////////////////////////////////// -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand ml-5" href="index.html">
-                <img src="public/assets/img/icons/logo.webp" class="img-brand">
+            <a class="navbar-brand" href="index.html">
+                <img src="public/assets/img/icons/logo.webp" class="img-brand show-big">
+                <img src="public/assets/img/icons/logo_small.webp" class="img-brand show-small">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown mr-5">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-expanded="false">
-                            Productos
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="public/html/productos.html">PC Gamer</a>
-                            <a class="dropdown-item" href="public/html/accesorios.html">Accesorios</a>
-                        </div>
+                   <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active menu-big mr-5">
+                        <a class="nav-link" href="public/html/productos.html">PC Gamer</a>
                     </li>
+
+                    <li class="nav-item active menu-big mr-5">
+                             
+                        <a class="nav-link" href="public/html/accesorios.html">Accesorios</a>
+                    </li>
+              
+                    <div class="menu-small">
+                        <li class="nav-item dropdown mr-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="public/html/productos.html">PC Gamer</a>
+                                <a class="dropdown-item" href="public/html/accesorios.html">Accesorios</a>
+                            </div>
+                        </li>
+                    </div>
+
+
                     <li class="nav-item dropdown mr-5">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-expanded="false">
@@ -99,10 +113,12 @@
             <div class="modal-content">
                 <div class="modal-header tache">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <img src="public/assets/img/icons/quitar.png" alt="cerrar">
+                        <img src="../assets/img/icons/quitar.png" alt="cerrar">
                     </button>
                     <div class="modal-he">
-                        <img src="public/assets/img/icons/logo.webp" class="img-brand">
+                  <!--       <img src="../assets/img/icons/logo.webp" class="img-brand"> -->
+                        <img src="public/assets/img/icons/logo.webp" class="img-brand show-big">
+                        <img src="public/assets/img/icons/logo_small.webp" class="img-brand show-small">
                     </div>
                 </div>
                 <div class="modal-body">
@@ -138,7 +154,9 @@
                                         iniciada</label>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <a href="#" class="btn-game" alt="Button">ENTRAR</a>
+                                    <button class="btn-color-small mb-2">
+                                        Entrar
+                                    </button>
                                 </div>
                             </form>
                         </div>
@@ -163,16 +181,16 @@
                                     <p>Datos de contacto:</p>
                                 </div>
                                 <div class="form-group">
-                                    <!-- <label for="inputEmail">Introduzca el correo electrónico</label> -->
-                                    <input type="email" class="form-control" id="inputEmail"
+                                    <!-- <label for="inputEmailRegistro">Introduzca el correo electrónico</label> -->
+                                    <input type="email" class="form-control" id="inputEmailRegistro"
                                         aria-describedby="emailHelp" placeholder="Introduzca el correo electrónico">
                                     <small id="emailHelp" class="form-text text-muted d-flex justify-content-end">
                                         Nunca compartiremos tu correo electrónico con nadie más.
                                     </small>
                                 </div>
                                 <div class="form-group">
-                                    <!-- <label for="inputPassword">Password</label> -->
-                                    <input type="password" class="form-control" id="inputPassword"
+                                    <!-- <label for="newPassword">Password</label> -->
+                                    <input type="password" class="form-control" id="newPassword"
                                         placeholder="Introduzca la contraseña">
                                 </div>
                                 <div class="form-group">
@@ -186,7 +204,10 @@
                                         condiciones de uso, asi como la Politica de privacidad de Andromeda</label>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <a href="#" class="btn-game " alt="Button">CREAR MI CUENTA</a>
+                                    <button class="btn-color-small mb-2">
+                                        Crear mi cuenta
+                                    </button>
+          
                                 </div>
 
                             </form>
@@ -283,7 +304,7 @@
                             <!-- aqui le vas a dejar un campo para id -->
                             <div class="precio-texto">$ 34,129 MXN</div>
                             <div class="nombre-producto-texto">PC GAMER DELIOS 50I CON INTEL</div>
-                            <button href="">
+                            <button class="btn-color-small mt-3">
                                 Ver articulo
                             </button>
                         </div>
@@ -297,7 +318,7 @@
                         <div class="row d-flex justify-content-center">
                             <div class="precio-texto">$ 34,129 MXN</div>
                             <div class="nombre-producto-texto">monitor gamer modelo A</div>
-                            <button href="">
+                            <button class="btn-color-small mt-3">
                                 Ver articulo
                             </button>
                         </div>
@@ -311,7 +332,7 @@
                         <div class="row d-flex justify-content-center">
                             <div class="precio-texto">$ 34,129 MXN</div>
                             <div class="nombre-producto-texto">pc gamer killer </div>
-                            <button href="">
+                            <button class="btn-color-small mt-3">
                                 Ver articulo
                             </button>
                         </div>
@@ -326,7 +347,7 @@
                             <!-- aqui le vas a dejar un campo para id -->
                             <div class="precio-texto">$ 34,129 MXN</div>
                             <div class="nombre-producto-texto">PC GAMER DELIOS 50I CON INTEL</div>
-                            <button href="">
+                            <button class="btn-color-small mt-3">
                                 Ver articulo
                             </button>
                         </div>
@@ -340,7 +361,7 @@
                         <div class="row d-flex justify-content-center">
                             <div class="precio-texto">$ 34,129 MXN</div>
                             <div class="nombre-producto-texto">monitor gamer modelo A</div>
-                            <button href="">
+                            <button class="btn-color-small mt-3">
                                 Ver articulo
                             </button>
                         </div>
@@ -354,7 +375,7 @@
                         <div class="row d-flex justify-content-center">
                             <div class="precio-texto">$ 34,129 MXN</div>
                             <div class="nombre-producto-texto">pc gamer killer </div>
-                            <button href="">
+                            <button class="btn-color-small mt-3">
                                 Ver articulo
                             </button>
                         </div>
@@ -375,15 +396,13 @@
                         <div class="pull-left">
                             <img src="public/assets/img/icons/li.png" class="li-icon">
                         </div>
-                        <a href="public/html/about_us.html" class="text-decoration-none pull-right ml-1">Nuestra
-                            empresa</a>
+                        <a href="public/html/about_us.html" class="text-decoration-none pull-right ml-1">Nuestra empresa</a>
                     </li>
                     <li class="media">
                         <div class="pull-left">
                             <img src="public/assets/img/icons/li.png" class="li-icon">
                         </div>
-                        <a href="public/html/faq.html" class="text-decoration-none pull-right ml-1">Preguntas
-                            Frecuentes</a>
+                        <a href="public/html/faq.html" class="text-decoration-none pull-right ml-1">Preguntas Frecuentes</a>
                     </li>
                     <li class="media">
                         <div class="pull-left">
@@ -408,27 +427,30 @@
                         <div class="pull-left">
                             <img src="public/assets/img/icons/carta-color.png" class="contact-icon">
                         </div>
-                        <p class="pull-right ml-1">
-                            contacto@andromeda.mx
-                        </p>
+                        <a class="footer-email" href="mailto:contacto@andromeda.com">
+                            <p class="pull-right ml-1">
+                                contacto@andromeda.mx
+                            </p>
+                        </a>
                     </li>
                     <li class="media">
                         <div class="pull-left">
                             <img src="public/assets/img/icons/telefono.png" class="contact-icon">
                         </div>
-                        <p class="pull-right ml-1">
-                            (55) 5837 1453
-                        </p>
+                        <a class="footer-tel" a target="_blank" href="https://api.whatsapp.com/send?phone=525611859713&amp;text=Hola%20quiero%20cotizar%20mi%20PC">
+                        <p class="pull-right ml-1">(55) 5837 1453</p>
+                        </a>
+                        
                     </li>
                 </ul>
             </div>
             <div class="col-xl-4 col-lg-12 col-sm-12">
                 <h4>Siguenos en nuestras redes sociales</h4>
                 <div class="d-flex justify-content-around">
-                    <img src="public/assets/img/icons/tiktok.png" class="rrss-icon image-animation">
-                    <img src="public/assets/img/icons/instagram.png" class="rrss-icon image-animation">
-                    <img src="public/assets/img/icons/facebook.png" class="rrss-icon image-animation">
-                    <img src="public/assets/img/icons/linkedin.png" class="rrss-icon image-animation">
+                    <a href="https://www.tiktok.com/es/" target="blank"><img src="public/assets/img/icons/tiktok.png" class="rrss-icon image-animation"></a>
+                    <a href="https://www.instagram.com/?hl=es-la" target="blank"> <img src="public/assets/img/icons/instagram.png" class="rrss-icon image-animation"> </a>
+                    <a href="https://es-la.facebook.com/" target="blank"><img src="public/assets/img/icons/facebook.png" class="rrss-icon image-animation"></a>
+                    <a href="https://mx.linkedin.com/" target="blank"><img src="public/assets/img/icons/linkedin.png" class="rrss-icon image-animation"></a>
                 </div>
             </div>
         </div>

@@ -1,15 +1,35 @@
 .nav-tabs .nav-link{
-    color: #ede5f1 !important;
+    color: #ede5f1;
     background-color: transparent;
+    
+    color: #ede5f1;
+}
+
+.nav-tabs .nav-link:hover{
+    color: #ede5f1;
+    background-color: transparent;
+    text-shadow: 1px 1px 20px #FF3575, 0 0 1em #FF3575, 0 0 0.2em #FF3575;
+    color: #ede5f1;
 }
 
 .nav-tabs .nav-link.active {
     color: #602085 !important;
     font-weight: bold;
-    background-color: #ede5f1 !important;
-    border-color: #ede5f1 !important;
+    background-color: #ede5f1;
+    border-color: #ede5f1;
 }
+
+.nav-tabs .nav-link.active:hover {
+    color: #602085;
+    text-shadow: none;
+    font-weight: bold;
+    background-color: #ede5f1;
+    border-color: #ede5f1;
+}
+
 
 table{
     border-color: black;
 }
+
+/* text-shadow: 1px 1px 20px #FF3575, 0 0 1em #FF3575, 0 0 0.2em #FF3575;  */

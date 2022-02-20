@@ -6,71 +6,46 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: red;
 }
-.container{
+
+.container {
     min-height: 60vh;
 }
+
 /* Textos  */
 h1, h2, h3, h4, h5, a, th {
     font-family: 'Orbitron', sans-serif !important;
     text-align: center !important;
 }
+
 h1, h2 {
     text-shadow: 1px 1px 2px black, 0 0 1em #707aed, 0 0 0.2em #ffffff !important;
 }
+
 /* Texto muteado (Como en el footer donde dice que no se reciben clientes) */
 .text-muted {
     color: #5a525e !important;
 }
+
 /* Todo el texto en blanco  */
 a, p, h1, h2, h3, h4, h5, th, td, label, li, .white-text {
     color: #ede5f1 !important;
 }
+
 /* Todo parrafo, contenido de tabla y field en Montserrat */
 p, td, label, .montserrat-text {
     font-family: 'Montserrat' !important;
 }
-a{
+
+a {
     text-decoration: none !important;
 }
-/* Pasar el mouse encima de un link */
-a:hover {
-    text-shadow: 1px 1px 2px black, 0 0 1em #707aed, 0 0 0.2em #ede5f1 !important;
-    color: #ede5f1 !important;
-}
-/* Scrollbar de colores */
-::-webkit-scrollbar{
-    width: 12px;
-} 
-::-webkit-scrollbar-thumb{
-    background: linear-gradient(#9C8AFF, #FF3575);
-}
-/*problema del boton del modal*/
-.tache {
-    display: flex;
-    flex-direction: column;
-}
-.modal-he{
-    margin-left: auto;
-    margin-right: auto;
-}
-/* config modal */
-.modal-header, .modal-footer, .modal-body{
-    background-color: #602085;
-    
-    }
-/* esto es porque les genera un padding de 15px y se confunden */
-.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
 
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-}
-@media (max-width: 992px) {
-    .hidden-mobile-992 {
-      display: none;
-    }
-}
-@media (max-width: 768px) {
-    .hidden-mobile-768 {
-      display: none;
-    }
+/* Pasar el mouse encima de un link */
+/* a:hover {
+    text-shadow: 1px 1px 2px black, 0 0 1em #707aed, 0 0 0.2em #ede5f1;
+    color: #ede5f1 !important;
+} */
+a:hover {
+    text-shadow: -1px 2px #FF3575;
+    color: #ede5f1 !important;
 }
