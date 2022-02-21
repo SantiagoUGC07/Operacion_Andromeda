@@ -44,6 +44,7 @@ h1 {
     letter-spacing: 1px;
     -webkit-text-stroke: .5px #011640; 
     text-shadow: -3px 4px #FF3575;
+    text-transform: uppercase;
 }
 .precio-normal{
     font-weight: 800;
