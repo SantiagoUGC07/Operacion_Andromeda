@@ -10,6 +10,7 @@
 }
 .img-brand{
     width: 290px;
+    image-rendering: pixelated;
 }
 .navbar-brand{
     padding: 0px !important;
@@ -48,17 +49,19 @@
 #img-footer2{
     width: 100%;
     opacity: 0%;
+    image-rendering: pixelated;
 }
 #img-footer{
     background-image: url(../assets/img/planeta-pixelart.webp);
     background-size: cover;
     background-position: top;
-    /* background-attachment: fixed; */
+    image-rendering: pixelated;
 }
 .logo-footer{
     width: 100%;
     border-bottom: 2px dashed #FF3575;
     padding-bottom: 6px;
+    image-rendering: pixelated;
 }
 .op-andromeda{
     font-family: 'Orbitron', sans-serif;
@@ -95,6 +98,7 @@
 .lista-footer li{
     list-style-image: url(../assets/img/icons/checklist2.webp);
     margin-bottom: 5px;
+    image-rendering: pixelated;
 }
 .lista-footer li a{
     color: white;
