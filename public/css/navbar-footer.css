@@ -1,76 +1,175 @@
 /* Sobreescribir el color de bootstrap */
-.bg-dark  {
-    background: linear-gradient(0deg,  #ffffff00, #602085) !important;
+.bg-dark {
+    background: linear-gradient(0deg, #ffffff00, #602085) !important;
 }
+
 /* El logo */
-.img-brand{
+.img-brand {
     height: 45px;
     image-rendering: pixelated;
 }
-.navbar-brand{
+
+.navbar-brand {
     margin: 0px !important;
 }
+
 /* Tamaño de los iconos de carrito y el astronauta */
-.icon-nav{
+.icon-nav {
     height: 32px;
     image-rendering: pixelated;
-}
-/* El color de la letra del menu y el efecto al pasar el mouse */
-.dropdown-item{
-    font-family: 'Orbitron', sans-serif;
-    color: #ede5f1 !important;    
 }
 
-.dropdown-item:hover{
-    background-color: transparent !important;
-    text-shadow: 1px 1px 2px black, 0 0 1em #707aed, 0 0 0.2em #ede5f1;   
+/* El color de la letra del menu y el efecto al pasar el mouse */
+.dropdown-item {
+    font-family: 'Orbitron', sans-serif;
+    color: #ede5f1 !important;
 }
+
+.dropdown-item:hover {
+    background-color: transparent !important;
+    text-shadow: 1px 1px 2px black, 0 0 1em #707aed, 0 0 0.2em #ede5f1;
+}
+
 /* El color de fondo que tiene el menu */
-.dropdown-menu{
+.dropdown-menu {
     background: #602085 !important;
 }
-.footer{
-    width: 100%;
-    background-image: url('../../public/assets/img/resources/footer.png');
-    background-size: cover;
+
+/* ========================== footer ========================== */
+.planeta {
+    height: 122px;
+    background-image: url('../../public/assets/img/resources/planet.webp');
     image-rendering: pixelated;
-    padding-top: 150px;
-    margin: 0px;
-    border: 0px;
+    background-clip: border-box;
+    background-repeat: repeat-x;
 }
+
+.footer-contenido {
+    background-color: #370a4c;
+}
+
+.titulo-footer, .lista-footer {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #ede5f1;
+}
+
+.titulo-footer {
+    text-align: center;
+    font-size: 20pt;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: -1px 1px #ff3575;
+    margin-bottom: 22px;  
+}
+
+.lista-footer {
+    text-align: left;
+    font-size: 16pt;
+    font-weight: 400;
+    margin-bottom: 22px;    
+}
+
+.caja-logo-footer{
+    border-bottom: 2px dashed #FF3575;
+    padding-bottom: 6px;
+    margin: 0px 44px;
+}
+
+.correo-over{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 /* Tamaño de los iconos de redes sociales */
-.rrss-icon{
-    height: 64px;
+.rrss-icon {
     image-rendering: pixelated;
+}
+
+.media{
+    margin-bottom: 10px;
 }
 /* Tamaño de los iconos de contacto */
-.contact-icon{
+.contact-icon {
     height: 32px;
 }
-.li-icon{
+
+.li-icon {
     height: 24px;
     width: 32px;
 }
+
 /* Desbordamiento */
-.row{
+.row {
     margin: 0px !important;
 }
+
 /* animacion de iconos del footer */
-.image-animation{
+.image-animation {
     display: block;
     transform: scale(1);
     z-index: 1;
     transition: 1s;
 }
 
-.image-animation:hover{
+.image-animation:hover {
     transform: scale(1.2);
     z-index: 1;
     transition: 1s;
 }
 
 @media (min-width: 992px) {
-    .navbar-brand{
+    .navbar-brand {
         padding-left: 48px;
     }
+
+    .nav-item {
+        margin-right: 48px;
+    }
+}
+
+ @media (max-width: 576px) {
+/*     .logo-footer{
+        display: none;
+        visibility: hidden;
+    } */
+    .rrss-icon {
+        height: 32px;
+    }
+    ul{
+        padding-left: 20px;
+    }
+    .logo-footer{
+        width: 100%;
+    }
+    .caja-logo-footer{
+        margin: 0px 20px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 577px) {
+    .logo-footer{
+        width: 65%;
+    }
+    .rrss-icon {
+        height: 48px;
+    }
+    .caja-logo-footer{
+        margin: 0px 40px;
+    }
+}
+
+@media (min-width: 1201px) {
+
+    .logo-footer{
+        width: 100%;
+    }
+    .rrss-icon {
+        height: 64px;
+    }
+    .caja-logo-footer{
+        margin: 0px 0px;
+    }
+
 }

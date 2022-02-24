@@ -1,6 +1,6 @@
 /* Si es que tu texto esta en rojo y times roman, es porque no lo has puesto en una clase */
 body {
-    background-image: url('../../public/assets/img/resources/background.png');
+    background-image: url('../../public/assets/img/resources/background.webp');
     image-rendering: pixelated;
     background-size: 100%;
     font-family: 'Times New Roman', Times, serif;
@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    min-height: 60vh;
+    min-height: 70vh;
 }
 
 /* Textos  */
@@ -42,20 +42,11 @@ a {
 }
 
 /* Pasar el mouse encima de un link */
-/* a:hover {
-    text-shadow: 1px 1px 2px black, 0 0 1em #707aed, 0 0 0.2em #ede5f1;
-    color: #ede5f1 !important;
-} */
 a:hover {
     text-shadow: -1px 2px #FF3575;
     color: #ede5f1 !important;
 }
 
-/* 
- a:hover {
-    text-shadow: 1px 1px 20px #FF3575, 0 0 1em #FF3575, 0 0 0.2em #FF3575; 
-    color: #ede5f1 !important;
-} */
 /* Scrollbar de colores */
 ::-webkit-scrollbar {
     width: 12px;
@@ -87,8 +78,7 @@ a:hover {
     padding-right: 0px !important;
     padding-left: 0px !important;
 }
-
- @media (max-width: 576px) {
+@media (max-width: 576px) {
     .show-big{
         display: none;
         visibility: hidden;

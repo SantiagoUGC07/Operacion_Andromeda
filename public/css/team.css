@@ -1,6 +1,3 @@
-.foto-principal {
-    height: 600px;
-}
 
 .blanco-y-negro {
     -webkit-filter: grayscale(100%);
@@ -35,24 +32,23 @@
 }
 
 .spaceship{
-    background-image: url('../assets/img/resources/team/spaceship.png');
+    background-image: url('../assets/img/team/others/spaceship.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .folder{
-    background-image: url('../assets/img/resources/team/folder.png');
+    background-image: url('../assets/img/team/others/folder.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .hoja{
-    background-image: url('../assets/img/resources/team/paper.png');
+    background-image: url('../assets/img/team/others/paper.webp');
     background-size: 100%;
     padding: 10px;
-    margin: 50px;
     transform: rotate(5deg);
     box-shadow: -4px 4px 5px black;
     
@@ -72,4 +68,31 @@
 
 .imagen-selector{
     border: 8px solid #FF3575;
+}
+
+@media (max-width: 576px) {
+    .foto-principal {
+        width: 100%;
+    }
+    .hoja{
+        margin: 0px;
+    }
+    .pregunta{
+        display: none;
+        visibility: hidden;
+    }
+    .respuesta{
+        padding-bottom: 15px;
+        text-align: left;
+    }
+    
+}
+
+@media (min-width: 577px) {
+    .foto-principal {
+       height: 100%;
+    }
+    .hoja{
+        margin: 50px;
+    }
 }
