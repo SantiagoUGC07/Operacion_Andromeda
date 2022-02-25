@@ -1,4 +1,12 @@
-$(document).ready(function(){
+  $('.banners-carousel').slick({
+    dots: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    slidesToShow: 1,
+  });
+
+  $(document).ready(function(){
     $('.carousel-games').slick({
     slidesToShow: 5,
     dots:true,
@@ -6,17 +14,7 @@ $(document).ready(function(){
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000
-    });
-
-    
-  });
-
-  $('.banners-carousel').slick({
-    dots: true,
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 4000,
-    slidesToShow: 1,
+    });   
   });
 
   $('.productos-carousel').slick({

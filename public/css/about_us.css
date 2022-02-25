@@ -11,14 +11,16 @@
 }
 
 @media (max-width: 767px) {
-  .hidden-mobile {
+  .hidden-mobile-usuario-767 {
     display: none;
+    visibility: hidden;
   }
 }
 
 @media (max-width: 1000px) {
-  .hidden-mobile-usuario {
+  .hidden-mobile-usuario-1000 {
     display: none;
+    visibility: hidden;
   }
 }
 
