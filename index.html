@@ -11,11 +11,11 @@
     <!-- //////////////////////// Fonts Google ////////////////////////////////// -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&family=Press+Start+2P&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Orbitron&display=swap" rel="stylesheet">
 
     <!-- //////////////////////// Bootstrap ////////////////////////////////// -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
     <!-- //////////////////////// Slick ////////////////////////////////// -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
@@ -26,28 +26,24 @@
     <link rel="icon" href="public/assets/img/icons/Space_Invader.webp">
 
     <!-- //////////////////////// Hojas de estilo ////////////////////////////////// -->
+    <!-- Estas son escenciales -->
     <link rel="stylesheet" href="public/css/styles.css">
     <link rel="stylesheet" href="public/css/navbar-footer.css">
-    <link rel="stylesheet" href="public/css/modals.css">
-    <link rel="stylesheet" href="public/css/forms.css">
     <link rel="stylesheet" href="public/css/tab.css">
+    <link rel="stylesheet" href="public/css/forms.css">
     <link rel="stylesheet" href="public/css/botones.css">
-
+    <link rel="stylesheet" href="public/css/modals.css">
+    <!-- Estas son de tu pagina -->
     <link rel="stylesheet" href="public/css/cartas.css">
     <link rel="stylesheet" href="public/css/productos.css">
     <link rel="stylesheet" href="public/css/carousel.css">
-    <link rel="stylesheet" href="public/css/extra.css">
-
-
-
 </head>
 
 <body>
     <!-- //////////////////////// Navbar ////////////////////////////////// -->
-    <!-- //////////////////////// Navbar ////////////////////////////////// -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="public/public/index.html">
                 <img src="public/assets/img/icons/logo.webp" class="img-brand show-big">
                 <img src="public/assets/img/icons/logo_small.webp" class="img-brand show-small">
             </a>
@@ -56,18 +52,18 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
-                   <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active menu-big mr-5">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active menu-big">
                         <a class="nav-link" href="public/html/productos.html">PC Gamer</a>
                     </li>
 
-                    <li class="nav-item active menu-big mr-5">
-                             
+                    <li class="nav-item active menu-big">
+
                         <a class="nav-link" href="public/html/accesorios.html">Accesorios</a>
                     </li>
-              
+
                     <div class="menu-small">
-                        <li class="nav-item dropdown mr-5">
+                        <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                                 data-toggle="dropdown" aria-expanded="false">
                                 Productos
@@ -80,10 +76,10 @@
                     </div>
 
 
-                    <li class="nav-item dropdown mr-5">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-expanded="false">
-                            <img src="public/assets/img/icons/cuenta-color.png" class="icon-nav">
+                            <img src="public/assets/img/plantilla-icons/cuenta-color.webp" class="icon-nav">
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" data-toggle="modal" data-target="#login-modal">
@@ -97,9 +93,9 @@
                             </a>
                         </div>
                     </li>
-                    <li class="nav-item  mr-5">
+                    <li class="nav-item">
                         <a class="nav-link" href="public/html/cart.html">
-                            <img src="public/assets/img/icons/carrito-color.png" class="icon-nav">
+                            <img src="public/assets/img/plantilla-icons/carrito-color.webp" class="icon-nav">
                         </a>
                     </li>
                 </ul>
@@ -108,15 +104,14 @@
     </header>
 
     <!-- //////////////////////// modal ////////////////////////////////// -->
-    <div class="modal fade" id="login-modal" tabindex="-1" aria-labelledby="login-modalLabel" aria-hidden="true" >
+    <div class="modal fade" id="login-modal" tabindex="-1" aria-labelledby="login-modalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header tache">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <img src="../assets/img/icons/quitar.png" alt="cerrar">
+                        <img src="public/assets/img/plantilla-icons/quitar.webp" alt="cerrar">
                     </button>
                     <div class="modal-he">
-                  <!--       <img src="../assets/img/icons/logo.webp" class="img-brand"> -->
                         <img src="public/assets/img/icons/logo.webp" class="img-brand show-big">
                         <img src="public/assets/img/icons/logo_small.webp" class="img-brand show-small">
                     </div>
@@ -207,7 +202,7 @@
                                     <button class="btn-color-small mb-2">
                                         Crear mi cuenta
                                     </button>
-          
+
                                 </div>
 
                             </form>
@@ -226,13 +221,13 @@
 
         <div class="banners-carousel">
             <div>
-                <img src="public/assets/img/banners/example1.png" class="w-100">
+                <img src="public/assets/img/resources/index/banners/banner-1.webp" class="w-100">
             </div>
             <div>
-                <img src="public/assets/img/banners/example2.png" class="w-100">
+                <img src="public/assets/img/resources/index/banners/banner-2.webp" class="w-100">
             </div>
             <div>
-                <img src="public/assets/img/banners/example3.png" class="w-100">
+                <img src="public/assets/img/resources/index/banners/banner-3.webp" class="w-100">
             </div>
         </div>
         <h2>
@@ -242,54 +237,53 @@
             Elige un juego para conocer nuestra recomendacion
         </p>
 
-
         <div class="carousel-games">
             <a class="hover-animation" href="public/html/pc-gamer-delios.html">
-                <img src="public/assets/img/resources/carousel/image.png">
+                <img class="img-back" src="public/assets/img/resources/index/carousel-pc-recomendada/image.png">
                 <img class="img-front" src="https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-285x380.jpg">
             </a>
             <a class="hover-animation" href="public/html/pc-gamer-delios.html">
-                <img src="public/assets/img/resources/carousel/image.png">
+                <img class="img-back" src="public/assets/img/resources/index/carousel-pc-recomendada/image.png">
                 <img class="img-front" src="https://static-cdn.jtvnw.net/ttv-boxart/32399_IGDB-285x380.jpg">
             </a>
             <a class="hover-animation" href="public/html/pc-gamer-delios.html">
-                <img src="public/assets/img/resources/carousel/image.png">
+                <img class="img-back" src="public/assets/img/resources/index/carousel-pc-recomendada/image.png">
                 <img class="img-front" src="https://static-cdn.jtvnw.net/ttv-boxart/516575-285x380.jpg">
             </a>
             <a class="hover-animation" href="public/html/pc-gamer-delios.html">
-                <img src="public/assets/img/resources/carousel/image.png">
+                <img class="img-back" src="public/assets/img/resources/index/carousel-pc-recomendada/image.png">
                 <img class="img-front" src="https://static-cdn.jtvnw.net/ttv-boxart/33214-285x380.jpg">
             </a>
             <a class="hover-animation" href="public/html/pc-gamer-delios.html">
-                <img src="public/assets/img/resources/carousel/image.png">
+                <img class="img-back" src="public/assets/img/resources/index/carousel-pc-recomendada/image.png">
                 <img class="img-front" src="https://static-cdn.jtvnw.net/ttv-boxart/506410_IGDB-285x380.jpg">
             </a>
             <a class="hover-animation" href="public/html/pc-gamer-delios.html">
-                <img src="public/assets/img/resources/carousel/image.png">
+                <img class="img-back" src="public/assets/img/resources/index/carousel-pc-recomendada/image.png">
                 <img class="img-front" src="https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-285x380.jpg">
             </a>
             <a class="hover-animation" href="public/html/pc-gamer-delios.html">
-                <img src="public/assets/img/resources/carousel/image.png">
+                <img class="img-back" src="public/assets/img/resources/index/carousel-pc-recomendada/image.png">
                 <img class="img-front" src="https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-285x380.jpg">
             </a>
             <a class="hover-animation" href="public/html/pc-gamer-delios.html">
-                <img src="public/assets/img/resources/carousel/image.png">
+                <img class="img-back" src="public/assets/img/resources/index/carousel-pc-recomendada/image.png">
                 <img class="img-front" src="https://static-cdn.jtvnw.net/ttv-boxart/511224-285x380.jpg">
             </a>
             <a class="hover-animation" href="public/html/pc-gamer-delios.html">
-                <img src="public/assets/img/resources/carousel/image.png">
+                <img class="img-back" src="public/assets/img/resources/index/carousel-pc-recomendada/image.png">
                 <img class="img-front" src="https://static-cdn.jtvnw.net/ttv-boxart/30921-285x380.jpg">
             </a>
             <a class="hover-animation" href="public/html/pc-gamer-delios.html">
-                <img src="public/assets/img/resources/carousel/image.png">
+                <img class="img-back" src="public/assets/img/resources/index/carousel-pc-recomendada/image.png">
                 <img class="img-front" src="https://static-cdn.jtvnw.net/ttv-boxart/493057-285x380.jpg">
             </a>
             <a class="hover-animation" href="public/html/pc-gamer-delios.html">
-                <img src="public/assets/img/resources/carousel/image.png">
+                <img class="img-back" src="public/assets/img/resources/index/carousel-pc-recomendada/image.png">
                 <img class="img-front" src="https://static-cdn.jtvnw.net/ttv-boxart/460630-285x380.jpg">
             </a>
             <a class="hover-animation" href="public/html/pc-gamer-delios.html">
-                <img src="public/assets/img/resources/carousel/image.png">
+                <img class="img-back" src="public/assets/img/resources/index/carousel-pc-recomendada/image.png">
                 <img class="img-front" src="https://static-cdn.jtvnw.net/ttv-boxart/488552-285x380.jpg">
             </a>
         </div>
@@ -297,100 +291,111 @@
 
         <div class="productos-carousel">
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="m-3 cartaproductos p-3">
-                    <p class="nombre-otrosProductos">AUDÍFONOS EAGLE WARRIOR QUIMERA</p>
-                    <a href="pc-gamer-delios.html">
-                        <img src="public/assets/img/productos/Audifonos-Gamer-Eagle-Warrior-Quimera.webp" class="card-img-top">
-                        <div class="row d-flex justify-content-center">
-                            <!-- aqui le vas a dejar un campo para id -->
-                            <div class="precio-texto">$ 34,129 MXN</div>
-                            <div class="nombre-producto-texto">PC GAMER DELIOS 50I CON INTEL</div>
-                            <button class="btn-color-small mt-3">
-                                Ver articulo
-                            </button>
-
-                        </div>
+                <div class="m-1 carta-productos p-3">
+                    <a href="public/html/pc-gamer-delios.html">
+                        <div class="nombre-producto-texto">PC GAMER DELIOS 50I CON INTEL</div>
                     </a>
+                    <a href="public/html/pc-gamer-delios.html">
+                        <img src="public/assets/img/productos/Audifonos-Gamer-Eagle-Warrior-Quimera.webp" class="imagen-producto">
+                    </a>
+                    <a href="public/html/pc-gamer-delios.html">
+                        <div class="precio-texto text-right">$ <span class="precio-numero">34129</span> MXN</div>
+                    </a>
+                    <form action="public/html/pc-gamer-delios.html">
+                        <button class="btn-color-auto mt-3" type="submit">
+                            Ver articulo
+                        </button>
+                    </form>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="m-3 cartaproductos p-3">
-                    <p class="nombre-otrosProductos">AUDÍFONOS EAGLE WARRIOR QUIMERA</p>
-                    <a href="pc-gamer-delios.html">
-                        <img src="public/assets/img/productos/Audifonos-Gamer-Eagle-Warrior-Quimera.webp" class="card-img-top">
-                        <div class="row d-flex justify-content-center">
-
-                            <div class="precio-texto">$ 34,129 MXN</div>
-                            <div class="nombre-producto-texto">monitor gamer modelo A</div>
-                            <button class="btn-color-small mt-3">
-                                Ver articulo
-                            </button>
-                        </div>
+                <div class="m-1 carta-productos p-3">
+                    <a href="public/html/pc-gamer-delios.html">
+                        <div class="nombre-producto-texto">PC GAMER DELIOS 50I CON INTEL</div>
                     </a>
+                    <a href="public/html/pc-gamer-delios.html">
+                        <img src="public/assets/img/productos/Deepcool-Matrexx-50-4f.webp" class="imagen-producto">
+                    </a>
+                    <a href="public/html/pc-gamer-delios.html">
+                        <div class="precio-texto text-right">$ <span class="precio-numero">34129</span> MXN</div>
+                    </a>
+                    <form action="public/html/pc-gamer-delios.html">
+                        <button class="btn-color-auto mt-3" type="submit">
+                            Ver articulo
+                        </button>
+                    </form>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="m-3 cartaproductos p-3">
-                    <p class="nombre-otrosProductos">AUDÍFONOS EAGLE WARRIOR QUIMERA</p>
-                    <a href="pc-gamer-delios.html">
-                        <img src="public/assets/img/productos/Audifonos-Gamer-Eagle-Warrior-Quimera.webp" class="card-img-top">
-                        <div class="row d-flex justify-content-center">
-                            <div class="precio-texto">$ 34,129 MXN</div>
-                            <div class="nombre-producto-texto">pc gamer killer </div>
-                            <button class="btn-color-small mt-3">
-                                Ver articulo
-                            </button>
-
-                        </div>
+                <div class="m-1 carta-productos p-3">
+                    <a href="public/html/pc-gamer-delios.html">
+                        <div class="nombre-producto-texto">PC GAMER DELIOS 50I CON INTEL</div>
                     </a>
+                    <a href="public/html/pc-gamer-delios.html">
+                        <img src="public/assets/img/productos/GA-Gigabyte-Aorus-C300W-4.webp" class="imagen-producto">
+                    </a>
+                    <a href="public/html/pc-gamer-delios.html">
+                        <div class="precio-texto text-right">$ <span class="precio-numero">34129</span> MXN</div>
+                    </a>
+                    <form action="public/html/pc-gamer-delios.html">
+                        <button class="btn-color-auto mt-3" type="submit">
+                            Ver articulo
+                        </button>
+                    </form>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="m-3 cartaproductos p-3">
-                    <p class="nombre-otrosProductos">AUDÍFONOS EAGLE WARRIOR QUIMERA</p>
-                    <a href="pc-gamer-delios.html">
-                        <img src="public/assets/img/productos/Audifonos-Gamer-Eagle-Warrior-Quimera.webp" class="card-img-top">
-                        <div class="row d-flex justify-content-center">
-                            <!-- aqui le vas a dejar un campo para id -->
-
-                            <div class="precio-texto">$ 34,129 MXN</div>
-                            <div class="nombre-producto-texto">PC GAMER DELIOS 50I CON INTEL</div>
-                            <button class="btn-color-small mt-3">
-                                Ver articulo
-                            </button>               
-                        </div>
+                <div class="m-1 carta-productos p-3">
+                    <a href="public/html/pc-gamer-delios.html">
+                        <div class="nombre-producto-texto">PC GAMER DELIOS 50I CON INTEL</div>
                     </a>
+                    <a href="public/html/pc-gamer-delios.html">
+                        <img src="public/assets/img/productos/kultec-negra-x2-1.webp" class="imagen-producto">
+                    </a>
+                    <a href="public/html/pc-gamer-delios.html">
+                        <div class="precio-texto text-right">$ <span class="precio-numero">34129</span> MXN</div>
+                    </a>
+                    <form action="public/html/pc-gamer-delios.html">
+                        <button class="btn-color-auto mt-3" type="submit">
+                            Ver articulo
+                        </button>
+                    </form>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="m-3 cartaproductos p-3">
-                    <p class="nombre-otrosProductos">AUDÍFONOS EAGLE WARRIOR QUIMERA</p>
-                    <a href="pc-gamer-delios.html">
-                        <img src="public/assets/img/productos/Audifonos-Gamer-Eagle-Warrior-Quimera.webp" class="card-img-top">
-                        <div class="row d-flex justify-content-center">
-                            <div class="precio-texto">$ 34,129 MXN</div>
-                            <div class="nombre-producto-texto">monitor gamer modelo A</div>
-                            <button class="btn-color-small mt-3">
-                                Ver articulo
-                            </button>
-
-                        </div>
+                <div class="m-1 carta-productos p-3">
+                    <a href="public/html/pc-gamer-delios.html">
+                        <div class="nombre-producto-texto">PC GAMER DELIOS 50I CON INTEL</div>
                     </a>
+                    <a href="public/html/pc-gamer-delios.html">
+                        <img src="public/assets/img/productos/Monitor-Acer-ED273-144Hz-1.webp" class="imagen-producto">
+                    </a>
+                    <a href="public/html/pc-gamer-delios.html">
+                        <div class="precio-texto text-right">$ <span class="precio-numero">34129</span> MXN</div>
+                    </a>
+                    <form action="public/html/pc-gamer-delios.html">
+                        <button class="btn-color-auto mt-3" type="submit">
+                            Ver articulo
+                        </button>
+                    </form>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="m-3 cartaproductos p-3">
-                    <p class="nombre-otrosProductos">AUDÍFONOS EAGLE WARRIOR QUIMERA</p>
-                    <a href="pc-gamer-delios.html">
-                        <img src="public/assets/img/productos/Audifonos-Gamer-Eagle-Warrior-Quimera.webp" class="card-img-top">
-                        <div class="row d-flex justify-content-center">
-                            <div class="precio-texto">$ 34,129 MXN</div>
-                            <div class="nombre-producto-texto">pc gamer killer </div>
-                            <button class="btn-color-small mt-3">
-                                Ver articulo
-                            </button>
-                        </div>
+                <div class="m-1 carta-productos p-3">
+                    <a href="public/html/pc-gamer-delios.html">
+                        <div class="nombre-producto-texto">PC GAMER DELIOS 50I CON INTEL</div>
                     </a>
+                    <a href="public/html/pc-gamer-delios.html">
+                        <img src="public/assets/img/productos/Gabinete-MasterBox-TD500-ARGB-2.webp" class="imagen-producto">
+                    </a>
+                    <a href="public/html/pc-gamer-delios.html">
+                        <div class="precio-texto text-right">$ <span class="precio-numero">34129</span> MXN</div>
+                    </a>
+                    <form action="public/html/pc-gamer-delios.html">
+                        <button class="btn-color-auto mt-3" type="submit">
+                            Ver articulo
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -399,74 +404,107 @@
         <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
     </div>
     <footer class="footer">
-        <div class="row">
-            <div class="col-xl-4 col-lg-6 col-sm-12">
-                <h4>Enlaces de interés</h4>
-                <ul>
-                    <li class="media">
-                        <div class="pull-left">
-                            <img src="public/assets/img/icons/li.png" class="li-icon">
-                        </div>
-                        <a href="public/html/about_us.html" class="text-decoration-none pull-right ml-1">Nuestra empresa</a>
-                    </li>
-                    <li class="media">
-                        <div class="pull-left">
-                            <img src="public/assets/img/icons/li.png" class="li-icon">
-                        </div>
-                        <a href="public/html/faq.html" class="text-decoration-none pull-right ml-1">Preguntas Frecuentes</a>
-                    </li>
-                    <li class="media">
-                        <div class="pull-left">
-                            <img src="public/assets/img/icons/li.png" class="li-icon">
-                        </div>
-                        <a href="public/html/contact-us.html" class="text-decoration-none pull-right ml-1">Contácto y
-                            sugerencias</a>
-                    </li>
-                    <li class="media">
-                        <div class="pull-left">
-                            <img src="public/assets/img/icons/li.png" class="li-icon">
-                        </div>
-                        <a href="public/html/team.html" class="text-decoration-none pull-right ml-1">Conoce a la
-                            tripulacion andromeda</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-sm-12">
-                <h4>Ponerse en contacto</h4>
-                <ul>
-                    <li class="media ">
-                        <div class="pull-left">
-                            <img src="public/assets/img/icons/carta-color.png" class="contact-icon">
-                        </div>
-                        <a class="footer-email" href="mailto:contacto@andromeda.com">
-                            <p class="pull-right ml-1">
-                                contacto@andromeda.mx
-                            </p>
+        <div class="planeta"></div>
+        <div class="footer-contenido">
+            <div class="row">
+                <div class="col-xl-4 col-sm-12 order-xl-1 order-3">
+                    <div class="titulo-footer">navegación</div>
+                    <ul>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="public/assets/img/plantilla-icons/li.webp" class="li-icon">
+                            </div>
+                            <div class="pull-right">
+                                <a href="public/html/about_us.html" class="lista-footer ml-1">
+                                    Nuestra empresa
+                                </a>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="public/assets/img/plantilla-icons/li.webp" class="li-icon">
+                            </div>
+                            <div class="pull-right">
+                                <a href="public/html/faq.html" class="lista-footer ml-1">
+                                    Preguntas Frecuentes
+                                </a>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="public/assets/img/plantilla-icons/li.webp" class="li-icon">
+                            </div>
+                            <div class="pull-right">
+                                <a href="public/html/contact-us.html" class="lista-footer ml-1">
+                                    Contácto y
+                                    sugerencias
+                                </a>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="public/assets/img/plantilla-icons/li.webp" class="li-icon">
+                            </div>
+                            <div class="pull-right">
+                                <a href="public/html/team.html" class="lista-footer ml-1">
+                                    Conoce a la tripulacion andromeda
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-xl-4 col-sm-12 order-xl-2 order-1">
+                    <div class="d-flex justify-content-center caja-logo-footer mb-4">
+                        <img class="logo-footer" src="public/assets/img/icons/logo.webp">
+                    </div>
+
+                    <div class="d-flex justify-content-around mb-4">
+                        <a href="https://www.tiktok.com/es/" target="blank">
+                            <img src="public/assets/img/plantilla-icons/tiktok.webp" class="rrss-icon image-animation">
                         </a>
-                    </li>
-                    <li class="media">
-                        <div class="pull-left">
-                            <img src="public/assets/img/icons/telefono.png" class="contact-icon">
-                        </div>
-                        <a class="footer-tel" a target="_blank" href="https://api.whatsapp.com/send?phone=525611859713&amp;text=Hola%20quiero%20cotizar%20mi%20PC">
-                        <p class="pull-right ml-1">(55) 5837 1453</p>
+                        <a href="https://www.instagram.com/?hl=es-la" target="blank">
+                            <img src="public/assets/img/plantilla-icons/instagram.webp"
+                                class="rrss-icon image-animation">
                         </a>
-                        
-                    </li>
-                </ul>
-            </div>
-            <div class="col-xl-4 col-lg-12 col-sm-12">
-                <h4>Siguenos en nuestras redes sociales</h4>
-                <div class="d-flex justify-content-around">
-                    <a href="https://www.tiktok.com/es/" target="blank"><img src="public/assets/img/icons/tiktok.png" class="rrss-icon image-animation"></a>
-                    <a href="https://www.instagram.com/?hl=es-la" target="blank"> <img src="public/assets/img/icons/instagram.png" class="rrss-icon image-animation"> </a>
-                    <a href="https://es-la.facebook.com/" target="blank"><img src="public/assets/img/icons/facebook.png" class="rrss-icon image-animation"></a>
-                    <a href="https://mx.linkedin.com/" target="blank"><img src="public/assets/img/icons/linkedin.png" class="rrss-icon image-animation"></a>
+                        <a href="https://es-la.facebook.com/" target="blank">
+                            <img src="public/assets/img/plantilla-icons/facebook.webp"
+                                class="rrss-icon image-animation">
+                        </a>
+                        <a href="https://mx.linkedin.com/" target="blank">
+                            <img src="public/assets/img/plantilla-icons/linkedin.webp"
+                                class="rrss-icon image-animation">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-12 order-xl-3 order-2">
+                    <div class="titulo-footer">Ponerse en contacto</div>
+                    <ul>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="public/assets/img/plantilla-icons/carta-color.webp" class="contact-icon">
+                            </div>
+                            <div class="pull-right">
+                                <a class="lista-footer ml-1" href="mailto:contacto@andromeda.com">
+                                    <span class="correo-over">correo@andromeda.mx</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="public/assets/img/plantilla-icons/telefono.webp" class="contact-icon">
+                            </div>
+                            <div class="pull-right">
+                                <a class="lista-footer ml-1" target="blank"
+                                    href="https://api.whatsapp.com/send?phone=525611859713&amp;text=Hola%20quiero%20cotizar%20mi%20PC">
+                                    (55) 5837 1453
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div>
-            <p class="text-center mb-0">Andromeda © 2022</p>
+            <p class="text-center mb-0">Operación Andromeda ©2022</p>
         </div>
     </footer>
     <!-- //////////////////////// Bootstrap 4.6 ////////////////////////////////// -->
