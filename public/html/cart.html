@@ -29,14 +29,16 @@
     <link rel="stylesheet" href="../css/tab.css">
     <link rel="stylesheet" href="../css/cartas.css">
     <link rel="stylesheet" href="../css/carrito.css">
+    <link rel="stylesheet" href="../css/botones.css">
 </head>
 
 <body>
     <!-- //////////////////////// Navbar ////////////////////////////////// -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand ml-5" href="../../index.html">
-                <img src="../assets/img/icons/logo.webp" class="img-brand hidden-mobile-768">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="../assets/img/icons/logo.webp" class="img-brand show-big">
+                <img src="../assets/img/icons/logo_small.webp" class="img-brand show-small">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,20 +46,33 @@
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown mr-5">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-expanded="false">
-                            Productos
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="../html/productos.html">PC Gamer</a>
-                            <a class="dropdown-item" href="../html/accesorios.html">Accesorios</a>
-                        </div>
+                    <li class="nav-item active menu-big">
+                        <a class="nav-link" href="../html/productos.html">PC Gamer</a>
                     </li>
-                    <li class="nav-item dropdown mr-5">
+
+                    <li class="nav-item active menu-big">
+
+                        <a class="nav-link" href="../html/accesorios.html">Accesorios</a>
+                    </li>
+
+                    <div class="menu-small">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="../html/productos.html">PC Gamer</a>
+                                <a class="dropdown-item" href="../html/accesorios.html">Accesorios</a>
+                            </div>
+                        </li>
+                    </div>
+
+
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-expanded="false">
-                            <img src="../assets/img/icons/cuenta-color.png" class="icon-nav">
+                            <img src="../assets/img/plantilla-icons/cuenta-color.webp" class="icon-nav">
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" data-toggle="modal" data-target="#login-modal">
@@ -71,9 +86,9 @@
                             </a>
                         </div>
                     </li>
-                    <li class="nav-item  mr-5">
+                    <li class="nav-item">
                         <a class="nav-link" href="../html/cart.html">
-                            <img src="../assets/img/icons/carrito-color.png" class="icon-nav">
+                            <img src="../assets/img/plantilla-icons/carrito-color.webp" class="icon-nav">
                         </a>
                     </li>
                 </ul>
@@ -87,10 +102,11 @@
             <div class="modal-content">
                 <div class="modal-header tache">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <img src="../assets/img/icons/quitar.png" alt="cerrar">
+                        <img src="../assets/img/plantilla-icons/quitar.webp" alt="cerrar">
                     </button>
                     <div class="modal-he">
-                        <img src="../assets/img/icons/logo.webp" class="img-brand ">
+                        <img src="../assets/img/icons/logo.webp" class="img-brand show-big">
+                        <img src="../assets/img/icons/logo_small.webp" class="img-brand show-small">
                     </div>
                 </div>
                 <div class="modal-body">
@@ -126,7 +142,9 @@
                                         iniciada</label>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <a href="#" class="btn-game" alt="Button">ENTRAR</a>
+                                    <button class="btn-color-small mb-2">
+                                        Entrar
+                                    </button>
                                 </div>
                             </form>
                         </div>
@@ -174,7 +192,10 @@
                                         condiciones de uso, asi como la Politica de privacidad de Andromeda</label>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <a href="#" class="btn-game " alt="Button">CREAR MI CUENTA</a>
+                                    <button class="btn-color-small mb-2">
+                                        Crear mi cuenta
+                                    </button>
+
                                 </div>
 
                             </form>
@@ -266,13 +287,15 @@
                         <div class="col-md-4 col-sm-12">
                             <h5>Resumen de tus articulos</h5>
                             <p>Total de productos</p>
-                            <p>MXN $ 48,120.00</p>
+                            <p class="d-inline-block">MXN $ 48,120.00</p>
                         </div>
                     </div>
                     <div class="d-flex justify-content-end">
-                        
-                        <a href="#direccion">Palabras enlazadas</a>
-                        <a class="btn-game" alt="Button" href="#direccion">CONTINUAR</a>
+
+                        <button class="btn-color-small mt-3">
+                            CONTINUAR
+                        </button>           
+
                     </div>
                 </div>
 
@@ -374,7 +397,9 @@
                             </div>
                         </div>
                         <div class="d-flex justify-content-end">
-                            <a class="btn-game " alt="Button">CONTINUAR</a>
+                            <button class="btn-color-small mt-3">
+                                CONTINUAR
+                            </button> 
                         </div>
                     </div>
                 </div>
@@ -442,7 +467,9 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-end">
-                        <a class="btn-game " alt="Button">CONTINUAR</a>
+                        <button class="btn-color-small mt-3">
+                            CONTINUAR
+                        </button> 
                     </div>
                 </div>
                 <div class="tab-pane box-color borde-blanco p-3" id="pago" role="tabpanel" aria-labelledby="pago-tab">
@@ -507,7 +534,9 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-end">
-                        <a class="btn-game " alt="Button">CONTINUAR</a>
+                        <button class="btn-color-small mt-3">
+                            CONTINUAR
+                        </button> 
                     </div>
                 </div>
                 <div class="tab-pane box-color borde-blanco p-3" id="revisa" role="tabpanel"
@@ -609,7 +638,9 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-end">
-                        <a class="btn-game " alt="Button">CONTINUAR</a>
+                        <button class="btn-color-small mt-3">
+                            CONTINUAR
+                        </button> 
                     </div>
                 </div>
             </div>
@@ -617,71 +648,104 @@
         <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
     </div>
     <footer class="footer">
-        <div class="row">
-            <div class="col-xl-4 col-lg-6 col-sm-12">
-                <h4>Enlaces de interés</h4>
-                <ul>
-                    <li class="media">
-                        <div class="pull-left">
-                            <img src="../assets/img/icons/li.png" class="li-icon">
-                        </div>
-                        <a href="../html/about_us.html" class="text-decoration-none pull-right ml-1">Nuestra empresa</a>
-                    </li>
-                    <li class="media">
-                        <div class="pull-left">
-                            <img src="../assets/img/icons/li.png" class="li-icon">
-                        </div>
-                        <a href="../html/faq.html" class="text-decoration-none pull-right ml-1">Preguntas Frecuentes</a>
-                    </li>
-                    <li class="media">
-                        <div class="pull-left">
-                            <img src="../assets/img/icons/li.png" class="li-icon">
-                        </div>
-                        <a href="../html/contact-us.html" class="text-decoration-none pull-right ml-1">Contácto y
-                            sugerencias</a>
-                    </li>
-                    <li class="media">
-                        <div class="pull-left">
-                            <img src="../assets/img/icons/li.png" class="li-icon">
-                        </div>
-                        <a href="../html/team.html" class="text-decoration-none pull-right ml-1">Conoce a la
-                            tripulacion andromeda</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-sm-12">
-                <h4>Ponerse en contacto</h4>
-                <ul>
-                    <li class="media ">
-                        <div class="pull-left">
-                            <img src="../assets/img/icons/carta-color.png" class="contact-icon">
-                        </div>
-                        <p class="pull-right ml-1">
-                            contacto@andromeda.mx
-                        </p>
-                    </li>
-                    <li class="media">
-                        <div class="pull-left">
-                            <img src="../assets/img/icons/telefono.png" class="contact-icon">
-                        </div>
-                        <p class="pull-right ml-1">
-                            (55) 5837 1453
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-xl-4 col-lg-12 col-sm-12">
-                <h4>Siguenos en nuestras redes sociales</h4>
-                <div class="d-flex justify-content-around">
-                    <img src="../assets/img/icons/tiktok.png" class="rrss-icon image-animation">
-                    <img src="../assets/img/icons/instagram.png" class="rrss-icon image-animation">
-                    <img src="../assets/img/icons/facebook.png" class="rrss-icon image-animation">
-                    <img src="../assets/img/icons/linkedin.png" class="rrss-icon image-animation">
+        <div class="planeta"></div>
+        <div class="footer-contenido">
+            <div class="row">
+                <div class="col-xl-4 col-sm-12 order-xl-1 order-3">
+                    <div class="titulo-footer">navegación</div>
+                    <ul>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="../assets/img/plantilla-icons/li.webp" class="li-icon">
+                            </div>
+                            <div class="pull-right">
+                                <a href="../html/about_us.html" class="lista-footer ml-1">
+                                    Nuestra empresa
+                                </a>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="../assets/img/plantilla-icons/li.webp" class="li-icon">
+                            </div>
+                            <div class="pull-right">
+                                <a href="../html/faq.html" class="lista-footer ml-1">
+                                    Preguntas Frecuentes
+                                </a>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="../assets/img/plantilla-icons/li.webp" class="li-icon">
+                            </div>
+                            <div class="pull-right">
+                                <a href="../html/contact-us.html" class="lista-footer ml-1">
+                                    Contácto y
+                                    sugerencias
+                                </a>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="../assets/img/plantilla-icons/li.webp" class="li-icon">
+                            </div>
+                            <div class="pull-right">
+                                <a href="../html/team.html" class="lista-footer ml-1">
+                                    Conoce a la tripulacion andromeda
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-xl-4 col-sm-12 order-xl-2 order-1">
+                    <div class="d-flex justify-content-center caja-logo-footer mb-4">
+                        <img class="logo-footer" src="../assets/img/icons/logo.webp">
+                    </div>
+            
+                    <div class="d-flex justify-content-around mb-4">
+                        <a href="https://www.tiktok.com/es/" target="blank">
+                            <img src="../assets/img/plantilla-icons/tiktok.webp" class="rrss-icon image-animation">
+                        </a>
+                        <a href="https://www.instagram.com/?hl=es-la" target="blank">
+                            <img src="../assets/img/plantilla-icons/instagram.webp" class="rrss-icon image-animation">
+                        </a>
+                        <a href="https://es-la.facebook.com/" target="blank">
+                            <img src="../assets/img/plantilla-icons/facebook.webp" class="rrss-icon image-animation">
+                        </a>
+                        <a href="https://mx.linkedin.com/" target="blank">
+                            <img src="../assets/img/plantilla-icons/linkedin.webp" class="rrss-icon image-animation">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-12 order-xl-3 order-2">
+                    <div class="titulo-footer">Ponerse en contacto</div>
+                    <ul>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="../assets/img/plantilla-icons/carta-color.webp" class="contact-icon">
+                            </div>
+                            <div class="pull-right">
+                                <a class="lista-footer ml-1" href="mailto:contacto@andromeda.com">
+                                    <span class="correo-over">correo@andromeda.mx</span> 
+                                </a>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="../assets/img/plantilla-icons/telefono.webp" class="contact-icon">
+                            </div>
+                            <div class="pull-right">
+                                <a class="lista-footer ml-1" target="blank"
+                                    href="https://api.whatsapp.com/send?phone=525611859713&amp;text=Hola%20quiero%20cotizar%20mi%20PC">
+                                    (55) 5837 1453
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div>
-            <p class="text-center mb-0">Andromeda © 2022</p>
+            <p class="text-center mb-0">Operación Andromeda ©2022</p>
         </div>
     </footer>
     <!-- //////////////////////// Scripts ////////////////////////////////// -->

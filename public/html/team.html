@@ -45,8 +45,9 @@
     <!-- //////////////////////// Navbar ////////////////////////////////// -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand ml-5" href="../../index.html">
-                <img src=" ../assets/img/icons/logo.webp" class="img-brand hidden-mobile-768">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="../assets/img/icons/logo.webp" class="img-brand show-big">
+                <img src="../assets/img/icons/logo_small.webp" class="img-brand show-small">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,20 +55,33 @@
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown mr-5">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-expanded="false">
-                            Productos
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="../html/productos.html">PC Gamer</a>
-                            <a class="dropdown-item" href="../html/accesorios.html">Accesorios</a>
-                        </div>
+                    <li class="nav-item active menu-big">
+                        <a class="nav-link" href="../html/productos.html">PC Gamer</a>
                     </li>
-                    <li class="nav-item dropdown mr-5">
+
+                    <li class="nav-item active menu-big">
+
+                        <a class="nav-link" href="../html/accesorios.html">Accesorios</a>
+                    </li>
+
+                    <div class="menu-small">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="../html/productos.html">PC Gamer</a>
+                                <a class="dropdown-item" href="../html/accesorios.html">Accesorios</a>
+                            </div>
+                        </li>
+                    </div>
+
+
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-expanded="false">
-                            <img src="../assets/img/icons/cuenta-color.png" class="icon-nav">
+                            <img src="../assets/img/plantilla-icons/cuenta-color.webp" class="icon-nav">
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" data-toggle="modal" data-target="#login-modal">
@@ -81,9 +95,9 @@
                             </a>
                         </div>
                     </li>
-                    <li class="nav-item  mr-5">
+                    <li class="nav-item">
                         <a class="nav-link" href="../html/cart.html">
-                            <img src="../assets/img/icons/carrito-color.png" class="icon-nav">
+                            <img src="../assets/img/plantilla-icons/carrito-color.webp" class="icon-nav">
                         </a>
                     </li>
                 </ul>
@@ -97,10 +111,11 @@
             <div class="modal-content">
                 <div class="modal-header tache">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <img src="../assets/img/icons/quitar.png" alt="cerrar">
+                        <img src="../assets/img/plantilla-icons/quitar.webp" alt="cerrar">
                     </button>
                     <div class="modal-he">
-                        <img src="../assets/img/icons/logo.webp" class="img-brand">
+                        <img src="../assets/img/icons/logo.webp" class="img-brand show-big">
+                        <img src="../assets/img/icons/logo_small.webp" class="img-brand show-small">
                     </div>
                 </div>
                 <div class="modal-body">
@@ -136,7 +151,9 @@
                                         iniciada</label>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <a href="#" class="btn-game" alt="Button">ENTRAR</a>
+                                    <button class="btn-color-small mb-2">
+                                        Entrar
+                                    </button>
                                 </div>
                             </form>
                         </div>
@@ -184,7 +201,10 @@
                                         condiciones de uso, asi como la Politica de privacidad de Andromeda</label>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <a href="#" class="btn-game " alt="Button">CREAR MI CUENTA</a>
+                                    <button class="btn-color-small mb-2">
+                                        Crear mi cuenta
+                                    </button>
+
                                 </div>
 
                             </form>
@@ -205,11 +225,11 @@
 
         <h1>Tu chalan a la medida</h1>
         <div class="pl-5 pr-5">
-            <section class="target_box info-miembro">
+            <div class="target_box info-miembro">
                 <!-- El kevin -->
                 <div id="miembro1" class="parte-de-arriba row " style="display: none;">
                     <div class="col-md-12 col-lg-6 d-flex justify-content-center spaceship">
-                        <img src="../assets/img/fotos/grande/kevin.png" class="foto-principal">
+                        <img src="../assets/img/team/fotos/foto/kevin.webp" class="foto-principal">
                     </div>
     
                     <div class="col-md-12 col-lg-6 pt-5 pb-5 folder descripcion">
@@ -256,7 +276,7 @@
                 <!-- Lalo -->
                 <div id="miembro2" class="parte-de-arriba row" style="display: none;">
                     <div class="col-md-12 col-lg-6 d-flex justify-content-center spaceship">
-                        <img src="../assets/img/fotos/grande/lalo.png" class="foto-principal">
+                        <img src="../assets/img/team/fotos/foto/lalo.webp" class="foto-principal">
                     </div>
                     <div class="col-md-12 col-lg-6 pt-5 pb-5 folder descripcion">
                         <div class="hoja">
@@ -298,7 +318,7 @@
                 <!-- wicho -->
                 <div id="miembro3" class="parte-de-arriba row" style="display: none;">
                     <div class="col-md-12 col-lg-6 d-flex justify-content-center spaceship">
-                        <img src="../assets/img/fotos/grande/wicho.png" class="foto-principal">
+                        <img src="../assets/img/team/fotos/foto/wicho.webp" class="foto-principal">
                     </div>
                     <div class="col-md-12 col-lg-6 pt-5 pb-5 folder descripcion">
                         <div class="hoja">
@@ -341,7 +361,7 @@
                 <!-- Jose -->
                 <div id="miembro4" class="parte-de-arriba row" style="display: none;">
                     <div class="col-md-12 col-lg-6 d-flex justify-content-center spaceship">
-                        <img src="../assets/img/fotos/grande/jose.png" class="foto-principal">
+                        <img src="../assets/img/team/fotos/foto/jose.webp" class="foto-principal">
                     </div>
                     <div class="col-md-12 col-lg-6 pt-5 pb-5 folder descripcion">
                         <div class="hoja">
@@ -385,7 +405,7 @@
                 <!-- santiago -->
                 <div id="miembro5" class="parte-de-arriba row" style="display: none;">
                     <div class="col-md-12 col-lg-6 d-flex justify-content-center spaceship">
-                        <img src="../assets/img/fotos/grande/santiago.png" class="foto-principal">
+                        <img src="../assets/img/team/fotos/foto/santiago.webp" class="foto-principal">
                     </div>
                     <div class="col-md-12 col-lg-6 pt-5 pb-5 folder descripcion">
                         <div class="hoja">
@@ -429,7 +449,7 @@
                 <div id="miembro6" class="parte-de-arriba row" style="display: none;">
                     <!-- daniel -->
                     <div class="col-md-12 col-lg-6 d-flex justify-content-center spaceship">
-                        <img src="../assets/img/fotos/grande/daniel.png" class="foto-principal">
+                        <img src="../assets/img/team/fotos/foto/daniel.webp" class="foto-principal">
                     </div>
                     <div class="col-md-12 col-lg-6 pt-5 pb-5 folder descripcion">
                         <div class="hoja">
@@ -438,7 +458,7 @@
                                     <div class="float-left pregunta">
                                         Nombre:
                                     </div>
-                                    <div class="float-right respuesta ml-1">
+                                    <div class="float-right respuesta">
                                         Daniel Nava Garcia
                                     </div>
                                 </li>
@@ -471,12 +491,12 @@
     
                     </div>
                 </div>
-            </section>
+            </div>
             <div class="row pt-3">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="pl-3 pr-3 pt-1 marco-foto">
                         <a class="parte-de-abajo" target="1">
-                            <img id="selector1" src="../assets/img/fotos/pequenia/kevin.png"
+                            <img id="selector1" src="../assets/img/team/fotos/miniatura/kevin.webp"
                                 class="imagen-selector col-12 blanco-y-negro">
                         </a>
                         <div class="nombre-del-integrante">
@@ -488,7 +508,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="pl-3 pr-3 pt-1 marco-foto">
                         <a class="parte-de-abajo" target="2">
-                            <img id="selector2" src="../assets/img/fotos/pequenia/lalo.png"
+                            <img id="selector2" src="../assets/img/team/fotos/miniatura/lalo.webp"
                                 class="imagen-selector col-12 blanco-y-negro">
                         </a>
                         <div class="nombre-del-integrante">
@@ -500,7 +520,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="pl-3 pr-3 pt-1 marco-foto">
                         <a class="parte-de-abajo" target="3">
-                            <img id="selector3" src="../assets/img/fotos/pequenia/wicho.png"
+                            <img id="selector3" src="../assets/img/team/fotos/miniatura/wicho.webp"
                                 class="imagen-selector col-12  blanco-y-negro">
                         </a>
                         <div class="nombre-del-integrante">
@@ -512,7 +532,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="pl-3 pr-3 pt-1 marco-foto">
                         <a class="parte-de-abajo" target="4">
-                            <img id="selector4" src="../assets/img/fotos/pequenia/jose.png"
+                            <img id="selector4" src="../assets/img/team/fotos/miniatura/jose.webp"
                                 class="imagen-selector col-12 blanco-y-negro">
                         </a>
                         <div class="nombre-del-integrante">
@@ -524,7 +544,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="pl-3 pr-3 pt-1 marco-foto">
                         <a class="parte-de-abajo" target="5">
-                            <img id="selector5" src="../assets/img/fotos/pequenia/santiago.png"
+                            <img id="selector5" src="../assets/img/team/fotos/miniatura/santiago.webp"
                                 class="imagen-selector col-12 blanco-y-negro">
                         </a>
                         <div class="nombre-del-integrante">
@@ -536,7 +556,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="pl-3 pr-3 pt-1 marco-foto">
                         <a class="parte-de-abajo" target="6">
-                            <img id="selector6" src="../assets/img/fotos/pequenia/daniel.png"
+                            <img id="selector6" src="../assets/img/team/fotos/miniatura/daniel.webp"
                                 class="imagen-selector col-12 blanco-y-negro">
                         </a>
                         <div class="nombre-del-integrante">
@@ -553,71 +573,104 @@
 
     <!-- //////////////////////// Footer ////////////////////////////////// -->
     <footer class="footer">
-        <div class="row">
-            <div class="col-xl-4 col-lg-6 col-sm-12">
-                <h4>Enlaces de interés</h4>
-                <ul>
-                    <li class="media">
-                        <div class="pull-left">
-                            <img src="../assets/img/icons/li.png" class="li-icon">
-                        </div>
-                        <a href="../html/about_us.html" class="text-decoration-none pull-right ml-1">Nuestra empresa</a>
-                    </li>
-                    <li class="media">
-                        <div class="pull-left">
-                            <img src="../assets/img/icons/li.png" class="li-icon">
-                        </div>
-                        <a href="../html/faq.html" class="text-decoration-none pull-right ml-1">Preguntas Frecuentes</a>
-                    </li>
-                    <li class="media">
-                        <div class="pull-left">
-                            <img src="../assets/img/icons/li.png" class="li-icon">
-                        </div>
-                        <a href="../html/contact-us.html" class="text-decoration-none pull-right ml-1">Contácto y
-                            sugerencias</a>
-                    </li>
-                    <li class="media">
-                        <div class="pull-left">
-                            <img src="../assets/img/icons/li.png" class="li-icon">
-                        </div>
-                        <a href="../html/team.html" class="text-decoration-none pull-right ml-1">Conoce a la
-                            tripulacion andromeda</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-sm-12">
-                <h4>Ponerse en contacto</h4>
-                <ul>
-                    <li class="media ">
-                        <div class="pull-left">
-                            <img src="../assets/img/icons/carta-color.png" class="contact-icon">
-                        </div>
-                        <p class="pull-right ml-1">
-                            contacto@andromeda.mx
-                        </p>
-                    </li>
-                    <li class="media">
-                        <div class="pull-left">
-                            <img src="../assets/img/icons/telefono.png" class="contact-icon">
-                        </div>
-                        <p class="pull-right ml-1">
-                            (55) 5837 1453
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-xl-4 col-lg-12 col-sm-12">
-                <h4>Siguenos en nuestras redes sociales</h4>
-                <div class="d-flex justify-content-around">
-                    <img src="../assets/img/icons/tiktok.png" class="rrss-icon image-animation">
-                    <img src="../assets/img/icons/instagram.png" class="rrss-icon image-animation">
-                    <img src="../assets/img/icons/facebook.png" class="rrss-icon image-animation">
-                    <img src="../assets/img/icons/linkedin.png" class="rrss-icon image-animation">
+        <div class="planeta"></div>
+        <div class="footer-contenido">
+            <div class="row">
+                <div class="col-xl-4 col-sm-12 order-xl-1 order-3">
+                    <div class="titulo-footer">navegación</div>
+                    <ul>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="../assets/img/plantilla-icons/li.webp" class="li-icon">
+                            </div>
+                            <div class="pull-right">
+                                <a href="../html/about_us.html" class="lista-footer ml-1">
+                                    Nuestra empresa
+                                </a>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="../assets/img/plantilla-icons/li.webp" class="li-icon">
+                            </div>
+                            <div class="pull-right">
+                                <a href="../html/faq.html" class="lista-footer ml-1">
+                                    Preguntas Frecuentes
+                                </a>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="../assets/img/plantilla-icons/li.webp" class="li-icon">
+                            </div>
+                            <div class="pull-right">
+                                <a href="../html/contact-us.html" class="lista-footer ml-1">
+                                    Contácto y
+                                    sugerencias
+                                </a>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="../assets/img/plantilla-icons/li.webp" class="li-icon">
+                            </div>
+                            <div class="pull-right">
+                                <a href="../html/team.html" class="lista-footer ml-1">
+                                    Conoce a la tripulacion andromeda
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-xl-4 col-sm-12 order-xl-2 order-1">
+                    <div class="d-flex justify-content-center caja-logo-footer mb-4">
+                        <img class="logo-footer" src="../assets/img/icons/logo.webp">
+                    </div>
+            
+                    <div class="d-flex justify-content-around mb-4">
+                        <a href="https://www.tiktok.com/es/" target="blank">
+                            <img src="../assets/img/plantilla-icons/tiktok.webp" class="rrss-icon image-animation">
+                        </a>
+                        <a href="https://www.instagram.com/?hl=es-la" target="blank">
+                            <img src="../assets/img/plantilla-icons/instagram.webp" class="rrss-icon image-animation">
+                        </a>
+                        <a href="https://es-la.facebook.com/" target="blank">
+                            <img src="../assets/img/plantilla-icons/facebook.webp" class="rrss-icon image-animation">
+                        </a>
+                        <a href="https://mx.linkedin.com/" target="blank">
+                            <img src="../assets/img/plantilla-icons/linkedin.webp" class="rrss-icon image-animation">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-12 order-xl-3 order-2">
+                    <div class="titulo-footer">Ponerse en contacto</div>
+                    <ul>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="../assets/img/plantilla-icons/carta-color.webp" class="contact-icon">
+                            </div>
+                            <div class="pull-right">
+                                <a class="lista-footer ml-1" href="mailto:contacto@andromeda.com">
+                                    <span class="correo-over">correo@andromeda.mx</span> 
+                                </a>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="pull-left">
+                                <img src="../assets/img/plantilla-icons/telefono.webp" class="contact-icon">
+                            </div>
+                            <div class="pull-right">
+                                <a class="lista-footer ml-1" target="blank"
+                                    href="https://api.whatsapp.com/send?phone=525611859713&amp;text=Hola%20quiero%20cotizar%20mi%20PC">
+                                    (55) 5837 1453
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div>
-            <p class="text-center mb-0">Andromeda © 2022</p>
+            <p class="text-center mb-0">Operación Andromeda ©2022</p>
         </div>
     </footer>
     <!-- //////////////////////// Bootstrap 4.6 ////////////////////////////////// -->
