@@ -1,0 +1,16 @@
+/*problema del boton del modal*/
+.tache {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-he {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* config modal */
+.modal-header, .modal-footer, .modal-body {
+    background-color: #602085;
+
+}

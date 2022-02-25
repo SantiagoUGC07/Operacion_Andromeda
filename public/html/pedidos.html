@@ -22,15 +22,15 @@
     <link rel="icon" href="../assets/img/icons/Space_Invader.webp">
 
     <!-- //////////////////////// Hojas de estilo ////////////////////////////////// -->
+    <!-- Estas son escenciales -->
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/navbar-footer.css">
-    <link rel="stylesheet" href="../css/modals.css">
-    <link rel="stylesheet" href="../css/forms.css">
     <link rel="stylesheet" href="../css/tab.css">
+    <link rel="stylesheet" href="../css/forms.css">
+    <link rel="stylesheet" href="../css/botones.css">
+    <link rel="stylesheet" href="../css/modals.css">
+    <!-- Estas son de tu pagina -->
     <link rel="stylesheet" href="../css/cartas.css">
-    <link rel="stylesheet" href="../css/icon-accordion.css">
-    <link rel="stylesheet" href="../css/carrito.css">
-    <link rel="stylesheet" href="../css/animacion.css">
     <link rel="stylesheet" href="../css/pedidos.css">
 </head>
 
@@ -219,7 +219,7 @@
         <div class="row mb-3">
             <!-- //////////// Left-form ////////////////// -->
             <div class="col-lg-4 themed-grid-col pedidos__left">
-                <div class="container__datos misDatos">
+                <!-- <div class="container__datos misDatos">
                     <h4>Mis Datos</h4>
                     <div class="container__misDatos">
                         <div>
@@ -230,6 +230,29 @@
                         </div>
                         <div>
                             <p>Genero: Hombre</p>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="container__datos metodo__acceso">
+                    <h4>Mis Datos</h4>
+                    <div class="container__acceso">
+                        <div>
+                            <p class="subtitle__bold">Nombre(s)</p>
+                            <p>Eduardo</p>
+                        </div>
+                        <div>
+                            <p class="subtitle__bold">Apellido(s)</p>
+                            <p>Diaz Anaya</p>
+                        </div>
+                        <div>
+                            <p class="subtitle__bold">Correo Electronico</p>
+                            <p>eduardo9dza@gmail.com</p>
+                        </div>
+                        <div>
+                            <p class="subtitle__bold">Contraseña</p>
+                        </div>
+                        <div>
+                            <p>*********</p>
                         </div>
                     </div>
                 </div>
@@ -266,7 +289,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container__datos metodo__acceso">
+                <!-- <div class="container__datos metodo__acceso">
                     <h4>Datos de Acceso</h4>
                     <div class="container__acceso">
                         <div>
@@ -280,7 +303,7 @@
                             <p>*********</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <!-- //////////// Right-form ////////////////// -->
             <div class="col-lg-8 themed-grid-col">
@@ -296,7 +319,7 @@
                                 </div>
                                 <div class="col-lg-7 themed-grid-col">
                                     <div class="estatus__pedido">
-                                        <p>Estatus: <span class="letras__orange">En proceso de envio</span></p>
+                                        <p>Estatus: <span class="color_proceso">En proceso de envio</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -306,6 +329,7 @@
                                 <p>8 de junio de 2021 | $1,469.02 | 2 artículos</p>
                             </div>
 
+                            
                             <div class="fotos__pedido">
                                 <img src="../assets/img/productos/Gabinete-MasterBox-TD500-ARGB.webp"
                                     class="img-fluid img__pedido" alt="Responsive image">
@@ -324,7 +348,7 @@
                                 </div>
                                 <div class="col-lg-7 themed-grid-col">
                                     <div class="estatus__pedido">
-                                        <p>Estatus: <span class="letras__green">Enviado</span></p>
+                                        <p>Estatus: <span class="color_enviado">Enviado</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -352,7 +376,7 @@
                                 </div>
                                 <div class="col-lg-7 themed-grid-col">
                                     <div class="estatus__pedido">
-                                        <p>Estatus: <span class="letras__red">Cancelado</span></p>
+                                        <p>Estatus: <span class="color_cancelado">Cancelado</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -374,6 +398,7 @@
             </div>
         </div>
     </div>
+
 
 
 
