@@ -13,12 +13,12 @@
 
 .cartaproductos, .carta-productos {
     background-color: #011640;
-    border: 2px solid rgb(156, 138, 255);
+    border: 2px solid #9C8AFF;
     border-radius: 8px;
 }
 
 /* wicho */
 .carta-productos {
-    box-shadow: 0px 0px 6px #9C8AFF;
+    box-shadow: 0px 0px 8px #9C8AFF;
     border-radius: 8px;
 }
