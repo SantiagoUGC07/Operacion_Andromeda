@@ -31,11 +31,11 @@
 
 <body>
     <!-- ///////////// HEADER ///////////// -->
-    <header>
+    <header class="color-header">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="../../index.html">
-                <img src="../assets/img/icons/logo.webp" class="img-brand show-big">
-                <img src="../assets/img/icons/logo_small.webp" class="img-brand show-small">
+            <a class="navbar-brand ml-0 ml-md-4" href="../../index.html">
+            <img src=" ../assets/img/icons/logo.webp" class="img-brand d-none d-md-block d-lg-block d-xl-block">
+            <img src="../assets/img/icons/logo_small.webp" class="img-brand d-block d-sm-block d-md-none">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,30 +43,16 @@
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active menu-big">
-                        <a class="nav-link" href="../html/productos.html">PC Gamer</a>
+
+                    <li class="textoMenu nav-item active menu-big">
+                        <a class="" href="../html/productos.html">PC Gamer</a>
                     </li>
 
-                    <li class="nav-item active menu-big">
-
-                        <a class="nav-link" href="../html/accesorios.html">Accesorios</a>
+                    <li class="textoMenu nav-item active menu-big">
+                        <a class="" href="../html/accesorios.html">Accesorios</a>
                     </li>
 
-                    <div class="menu-small">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-toggle="dropdown" aria-expanded="false">
-                                Productos
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="../html/productos.html">PC Gamer</a>
-                                <a class="dropdown-item" href="../html/accesorios.html">Accesorios</a>
-                            </div>
-                        </li>
-                    </div>
-
-
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown mr-5">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-toggle="dropdown" aria-expanded="false">
                             <img src="../assets/img/plantilla-icons/cuenta-color.webp" class="icon-nav">
@@ -83,11 +69,13 @@
                             </a>
                         </div>
                     </li>
-                    <li class="nav-item">
+
+                    <li class="nav-item  mr-5">
                         <a class="nav-link" href="../html/cart.html">
                             <img src="../assets/img/plantilla-icons/carrito-color.webp" class="icon-nav">
                         </a>
                     </li>
+                    
                 </ul>
             </div>
         </nav>
@@ -102,8 +90,8 @@
                         <img src="../assets/img/plantilla-icons/quitar.webp" alt="cerrar">
                     </button>
                     <div class="modal-he">
-                        <img src="../assets/img/icons/logo.webp" class="img-brand show-big">
-                        <img src="../assets/img/icons/logo_small.webp" class="img-brand show-small">
+                        <img src="../assets/img/icons/logo.webp" class="img-brand d-none d-md-block d-lg-block d-xl-block">
+                        <img src="../assets/img/icons/logo_small.webp" class="img-brand d-block d-sm-block d-md-none">
                     </div>
                 </div>
                 <div class="modal-body">
@@ -192,7 +180,6 @@
                                     <button class="btn-color-small mb-2">
                                         Crear mi cuenta
                                     </button>
-
                                 </div>
 
                             </form>
@@ -210,7 +197,7 @@
     <!-- ///////////// PRODUCTO PRINCIPAL ///////////-->
     <section class="container fondo-color">
 
-        <div class="row px-2 mt-0 mt-md-3">
+        <div class="row px-2 mt-0 mt-md-4">
 
             <!-- ///////////// COLUMNA 1 ///////////// -->
             <div class="col-sm-12 col-md-6 py-5 p-md-5">
@@ -400,7 +387,7 @@
 
     </section>
 
-    <!-- ///////////// OTROS PRODUCTOS ///////////// -->
+    <!-- ///////////// TROS PRODUCTOS ///////////// -->
     <Section class="container fondo-color">
 
         <div class="row mb-2 px-2 py-5 d-flex justify-content-center">
@@ -724,115 +711,21 @@
     </section>
 
     <!-- ///////////// FOOTER ///////////// -->
-    <footer class="footer">
-        <div class="planeta"></div>
-        <div class="footer-contenido">
-            <div class="row">
-                <div class="col-xl-4 col-sm-12 order-xl-1 order-3">
-                    <div class="titulo-footer">navegación</div>
-                    <ul>
-                        <li class="media">
-                            <div class="pull-left">
-                                <img src="../assets/img/plantilla-icons/li.webp" class="li-icon">
-                            </div>
-                            <div class="pull-right">
-                                <a href="../html/about_us.html" class="lista-footer ml-1">
-                                    Nuestra empresa
-                                </a>
-                            </div>
-                        </li>
-                        <li class="media">
-                            <div class="pull-left">
-                                <img src="../assets/img/plantilla-icons/li.webp" class="li-icon">
-                            </div>
-                            <div class="pull-right">
-                                <a href="../html/faq.html" class="lista-footer ml-1">
-                                    Preguntas Frecuentes
-                                </a>
-                            </div>
-                        </li>
-                        <li class="media">
-                            <div class="pull-left">
-                                <img src="../assets/img/plantilla-icons/li.webp" class="li-icon">
-                            </div>
-                            <div class="pull-right">
-                                <a href="../html/contact-us.html" class="lista-footer ml-1">
-                                    Contácto y
-                                    sugerencias
-                                </a>
-                            </div>
-                        </li>
-                        <li class="media">
-                            <div class="pull-left">
-                                <img src="../assets/img/plantilla-icons/li.webp" class="li-icon">
-                            </div>
-                            <div class="pull-right">
-                                <a href="../html/team.html" class="lista-footer ml-1">
-                                    Conoce a la tripulacion andromeda
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-xl-4 col-sm-12 order-xl-2 order-1">
-                    <div class="d-flex justify-content-center caja-logo-footer mb-4">
-                        <img class="logo-footer" src="../assets/img/icons/logo.webp">
-                    </div>
-            
-                    <div class="d-flex justify-content-around mb-4">
-                        <a href="https://www.tiktok.com/es/" target="blank">
-                            <img src="../assets/img/plantilla-icons/tiktok.webp" class="rrss-icon image-animation">
-                        </a>
-                        <a href="https://www.instagram.com/?hl=es-la" target="blank">
-                            <img src="../assets/img/plantilla-icons/instagram.webp" class="rrss-icon image-animation">
-                        </a>
-                        <a href="https://es-la.facebook.com/" target="blank">
-                            <img src="../assets/img/plantilla-icons/facebook.webp" class="rrss-icon image-animation">
-                        </a>
-                        <a href="https://mx.linkedin.com/" target="blank">
-                            <img src="../assets/img/plantilla-icons/linkedin.webp" class="rrss-icon image-animation">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-sm-12 order-xl-3 order-2">
-                    <div class="titulo-footer">Ponerse en contacto</div>
-                    <ul>
-                        <li class="media">
-                            <div class="pull-left">
-                                <img src="../assets/img/plantilla-icons/carta-color.webp" class="contact-icon">
-                            </div>
-                            <div class="pull-right">
-                                <a class="lista-footer ml-1" href="mailto:contacto@andromeda.com">
-                                    <span class="correo-over">correo@andromeda.mx</span> 
-                                </a>
-                            </div>
-                        </li>
-                        <li class="media">
-                            <div class="pull-left">
-                                <img src="../assets/img/plantilla-icons/telefono.webp" class="contact-icon">
-                            </div>
-                            <div class="pull-right">
-                                <a class="lista-footer ml-1" target="blank"
-                                    href="https://api.whatsapp.com/send?phone=525611859713&amp;text=Hola%20quiero%20cotizar%20mi%20PC">
-                                    (55) 5837 1453
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+    <section class="container-fluid img-footer">
+        <div class="row">
+            <div class="col-sm-12">
+                <img class="img-footer2" src="../assets/img/planeta-pixelart.webp" alt="Asteroide pixel-art">
             </div>
-            <p class="text-center mb-0">Operación Andromeda ©2022</p>
         </div>
-    </footer>
+    </section>
 
-    <section id="color-footer">
+    <section class="color-footer">
 
         <div class="container-fluid">
 
             <div class="row px-1 pt-5">
 
-                <div class="col-md-4 col-sm-12 order-3 order-md-1 px-5 pt-5">
+                <div class="col-md-4 col-sm-12 order-3 order-md-1 px-4 px-md-5 pt-5">
 
                     <p class="titulo-listaFooter">NAVEGACIÓN</p>
 
@@ -853,18 +746,18 @@
                     </ul>
                 </div>
 
-                <div class="col-md-4 col-sm12 order-1 order-md-2 py-3">
-                    <img class="logo-footer" src="../assets/img/icons/logo.webp">
+                <div class="col-md-4 col-sm-12 order-1 order-md-2 py-3">
+                    <img class="logo-footer" src="../assets/img/loadingLOGO2.gif">
 
                     <div class="d-flex justify-content-around">
-                        <img src="../assets/img/icons/facebook.webp" class="rrss-icon fx-zoom">
-                        <img src="../assets/img/icons/instagram.webp" class="rrss-icon fx-zoom">
-                        <img src="../assets/img/icons/tiktok.webp" class="rrss-icon fx-zoom">
-                        <img src="../assets/img/icons/twitch.webp" class="rrss-icon fx-zoom">
+                        <img src="../assets/img/plantilla-icons/facebook.webp" class="rrss-icon fx-zoom">
+                        <img src="../assets/img/plantilla-icons/instagram.webp" class="rrss-icon fx-zoom">
+                        <img src="../assets/img/plantilla-icons/tiktok.webp" class="rrss-icon fx-zoom">
+                        <img src="../assets/img/plantilla-icons/linkedin.webp" class="rrss-icon fx-zoom">
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm12 order-2 order-md-3 px-3 px-md-5 pt-4">
+                <div class="col-md-4 col-sm-12 order-2 order-md-3 px-3 px-md-5 pt-4">
 
                     <div class="d-flex justify-content-end mt-5">
                         <ul class="footer-tel">
@@ -886,9 +779,9 @@
 
                 </div>
 
-                <a href="temporal-logo.html" class="col-12 order-4 order-md-4 mt-4 mb-3">
+                <div class="col-12 order-4 order-md-4 mt-4 mb-3">
                     <p class="op-andromeda">Operación Andromeda ©2022</p>
-                </a>
+                </div>
             </div>
         </div>
     </section>
