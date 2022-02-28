@@ -11,14 +11,14 @@
     background: linear-gradient(180deg, #c04bf280 28.33%, #6232a680 71.67%);
 }
 
-.cartaproductos, .carta-productos {
+.cartaproductos, .carta-productos, .comentario-texto {
     background-color: #011640;
     border: 2px solid #9C8AFF;
     border-radius: 8px;
 }
 
 /* wicho */
-.carta-productos {
+.carta-productos, .comentario-texto {
     box-shadow: 0px 0px 8px #9C8AFF;
     border-radius: 8px;
 }

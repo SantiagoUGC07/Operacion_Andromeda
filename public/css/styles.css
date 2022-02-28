@@ -28,13 +28,13 @@ h1, h2 {
 }
 
 /* Todo el texto en blanco  */
-a, p, h1, h2, h3, h4, h5, th, td, label, li, .white-text {
+a, p, h1, h2, h3, h4, h5, th, td, label, li, .text-white, .montserrat-text {
     color: #ede5f1 !important;
 }
 
 /* Todo parrafo, contenido de tabla y field en Montserrat */
 p, td, label, .montserrat-text {
-    font-family: 'Montserrat' !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 a {
@@ -75,14 +75,14 @@ a:hover {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     .menu-big{
         display: none;
         visibility: hidden;
     }
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 1200px) {
     .menu-small{
         display: none;
         visibility: hidden;

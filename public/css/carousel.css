@@ -1,38 +1,81 @@
-.carousel {
-    width: 100%;
-    margin: 0px auto;
-}
-
 .slick-slide {
-    margin: 10px;
+    margin: 3px;
 }
 
-.slick-slide img {
+.banners-carousel img, .carousel-games img, .descripcion-fondo {
     width: 100%;
-    color: #ede5f1;
-    /* border: 2px solid #fff; */
 }
 
-.hover-animation {
+.banners-carousel img, .carousel-games img, .comentario, .comentario-texto {
+    border-radius: 10px;
+}
+
+/* El efecto hover en los videojuegos */
+.hover-animation, .descripcion-contenedor {
     position: relative;
-    /* problema */
-    height: 262px;
+}
+
+.miniatura-equipo {
+    z-index: -1;
+}
+
+.miniatura-equipo, .descripcion {
+    position: absolute;
 }
 
 .hover-animation img {
-    position: absolute;
-    left: 0;
-
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
-    -ms-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
     transition: opacity 1s ease-in-out;
 }
 
-.hover-animation img.img-front:hover {
+.hover-animation img.miniatura-videojuego:hover {
     opacity: 0;
-    cursor: pointer;
-/*     display: none;
-    visibility: hidden; */
+}
+
+.vista-previa-producto-texto {
+    font-weight: 800;
+    font-size: 1.17em;
+    font-weight: bolder;
+    color: #ede5f1;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+/* COMENTARIOS */
+.comentario {
+    height: 20vh;
+}
+
+.comentario-perfil, .perfil-inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil-inicio{
+    height: 10vh;
+    width: 10vh;
+}
+
+.comentario-foto {
+    width: 7vh;
+}
+
+.comentario-nombre {
+    color: #ede5f1;
+    font-family:  'Orbitron', sans-serif;
+    font-size: 1.6rem;
+    padding-left: 0.5rem;
+}
+
+.comentario-texto{
+    height: 10vh;
+    overflow: hidden;
+}
+
+.comentario-texto p{
+    margin: 0.8rem 1.5rem;
 }
