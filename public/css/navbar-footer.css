@@ -148,7 +148,7 @@
     }
 }
 
-@media (max-width: 1200px) and (min-width: 577px) {
+@media (max-width: 1199px) and (min-width: 577px) {
     .logo-footer{
         width: 65%;
     }
@@ -160,7 +160,7 @@
     }
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 1200px) {
 
     .logo-footer{
         width: 100%;
