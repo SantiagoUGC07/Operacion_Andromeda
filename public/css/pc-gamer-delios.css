@@ -10,8 +10,8 @@
 }
 body{
     background-color: #140714;
-    background-image: url(../assets/img/stars_pixelart.webp);
-    background-size: contain;
+    background-image: url(../assets/img/resources/background.webp);
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -253,9 +253,10 @@ h2{
     font-weight: 900;
     font-size: 1rem;
     text-align: center;
-    /* margin-top: 36px; */
     margin-bottom: 16px;
-    /* padding-right: 30px; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .precio-otrosProductos{
     font-weight: 800;
