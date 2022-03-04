@@ -1,6 +1,6 @@
 let arregloObjetos = [];
 
-fetch('accesorios.json').then(response => {
+fetch('../json/productos.json').then(response => {
     return response.json();
 }).then(data => {
     arregloObjetos = data;

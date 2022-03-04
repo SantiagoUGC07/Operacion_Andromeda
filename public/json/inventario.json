@@ -1,0 +1,294 @@
+[
+    {
+        "id_producto": 14,
+        "nombre_producto": "Deepcool-Matrexx-50",
+        "precio_producto": 3200,
+        "cantidad_producto": 5,
+        "descripcion_producto": "Gabinete GAMER con la mejor ventilacion para tus juegos y con luces led que te haran ver cool",
+        "ruta_imagen_1": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/Deepcool-Matrexx-50%20(1).webp",
+        "ruta_imagen_2": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/Deepcool-Matrexx-50%20(2).webp",
+        "ruta_imagen_3": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/Deepcool-Matrexx-50%20(3).webp",
+        "categoria": "PC Gamer",
+        "descuento": 0,
+        "codigo_de_barras": 694578987,
+        "ticketsModel": []
+    },
+    {
+        "id_producto": 15,
+        "nombre_producto": "GA-Gigabyte-Aorus-C300W",
+        "precio_producto": 2500,
+        "cantidad_producto": 8,
+        "descripcion_producto": "La mejor calidad al mejor precio",
+        "ruta_imagen_1": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/GA-Gigabyte-Aorus-C300W%20(1).webp",
+        "ruta_imagen_2": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/GA-Gigabyte-Aorus-C300W%20(2).webp",
+        "ruta_imagen_3": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/GA-Gigabyte-Aorus-C300W%20(3).webp",
+        "categoria": "PC Gamer",
+        "descuento": 0,
+        "codigo_de_barras": 694578987,
+        "ticketsModel": [
+            {
+                "id_ticket": 9,
+                "estatus_del_pedido": "Cancelado",
+                "fecha": "2022-03-03T19:16:04"
+            }
+        ]
+    },
+    {
+        "id_producto": 16,
+        "nombre_producto": "MasterBox-TD500-ARGB",
+        "precio_producto": 2990,
+        "cantidad_producto": 15,
+        "descripcion_producto": "El mejor diseño para tu gabinete, llevatelo a buen precio",
+        "ruta_imagen_1": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/MasterBox-TD500-ARGB%20(1).webp",
+        "ruta_imagen_2": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/MasterBox-TD500-ARGB%20(2).webp",
+        "ruta_imagen_3": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/MasterBox-TD500-ARGB%20(3).webp",
+        "categoria": "PC Gamer",
+        "descuento": 0,
+        "codigo_de_barras": 694578987,
+        "ticketsModel": [
+            {
+                "id_ticket": 9,
+                "estatus_del_pedido": "Cancelado",
+                "fecha": "2022-03-03T19:16:04"
+            }
+        ]
+    },
+    {
+        "id_producto": 17,
+        "nombre_producto": "PC Gamer Agis 70z",
+        "precio_producto": 1800,
+        "cantidad_producto": 7,
+        "descripcion_producto": "Diseño discreto y elegante sin perder el toque gamer, gracia a su tira led al centro",
+        "ruta_imagen_1": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Agis%2070z%20(1).webp",
+        "ruta_imagen_2": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Agis%2070z%20(2).webp",
+        "ruta_imagen_3": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Agis%2070z%20(3).webp",
+        "categoria": "PC Gamer",
+        "descuento": 0,
+        "codigo_de_barras": 694578987,
+        "ticketsModel": [
+            {
+                "id_ticket": 10,
+                "estatus_del_pedido": "Proceso de entrega",
+                "fecha": "2022-03-03T19:16:17"
+            }
+        ]
+    },
+    {
+        "id_producto": 18,
+        "nombre_producto": "PC Gamer Agis 80z",
+        "precio_producto": 1950,
+        "cantidad_producto": 3,
+        "descripcion_producto": "Para las chicas gamer, un diseño cute y llamativo lo cual quedara perfecto en tu cuato uwu ",
+        "ruta_imagen_1": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Agis%2080z%20(2).webp",
+        "ruta_imagen_2": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Agis%2080z%20(3).webp",
+        "ruta_imagen_3": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Agis%2080z%20(4).webp",
+        "categoria": "PC Gamer",
+        "descuento": 0,
+        "codigo_de_barras": 694578987,
+        "ticketsModel": [
+            {
+                "id_ticket": 11,
+                "estatus_del_pedido": "Entregado",
+                "fecha": "2022-03-03T19:16:39"
+            }
+        ]
+    },
+    {
+        "id_producto": 19,
+        "nombre_producto": "PC Gamer Caster Max",
+        "precio_producto": 2600,
+        "cantidad_producto": 6,
+        "descripcion_producto": "Grande y con stilo elegante, con lateral traparente luciendo asi todo tu poder gamer",
+        "ruta_imagen_1": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Caster%20Max%20(1).webp",
+        "ruta_imagen_2": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Caster%20Max%20(2).webp",
+        "ruta_imagen_3": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Caster%20Max%20(3).webp",
+        "categoria": "PC Gamer",
+        "descuento": 0,
+        "codigo_de_barras": 694578987,
+        "ticketsModel": [
+            {
+                "id_ticket": 11,
+                "estatus_del_pedido": "Entregado",
+                "fecha": "2022-03-03T19:16:39"
+            }
+        ]
+    },
+    {
+        "id_producto": 20,
+        "nombre_producto": "PC Gamer Gladius 60z X",
+        "precio_producto": 2600,
+        "cantidad_producto": 8,
+        "descripcion_producto": "Con tiras gamer para aumentar tus FP´s, y la mejor ventilacion para tu hardware",
+        "ruta_imagen_1": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Gladius%2060z%20X%20(1).webp",
+        "ruta_imagen_2": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Gladius%2060z%20X%20(2).webp",
+        "ruta_imagen_3": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Gladius%2060z%20X%20(3).webp",
+        "categoria": "PC Gamer",
+        "descuento": 0,
+        "codigo_de_barras": 694578987,
+        "ticketsModel": []
+    },
+    {
+        "id_producto": 21,
+        "nombre_producto": "PC Gamer Stelios 70i",
+        "precio_producto": 1550,
+        "cantidad_producto": 5,
+        "descripcion_producto": "Equipo con un toque gamer de materiales de alta calidad",
+        "ruta_imagen_1": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Stelios%2070i%20(1).webp",
+        "ruta_imagen_2": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Stelios%2070i%20(2).webp",
+        "ruta_imagen_3": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Stelios%2070i%20(3).webp",
+        "categoria": "PC Gamer",
+        "descuento": 0,
+        "codigo_de_barras": 694578987,
+        "ticketsModel": []
+    },
+    {
+        "id_producto": 22,
+        "nombre_producto": "PC Gamer Stelios 90z",
+        "precio_producto": 3600,
+        "cantidad_producto": 3,
+        "descripcion_producto": "Total trasparencia para que luzca la maquina que gamer que armaste, ademas ayuda a una mejor ventilacion",
+        "ruta_imagen_1": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Stelios%2090z%20(1).webp",
+        "ruta_imagen_2": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Stelios%2090z%20(2).webp",
+        "ruta_imagen_3": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Stelios%2090z%20(3).webp",
+        "categoria": "PC Gamer",
+        "descuento": 0,
+        "codigo_de_barras": 694578987,
+        "ticketsModel": []
+    },
+    {
+        "id_producto": 23,
+        "nombre_producto": "PC Gamer Streambox Master",
+        "precio_producto": 1500,
+        "cantidad_producto": 11,
+        "descripcion_producto": "La mejor calidad al mejor precio",
+        "ruta_imagen_1": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Streambox%20Master%20(1).webp",
+        "ruta_imagen_2": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Streambox%20Master%20(2).webp",
+        "ruta_imagen_3": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Streambox%20Master%20(3).webp",
+        "categoria": "PC Gamer",
+        "descuento": 0,
+        "codigo_de_barras": 694578987,
+        "ticketsModel": []
+    },
+    {
+        "id_producto": 24,
+        "nombre_producto": "PC Gamer Telios 80i",
+        "precio_producto": 2800,
+        "cantidad_producto": 5,
+        "descripcion_producto": "Gabinete gamer con pantalla pixeleada al frente para aumentar esos fps",
+        "ruta_imagen_1": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Telios%2080i%20(1).webp",
+        "ruta_imagen_2": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Telios%2080i%20(2).webp",
+        "ruta_imagen_3": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Telios%2080i%20(3).webp",
+        "categoria": "PC Gamer",
+        "descuento": 0,
+        "codigo_de_barras": 694578987,
+        "ticketsModel": []
+    },
+    {
+        "id_producto": 25,
+        "nombre_producto": "PC Gamer Telios ZX",
+        "precio_producto": 3200,
+        "cantidad_producto": 3,
+        "descripcion_producto": "Diseño abstracto solo para los que llevan los juegos a otro nivel",
+        "ruta_imagen_1": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Telios%20ZX%20(1).webp",
+        "ruta_imagen_2": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Telios%20ZX%20(2).webp",
+        "ruta_imagen_3": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/PC%20Gamer%20Telios%20ZX%20(3).webp",
+        "categoria": "PC Gamer",
+        "descuento": 0,
+        "codigo_de_barras": 694578987,
+        "ticketsModel": [
+            {
+                "id_ticket": 9,
+                "estatus_del_pedido": "Cancelado",
+                "fecha": "2022-03-03T19:16:04"
+            }
+        ]
+    },
+    {
+        "id_producto": 26,
+        "nombre_producto": "VISOR-GALERIA",
+        "precio_producto": 2000,
+        "cantidad_producto": 10,
+        "descripcion_producto": "Uno de los mejor equipo, top ventas por su diseño y calidad, lleva los juegos a otro nivel",
+        "ruta_imagen_1": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/VISOR-GALERIA%20(1).webp",
+        "ruta_imagen_2": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/VISOR-GALERIA%20(2).webp",
+        "ruta_imagen_3": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/VISOR-GALERIA%20(3).webp",
+        "categoria": "PC Gamer",
+        "descuento": 0,
+        "codigo_de_barras": 694578987,
+        "ticketsModel": [
+            {
+                "id_ticket": 10,
+                "estatus_del_pedido": "Proceso de entrega",
+                "fecha": "2022-03-03T19:16:17"
+            }
+        ]
+    },
+    {
+        "id_producto": 27,
+        "nombre_producto": "Yeyian-Haizen-Negro",
+        "precio_producto": 1850,
+        "cantidad_producto": 8,
+        "descripcion_producto": "Equipo con un toque gamer de materiales de alta calidad",
+        "ruta_imagen_1": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/Yeyian-Haizen-Negro%20(1).webp",
+        "ruta_imagen_2": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/Yeyian-Haizen-Negro%20(2).webp",
+        "ruta_imagen_3": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/Yeyian-Haizen-Negro%20(3).webp",
+        "categoria": "PC Gamer",
+        "descuento": 0,
+        "codigo_de_barras": 694578987,
+        "ticketsModel": [
+            {
+                "id_ticket": 10,
+                "estatus_del_pedido": "Proceso de entrega",
+                "fecha": "2022-03-03T19:16:17"
+            }
+        ]
+    },
+    {
+        "id_producto": 28,
+        "nombre_producto": "conquer",
+        "precio_producto": 3500,
+        "cantidad_producto": 5,
+        "descripcion_producto": "Uno de los gabinetes mas usados por los profesionales por su gran diseño totalmente gamer",
+        "ruta_imagen_1": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/conquer%20(1).webp",
+        "ruta_imagen_2": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/conquer%20(2).webp",
+        "ruta_imagen_3": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/conquer%20(3).webp",
+        "categoria": "PC Gamer",
+        "descuento": 0,
+        "codigo_de_barras": 694578987,
+        "ticketsModel": [
+            {
+                "id_ticket": 11,
+                "estatus_del_pedido": "Entregado",
+                "fecha": "2022-03-03T19:16:39"
+            }
+        ]
+    },
+    {
+        "id_producto": 29,
+        "nombre_producto": "inwin-309-neg",
+        "precio_producto": 1200,
+        "cantidad_producto": 3,
+        "descripcion_producto": "Diseño basico para los camperos que no les gusta llamar la atencion",
+        "ruta_imagen_1": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/inwin-309-neg%20(1).webp",
+        "ruta_imagen_2": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/inwin-309-neg%20(2).webp",
+        "ruta_imagen_3": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/inwin-309-neg%20(3).webp",
+        "categoria": "PC Gamer",
+        "descuento": 0,
+        "codigo_de_barras": 694578987,
+        "ticketsModel": []
+    },
+    {
+        "id_producto": 30,
+        "nombre_producto": "tuf-gaming-gt501",
+        "precio_producto": 2500,
+        "cantidad_producto": 18,
+        "descripcion_producto": "Diseño para jugadores gamer de corazon que llevan el juego a otro nivel, no apto para noobs",
+        "ruta_imagen_1": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/tuf-gaming-gt501%20(1).webp",
+        "ruta_imagen_2": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/tuf-gaming-gt501%20(2).webp",
+        "ruta_imagen_3": "https://raw.githubusercontent.com/SantiagoUGC07/Operacion_Andromeda/master/public/assets/img/pc-gamer/tuf-gaming-gt501%20(3).webp",
+        "categoria": "PC Gamer",
+        "descuento": 0,
+        "codigo_de_barras": 694578987,
+        "ticketsModel": []
+    }
+]

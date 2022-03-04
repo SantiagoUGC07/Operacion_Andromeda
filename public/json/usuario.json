@@ -1,0 +1,183 @@
+[
+    {
+        "id_usuario": 1,
+        "nombre_cliente": "Daniel",
+        "apellido_cliente": "Nava",
+        "correo": "daniel@hotmail.com",
+        "contrasenia": "contraseniadaniel",
+        "ticketsModel": [
+            {
+                "id_ticket": 1,
+                "estatus_del_pedido": "procesando",
+                "fecha": "2022-03-03T19:15:53"
+            }
+        ]
+    },
+    {
+        "id_usuario": 2,
+        "nombre_cliente": "Jose Manuel",
+        "apellido_cliente": "Carvajal",
+        "correo": "jose@hotmail.com",
+        "contrasenia": "contraseniajose",
+        "ticketsModel": [
+            {
+                "id_ticket": 2,
+                "estatus_del_pedido": "procesando",
+                "fecha": "2022-03-03T19:15:53"
+            },
+            {
+                "id_ticket": 6,
+                "estatus_del_pedido": "completado",
+                "fecha": "2022-03-03T19:15:53"
+            }
+        ]
+    },
+    {
+        "id_usuario": 3,
+        "nombre_cliente": "Eduardo",
+        "apellido_cliente": "Diaz",
+        "correo": "eduardo@hotmail.com",
+        "contrasenia": "contraseniaeduardo",
+        "ticketsModel": [
+            {
+                "id_ticket": 3,
+                "estatus_del_pedido": "procesando",
+                "fecha": "2022-03-03T19:15:53"
+            },
+            {
+                "id_ticket": 7,
+                "estatus_del_pedido": "completado",
+                "fecha": "2022-03-03T19:15:53"
+            },
+            {
+                "id_ticket": 8,
+                "estatus_del_pedido": "completado",
+                "fecha": "2022-03-03T19:15:53"
+            }
+        ]
+    },
+    {
+        "id_usuario": 4,
+        "nombre_cliente": "Ruben",
+        "apellido_cliente": "Perez",
+        "correo": "ruben@hotmail.com",
+        "contrasenia": "contraseniaruben",
+        "ticketsModel": [
+            {
+                "id_ticket": 4,
+                "estatus_del_pedido": "procesando",
+                "fecha": "2022-03-03T19:15:53"
+            }
+        ]
+    },
+    {
+        "id_usuario": 5,
+        "nombre_cliente": "Fernando",
+        "apellido_cliente": "Hernandez",
+        "correo": "fernando@hotmail.com",
+        "contrasenia": "contraseniafernando",
+        "ticketsModel": [
+            {
+                "id_ticket": 5,
+                "estatus_del_pedido": "procesando",
+                "fecha": "2022-03-03T19:15:53"
+            }
+        ]
+    },
+    {
+        "id_usuario": 6,
+        "nombre_cliente": "Felix\t",
+        "apellido_cliente": "Garcia",
+        "correo": "felix@hotmail.com",
+        "contrasenia": "contraseniafelix",
+        "ticketsModel": []
+    },
+    {
+        "id_usuario": 7,
+        "nombre_cliente": "Omar",
+        "apellido_cliente": "Martinez",
+        "correo": "omar@hotmail.com",
+        "contrasenia": "contraseniaomar",
+        "ticketsModel": []
+    },
+    {
+        "id_usuario": 8,
+        "nombre_cliente": "Raul",
+        "apellido_cliente": "Lopez",
+        "correo": "raul@hotmail.com",
+        "contrasenia": "contraseniaraul",
+        "ticketsModel": []
+    },
+    {
+        "id_usuario": 9,
+        "nombre_cliente": "Matias Felix",
+        "apellido_cliente": "Alcaraz Villar",
+        "correo": "matiasfelixalcarazvillar@hotmail.com",
+        "contrasenia": "apple123",
+        "ticketsModel": [
+            {
+                "id_ticket": 9,
+                "estatus_del_pedido": "Cancelado",
+                "fecha": "2022-03-03T19:16:04"
+            },
+            {
+                "id_ticket": 10,
+                "estatus_del_pedido": "Proceso de entrega",
+                "fecha": "2022-03-03T19:16:17"
+            },
+            {
+                "id_ticket": 11,
+                "estatus_del_pedido": "Entregado",
+                "fecha": "2022-03-03T19:16:39"
+            }
+        ]
+    },
+    {
+        "id_usuario": 10,
+        "nombre_cliente": "Kevin",
+        "apellido_cliente": "Iturbe",
+        "correo": "kevin@hotmail.com",
+        "contrasenia": "contraseniakevin",
+        "ticketsModel": []
+    },
+    {
+        "id_usuario": 11,
+        "nombre_cliente": "Francisco",
+        "apellido_cliente": "Rodriguez",
+        "correo": "francisco@hotmail.com",
+        "contrasenia": "contraseniafrancisco",
+        "ticketsModel": []
+    },
+    {
+        "id_usuario": 12,
+        "nombre_cliente": "Raymundo",
+        "apellido_cliente": "Sanchez",
+        "correo": "raymundo@hotmail.com",
+        "contrasenia": "contraseniaraymundo",
+        "ticketsModel": []
+    },
+    {
+        "id_usuario": 13,
+        "nombre_cliente": "Lorenzo",
+        "apellido_cliente": "Diaz",
+        "correo": "lorenzo@hotmail.com",
+        "contrasenia": "contrasenialorenzo",
+        "ticketsModel": []
+    },
+    {
+        "id_usuario": 14,
+        "nombre_cliente": "Santiago",
+        "apellido_cliente": "Uriel",
+        "correo": "santiago@hotmail.com",
+        "contrasenia": "contraseniasantiago",
+        "ticketsModel": []
+    },
+    {
+        "id_usuario": 15,
+        "nombre_cliente": "Luis",
+        "apellido_cliente": "Ramirez",
+        "correo": "luis@hotmail.com",
+        "contrasenia": "contrasenialuis",
+        "ticketsModel": []
+    }
+]

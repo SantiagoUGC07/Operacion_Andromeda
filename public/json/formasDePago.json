@@ -1,0 +1,44 @@
+[
+    {
+        "id_forma_de_pago": 11,
+        "tipo_tarjeta": "débito",
+        "numero_tarjeta": 4390516781061184,
+        "fecha_vencimiento": 92032,
+        "cvv": 877,
+        "ticketsModel": [
+            {
+                "id_ticket": 9,
+                "estatus_del_pedido": "Cancelado",
+                "fecha": "2022-03-03T19:16:04"
+            }
+        ]
+    },
+    {
+        "id_forma_de_pago": 12,
+        "tipo_tarjeta": "débito",
+        "numero_tarjeta": 5359445160673326,
+        "fecha_vencimiento": 102031,
+        "cvv": 469,
+        "ticketsModel": [
+            {
+                "id_ticket": 10,
+                "estatus_del_pedido": "Proceso de entrega",
+                "fecha": "2022-03-03T19:16:17"
+            }
+        ]
+    },
+    {
+        "id_forma_de_pago": 13,
+        "tipo_tarjeta": "débito",
+        "numero_tarjeta": 5518558112265039,
+        "fecha_vencimiento": 52025,
+        "cvv": 423,
+        "ticketsModel": [
+            {
+                "id_ticket": 11,
+                "estatus_del_pedido": "Entregado",
+                "fecha": "2022-03-03T19:16:39"
+            }
+        ]
+    }
+]

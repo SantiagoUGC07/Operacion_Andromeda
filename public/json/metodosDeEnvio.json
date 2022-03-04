@@ -1,0 +1,78 @@
+[
+    {
+        "id_envio": 1,
+        "tipo_de_envio": "Envio a Domicilio",
+        "precio_de_envio": 60,
+        "ticketsModel": [
+            {
+                "id_ticket": 1,
+                "estatus_del_pedido": "procesando",
+                "fecha": "2022-03-03T19:15:53"
+            },
+            {
+                "id_ticket": 4,
+                "estatus_del_pedido": "procesando",
+                "fecha": "2022-03-03T19:15:53"
+            },
+            {
+                "id_ticket": 11,
+                "estatus_del_pedido": "Entregado",
+                "fecha": "2022-03-03T19:16:39"
+            }
+        ]
+    },
+    {
+        "id_envio": 2,
+        "tipo_de_envio": "Envio Express",
+        "precio_de_envio": 100,
+        "ticketsModel": [
+            {
+                "id_ticket": 2,
+                "estatus_del_pedido": "procesando",
+                "fecha": "2022-03-03T19:15:53"
+            },
+            {
+                "id_ticket": 5,
+                "estatus_del_pedido": "procesando",
+                "fecha": "2022-03-03T19:15:53"
+            },
+            {
+                "id_ticket": 6,
+                "estatus_del_pedido": "completado",
+                "fecha": "2022-03-03T19:15:53"
+            },
+            {
+                "id_ticket": 10,
+                "estatus_del_pedido": "Proceso de entrega",
+                "fecha": "2022-03-03T19:16:17"
+            }
+        ]
+    },
+    {
+        "id_envio": 3,
+        "tipo_de_envio": "Entrega a Tienda",
+        "precio_de_envio": 0,
+        "ticketsModel": [
+            {
+                "id_ticket": 3,
+                "estatus_del_pedido": "procesando",
+                "fecha": "2022-03-03T19:15:53"
+            },
+            {
+                "id_ticket": 7,
+                "estatus_del_pedido": "completado",
+                "fecha": "2022-03-03T19:15:53"
+            },
+            {
+                "id_ticket": 8,
+                "estatus_del_pedido": "completado",
+                "fecha": "2022-03-03T19:15:53"
+            },
+            {
+                "id_ticket": 9,
+                "estatus_del_pedido": "Cancelado",
+                "fecha": "2022-03-03T19:16:04"
+            }
+        ]
+    }
+]

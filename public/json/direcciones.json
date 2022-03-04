@@ -1,0 +1,62 @@
+[
+    {
+        "id_direccion": 11,
+        "estado": "Quintana Roo",
+        "ciudad": "Cancun",
+        "direccion": "Blvd Kukulkan Km 14.5",
+        "codigo_postal": 77500,
+        "numero_interior": "01",
+        "numero_exterior": "9",
+        "informacion_adicional": "Adentro de la plaza",
+        "nombre_destinatario": "Diego",
+        "apellido_destinatario": "Anaya",
+        "email_destinatario": "Diegoamaya@gmail.com",
+        "ticketsModel": [
+            {
+                "id_ticket": 9,
+                "estatus_del_pedido": "Cancelado",
+                "fecha": "2022-03-03T19:16:04"
+            }
+        ]
+    },
+    {
+        "id_direccion": 12,
+        "estado": "Jalisco",
+        "ciudad": "Guadalajara",
+        "direccion": "Manuel M. Dieguez 118",
+        "codigo_postal": 44600,
+        "numero_interior": "01",
+        "numero_exterior": "33",
+        "informacion_adicional": "Sin indicaciones",
+        "nombre_destinatario": "Pedro",
+        "apellido_destinatario": "Torres",
+        "email_destinatario": "Torestores@gmail.com",
+        "ticketsModel": [
+            {
+                "id_ticket": 10,
+                "estatus_del_pedido": "Proceso de entrega",
+                "fecha": "2022-03-03T19:16:17"
+            }
+        ]
+    },
+    {
+        "id_direccion": 13,
+        "estado": "Tabasco",
+        "ciudad": "Comalcalco",
+        "direccion": "Reforma 460",
+        "codigo_postal": 86323,
+        "numero_interior": "6",
+        "numero_exterior": "7",
+        "informacion_adicional": "Barda de piedra",
+        "nombre_destinatario": "Daniel",
+        "apellido_destinatario": "Santana",
+        "email_destinatario": "santanadanielgmail.com",
+        "ticketsModel": [
+            {
+                "id_ticket": 11,
+                "estatus_del_pedido": "Entregado",
+                "fecha": "2022-03-03T19:16:39"
+            }
+        ]
+    }
+]
