@@ -4,3 +4,16 @@
     border-width: 1px;
     border-color: #ede5f1;
 }
+
+
+.multiplicar {
+    max-width: 60px !important;
+} 
+
+.min-width-responsive{
+    min-width: 135px !important;
+}
+
+.fix{
+    border: none !important;
+}

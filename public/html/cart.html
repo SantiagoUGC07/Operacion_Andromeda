@@ -213,10 +213,11 @@
     </div>
     <div class="container">
         <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
-        <h1 class="title">
-            Carrito de Compras
-        </h1>
-        <div>
+        <div id="contenido">
+            <h1 class="title">
+                Carrito de Compras
+            </h1>
+
             <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <a class="nav-link active" id="carrito-tab" data-toggle="tab" href="#carrito" role="tab"
@@ -243,72 +244,107 @@
             <div class="tab-content">
                 <div class="tab-pane active box-color borde-blanco p-3" id="carrito" role="tabpanel"
                     aria-labelledby="carrito-tab">
-                    <h3>Articulos en tu carrito</h3><!-- TU TITULO -->
-                    <table class="table-responsive">
-                        <thead>
-                            <tr>
-                                <th scope="col" class="col-lg-1 col-md-1 col-sm-12">Eliminar</th>
-                                <th scope="col" class="col-lg-3 col-md-3 col-sm-12">Producto</th>
-                                <th scope="col"  class="col-lg-1 col-md-1 col-sm-12">Precio</th>
-                                <th scope="col" class="col-lg-7 col-md-7 col-sm-12">Cantidad</th>
-                                <th scope="col" class="col-lg-5 col-md-5 col-sm-12">Total</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <img src="../assets/img/icons/quitar.png" alt="" srcset="">
-                                    </th>
-                                <td>Pc</td>
-                                <td>$4000.00</td>
-                                <td>1</td>
-                                <td>$4,000.00</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <img src="../assets/img/icons/quitar.png" alt="" srcset="">
-                                    </th>
-                                <td>Pc-2</td>
-                                <td>$5,000.00</td>
-                                <td>3</td>
-                                <td>$15,000.00</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <img src="../assets/img/icons/quitar.png" alt="" srcset="">
-                                    </th>
-                                <td>Pc-3</td>
-                                <td>$3,000.00</td>
-                                <td>2</td>
-                                <td>$6,000.00</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="p-3">
+                        <h3>Articulos en tu carrito</h3><!-- TU TITULO -->
+                    </div>
+                    <div class="table-responsive-lg">
+                        <table class="table fondo-carrito">
+                            <thead>
+                                <tr>
+                                    <th class="min-width-responsive" scope="col">Eliminar</th>
+                                    <th class="min-width-responsive" scope="col">Producto</th>
+                                    <th class="min-width-responsive" scope="col">Precio</th>
+                                    <th scope="col">Cantidad</th>
+                                    <th class="min-width-responsive" scope="col">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr>
+                                    <td class="fix d-flex justify-content-center">
+                                        <a class="remover">
+                                            <img src="../assets/img/plantilla-icons/quitar.webp" alt="" srcset="">
+                                        </a>
+                                    </td>
+                                    <td>
+                                        UltraGear FHD IPS 1ms 144Hz HDR Monitor
+                                    </td>
+                                    <td class="subtotal">
+                                        $ <span>5000</span> MXN
+                                    </td>
+                                    <td class="fix d-flex justify-content-center">
+                                        <div class="min-width-responsive">
+                                            <input class="multiplicar" type="number" value="1" min="0" max="10"
+                                                step="1" />
+                                        </div>
+                                    </td>
+                                    <td class="total">
+                                        $ <span>5000</span> MXN
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="remover">
+                                            <img src="../assets/img/plantilla-icons/quitar.webp" alt="" srcset="">
+                                        </a>
+                                    </td>
+                                    <td>Audifonos Gamer Eagle Warrior Quimera</td>
+                                    <td class="subtotal">$ <span>3500</span> MXN</td>
+                                    <td class="d-flex justify-content-center">
+                                        <div class="min-width-responsive">
+                                            <input class="multiplicar" type="number" value="1" min="0" max="10"
+                                                step="1" />
+                                        </div>
+                                    </td>
+                                    <td class="total">$ <span>3500</span> MXN</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="remover">
+                                            <img src="../assets/img/plantilla-icons/quitar.webp" alt="" srcset="">
+                                        </a>
+                                    </td>
+                                    <td>PC GAMER DELIOS 50I</td>
+                                    <td class="subtotal">$ <span>34129</span> MXN</td>
+                                    <td class="d-flex justify-content-center">
+                                        <div class="min-width-responsive">
+                                            <input class="multiplicar" type="number" value="1" min="0" max="10"
+                                                step="1" />
+                                        </div>
+                                    </td>
+                                    <td class="total"> $ <span>34129</span> MXN</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     <div class="row">
                         <div class="col-md-8 col-sm-12"></div>
                         <div class="col-md-4 col-sm-12">
                             <h5>Resumen de tus articulos</h5>
-                            <p>Total de productos</p>
-                            <p class="d-inline-block">MXN $ 48,120.00</p>
+                            <div class="fondo-carrito p-3">
+                                <h4>Articulos <span class="subtotalPedidoLargo">0</span></h4>
+                                <div class="montserrat-text text-center">Subtotal de productos</div>
+                                <h4 class="montserrat-text text-center pt-3">$ <span class="subtotalPedido">0</span> MXN
+                                </h4>
+                            </div>
                         </div>
                     </div>
                     <div class="d-flex justify-content-end">
-
-                        <button class="btn-color-small mt-3">
+                        <button class="btn-color-small mt-3 ml-3 next">
                             CONTINUAR
                         </button>
-
                     </div>
                 </div>
 
 
-                <div class="tab-pane box-color borde-blanco p-3 2" id="direccion" role="tabpanel"
+                <div class="tab-pane box-color borde-blanco" id="direccion" role="tabpanel"
                     aria-labelledby="direccion-tab">
                     <div>
-                        <h3>Datos sobre la dirección envío</h3><!-- TU TITULO -->
+                        <div class="p-3">
+                            <h3>Datos sobre la dirección envío</h3><!-- TU TITULO -->
+                        </div>
                         <div class="row">
                             <div class="col-lg-6 col-md-12">
-                                <div class="pr-3">
+                                <div class="p-3">
                                     <!-- Información de la persona que recibira el producto: -->
                                     <h4>Información de la persona que recibira el producto: </h4>
                                     <div>
@@ -331,7 +367,7 @@
                             </div>
                             <div class="col-lg-6 col-md-12">
                                 <!-- Dirección -->
-                                <div class="pl-3">
+                                <div class="p-3">
                                     <h4>Dirección de envío: </h4>
                                     <div>
                                         <label class="my-1" for="">Calle:</label>
@@ -398,19 +434,26 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="d-flex justify-content-end">
-                            <button class="btn-color-small mt-3">
-                                CONTINUAR
-                            </button>
+                        <div class="d-flex justify-content-end mx-3 mb-3">
+                            <div class="d-flex justify-content-end">
+                                <button class="btn-color-small mt-3 ml-3 back">
+                                    VOLVER
+                                </button>
+                                <button class="btn-color-small mt-3 ml-3 next">
+                                    CONTINUAR
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane box-color borde-blanco p-3" id="envio" role="tabpanel" aria-labelledby="envio-tab">
-                    <h3>Datos sobre tipo de envio</h3>
+                <div class="tab-pane box-color borde-blanco" id="envio" role="tabpanel" aria-labelledby="envio-tab">
+                    <div class="p-3">
+                        <h3>Datos sobre tipo de envio</h3>
+                    </div>
                     <!-- TU TITULO -->
                     <div class="text row">
                         <div class="col-lg-8 col-md-12">
-                            <div class="pr-3">
+                            <div class="p-3">
                                 <h4>SELECCIONAR METODO DE ENTREGA</h4>
                                 <div>
                                     <div class="d-inline-block w-50">
@@ -419,7 +462,7 @@
                                     </div>
                                     <div class="custom-control custom-radio d-inline-block float-right">
                                         <input type="radio" id="customRadio4" name="customRadio"
-                                            class="custom-control-input">
+                                            class="custom-control-input costo-de-envio" value="60">
                                         <label class="custom-control-label" for="customRadio4">MXN 60.00</label>
                                     </div>
                                 </div>
@@ -430,7 +473,7 @@
                                     </div>
                                     <div class="custom-control custom-radio d-inline-block float-right">
                                         <input type="radio" id="customRadio2" name="customRadio"
-                                            class="custom-control-input">
+                                            class="custom-control-input costo-de-envio" value="100">
                                         <label class="custom-control-label" for="customRadio2">MXN 100.00</label>
                                     </div>
                                 </div>
@@ -441,44 +484,53 @@
                                     </div>
                                     <div class="custom-control custom-radio d-inline-block float-right">
                                         <input type="radio" id="customRadio3" name="customRadio"
-                                            class="custom-control-input">
+                                            class="custom-control-input costo-de-envio" value="0">
                                         <label class="custom-control-label" for="customRadio3">Gratis</label>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12">
-                            <div class="ml-3">
-                                <div class="p-3" style="background-color: #011640;">
-                                    <img class="col-12" src="../assets/img/productos/Silla-Gamer-RGB-Balam-Rush-2.webp">
-                                    <h4>Articulos:2</h4>
-                                    <div class="bo">
-                                        <p class="d-inline-block">Silla gamer</p>
-                                        <p class="d-inline-block">$ 3,000.00</p><br>
-                                        <p class="d-inline-block">Silla gamer</p>
-                                        <p class="d-inline-block">$ 3,000.00</p><br>
-                                        <p class="d-inline-block">Costo de envío</p>
-                                        <p class="d-inline-block">$ 99.00</p><br>
-                                    </div>
-                                    <div>
-                                        <p class="d-inline-block">TOTAL + IVA</p>
-                                        <p class="d-inline-block"> $ 99.00</p>
+                            <div class="p-3">
+                                <div class="fondo-carrito">
+                                    <img class="col-12" src="../assets/img/productos/Deepcool-Matrexx-50-4f.webp">
+                                </div>
+                                <h5 class="m-1">Resumen de tus articulos</h5>
+                                <div class="fondo-carrito p-3">
+                                    <h4>Articulos <span class="subtotalPedidoLargo">0</span></h4>
+                                    <div class="montserrat-text text-center">Subtotal de productos</div>
+                                    <h4 class="montserrat-text text-center pt-3">$ <span class="subtotalPedido">0</span>
+                                        MXN</h4>
+                                    <h4 class="no-elegiste" class="montserrat-text text-center pt-3">Primero elige un
+                                        metodo de entrega</h4>
+                                    <div class="ya-elegiste" style="display: none;">
+                                        <div class="montserrat-text text-center">Total con el envio</div>
+                                        <h4 class="montserrat-text text-center pt-3">$ <span
+                                                class="totalPedido">0</span> MXN</h4>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-end">
-                        <button class="btn-color-small mt-3">
-                            CONTINUAR
-                        </button>
+                    <div class="d-flex justify-content-end mx-3 mb-3">
+                        <div class="d-flex justify-content-end">
+                            <button class="btn-color-small mt-3 ml-3 back">
+                                VOLVER
+                            </button>
+                            <button class="btn-color-small mt-3 ml-3 next">
+                                CONTINUAR
+                            </button>
+                        </div>
                     </div>
                 </div>
-                <div class="tab-pane box-color borde-blanco p-3" id="pago" role="tabpanel" aria-labelledby="pago-tab">
-                    <h3>Datos sobre la forma de pago</h3><!-- TU TITULO -->
+                <div class="tab-pane box-color borde-blanco" id="pago" role="tabpanel" aria-labelledby="pago-tab">
+                    <div class="p-3">
+                        <h3>Datos sobre la forma de pago</h3><!-- TU TITULO -->
+                    </div>
+
                     <div class="row">
-                        <div class="col-xl-8 col-sm-12">
-                            <form class="pr-3">
+                        <div class="col-lg-8 col-md-12">
+                            <form class="p-3">
                                 <h4>¿Cómo quieres pagar?</h4>
                                 <div class="custom-control custom-radio">
                                     <input type="radio" id="customRadio1" name="customRadio"
@@ -508,143 +560,162 @@
                                         <input type="text" class="form-control" placeholder="03/22" name="" id="">
                                     </div>
                                     <div class="">
-                                        <label class="my-1" for="">Ciudad:</label>
+                                        <label class="my-1" for="">CCV:</label>
                                         <input type="text" class="form-control" placeholder="077" name="" id="">
                                     </div>
                                 </div>
                             </form>
                         </div>
                         <div class="col-lg-4 col-md-12">
-                            <div class="ml-3">
-                                <div class="p-3" style="background-color: #011640;">
-                                    <img class="col-12" src="../assets/img/productos/Silla-Gamer-RGB-Balam-Rush-2.webp">
-                                    <h4>Articulos:2</h4>
-                                    <div class="bo">
-                                        <p class="d-inline-block">Silla gamer</p>
-                                        <p class="d-inline-block">$ 3,000.00</p><br>
-                                        <p class="d-inline-block">Silla gamer</p>
-                                        <p class="d-inline-block">$ 3,000.00</p><br>
-                                        <p class="d-inline-block">Costo de envío</p>
-                                        <p class="d-inline-block">$ 99.00</p><br>
-                                    </div>
-                                    <div>
-                                        <p class="d-inline-block">TOTAL + IVA</p>
-                                        <p class="d-inline-block"> $ 99.00</p>
+                            <div class="p-3">
+                                <div class="fondo-carrito">
+                                    <img class="col-12" src="../assets/img/productos/Deepcool-Matrexx-50-4f.webp">
+                                </div>
+                                <h5 class="m-1">Resumen de tus articulos</h5>
+                                <div class="fondo-carrito p-3">
+                                    <h4>Articulos <span class="subtotalPedidoLargo">0</span></h4>
+                                    <div class="montserrat-text text-center">Subtotal de productos</div>
+                                    <h4 class="montserrat-text text-center pt-3">$ <span class="subtotalPedido">0</span>
+                                        MXN</h4>
+                                    <h4 class="no-elegiste" class="montserrat-text text-center pt-3">Primero elige un
+                                        metodo de entrega</h4>
+                                    <div class="ya-elegiste" style="display: none;">
+                                        <div class="montserrat-text text-center">Total con el envio</div>
+                                        <h4 class="montserrat-text text-center pt-3">$ <span
+                                                class="totalPedido">0</span> MXN</h4>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-end">
-                        <button class="btn-color-small mt-3">
-                            CONTINUAR
-                        </button>
+                    <div class="d-flex justify-content-end mx-3 mb-3">
+                        <div class="d-flex justify-content-end">
+                            <button class="btn-color-small mt-3 ml-3 back">
+                                VOLVER
+                            </button>
+                            <button class="btn-color-small mt-3 ml-3 next">
+                                CONTINUAR
+                            </button>
+                        </div>
                     </div>
                 </div>
-                <div class="tab-pane box-color borde-blanco p-3" id="revisa" role="tabpanel"
-                    aria-labelledby="revisa-tab">
+                <div class="tab-pane box-color borde-blanco" id="revisa" role="tabpanel" aria-labelledby="revisa-tab">
+                    <div class="p-3">
+                        <h3>Revisa tu pedido</h3><!-- TU TITULO -->
+                    </div>
 
-                    <h3>Revisa tu pedido</h3><!-- TU TITULO -->
                     <div class="row">
                         <div class="col-lg-8 col-md-12">
                             <!-- Información de la persona que recibira el producto: -->
-                            <div class="pr-3">
+                            <table class="table-responsive px-3">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="col-lg-1 col-md-1 col-sm-12">Producto</th>
+                                        <th scope="col" class="col-lg-1 col-md-1 col-sm-12">Precio</th>
+                                        <th scope="col" class="col-lg-1 col-md-1 col-sm-12">Cantidad</th>
+                                        <th scope="col" class="col-lg-1 col-md-1 col-sm-12">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Pc</td>
+                                        <td>$4000.00</td>
+                                        <td>1</td>
+                                        <td>$4,000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pc-2</td>
+                                        <td>$5,000.00</td>
+                                        <td>3</td>
+                                        <td>$15,000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pc-3</td>
+                                        <td>$3,000.00</td>
+                                        <td>2</td>
+                                        <td>$6,000.00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="p-3">
                                 <div>
-                                    <table class="table-responsive">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col" class="col-lg-1 col-md-1 col-sm-12">Producto</th>
-                                                <th scope="col" class="col-lg-1 col-md-1 col-sm-12">Precio</th>
-                                                <th scope="col" class="col-lg-1 col-md-1 col-sm-12">Cantidad</th>
-                                                <th scope="col" class="col-lg-1 col-md-1 col-sm-12">Total</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Pc</td>
-                                                <td>$4000.00</td>
-                                                <td>1</td>
-                                                <td>$4,000.00</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Pc-2</td>
-                                                <td>$5,000.00</td>
-                                                <td>3</td>
-                                                <td>$15,000.00</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Pc-3</td>
-                                                <td>$3,000.00</td>
-                                                <td>2</td>
-                                                <td>$6,000.00</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <p class="d-inline-block w-50">Juan Carlos Gonzales</p>
+                                    <p class="d-inline-block">gonzales.sancho@gmail.com</p>
+                                    <div>
+                                        <p class="w-50">
+                                            cel 5568531587
+                                            Wilson Ferreira Aldunate 918 cp: 15600
+                                            Gustavo A. Madero, CDMX, México
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="d-inline-block col-4">
+                                        <p>Envío estimado: </p>
+                                        <p>(3-5 días)</p>
+                                    </div>
+                                    <div class="d-inline-block col-4">
+                                        <p>Numero de pedido: </p>
+                                        <p>ADMD9287DJ</p>
+                                    </div>
+                                    <div class="d-inline-block col-4">
+                                        <p>Numero de guía: </p>
+                                        <p>193830310913SA</p>
+                                    </div>
                                 </div>
                                 <div>
-                                    <div>
-                                        <p class="d-inline-block w-50">Juan Carlos Gonzales</p>
-                                        <p class="d-inline-block">gonzales.sancho@gmail.com</p>
-                                        <div>
-                                            <p class="w-50">
-                                                cel 5568531587
-                                                Wilson Ferreira Aldunate 918 cp: 15600
-                                                Gustavo A. Madero, CDMX, México
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="d-inline-block col-4">
-                                            <p>Envío estimado: </p>
-                                            <p>(3-5 días)</p>
-                                        </div>
-                                        <div class="d-inline-block col-4">
-                                            <p>Numero de pedido: </p>
-                                            <p>ADMD9287DJ</p>
-                                        </div>
-                                        <div class="d-inline-block col-4">
-                                            <p>Numero de guía: </p>
-                                            <p>193830310913SA</p>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <p>Metodo de pago:</p>
-                                        <p>Metodo confirmado</p>
-                                        <p>Tarjeta de credito:
-                                            xxxx-xxxx-xxxx-0156
-                                            Fecha de vencimiento: 05/23 cvv: ***
-                                        <p>
-                                    </div>
+                                    <p>Metodo de pago:</p>
+                                    <p>Metodo confirmado</p>
+                                    <p>Tarjeta de credito:
+                                        xxxx-xxxx-xxxx-0156
+                                        Fecha de vencimiento: 05/23 cvv: ***
+                                    <p>
                                 </div>
                             </div>
+
                         </div>
                         <div class="col-lg-4 col-md-12">
-                            <div class="ml-3">
-                                <div class="p-3" style="background-color: #011640;">
-                                    <img class="col-12" src="../assets/img/productos/Silla-Gamer-RGB-Balam-Rush-2.webp">
-                                    <h4>Articulos:2</h4>
-                                    <div class="bo">
-                                        <p class="d-inline-block">Silla gamer</p>
-                                        <p class="d-inline-block">$ 3,000.00</p><br>
-                                        <p class="d-inline-block">Silla gamer</p>
-                                        <p class="d-inline-block">$ 3,000.00</p><br>
-                                        <p class="d-inline-block">Costo de envío</p>
-                                        <p class="d-inline-block">$ 99.00</p><br>
-                                    </div>
-                                    <div>
-                                        <p class="d-inline-block">TOTAL + IVA</p>
-                                        <p class="d-inline-block"> $ 99.00</p>
+                            <div class="p-3">
+                                <div class="fondo-carrito">
+                                    <img class="col-12" src="../assets/img/productos/Deepcool-Matrexx-50-4f.webp">
+                                </div>
+                                <h5 class="m-1">Resumen de tus articulos</h5>
+                                <div class="fondo-carrito p-3">
+                                    <h4>Articulos <span class="subtotalPedidoLargo">0</span></h4>
+                                    <div class="montserrat-text text-center">Subtotal de productos</div>
+                                    <h4 class="montserrat-text text-center pt-3">$ <span class="subtotalPedido">0</span>
+                                        MXN</h4>
+                                    <h4 class="no-elegiste" class="montserrat-text text-center pt-3">Primero elige un
+                                        metodo de entrega</h4>
+                                    <div class="ya-elegiste" style="display: none;">
+                                        <div class="montserrat-text text-center">Total con el envio</div>
+                                        <h4 class="montserrat-text text-center pt-3">$ <span
+                                                class="totalPedido">0</span> MXN</h4>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-end">
-                        <button class="btn-color-small mt-3">
-                            CONTINUAR
-                        </button>
+                    <div class="d-flex justify-content-end mx-3 mb-3">
+                        <div class="d-flex justify-content-end">
+                            <button class="btn-color-small mt-3 ml-3 back">
+                                VOLVER
+                            </button>
+                            <button id="borrar" class="btn-color-small mt-3 ml-3" >
+                                CONTINUAR
+                            </button>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div id="completaste" style="display: none;">
+            <div class="d-flex justify-content-center">
+                <form action="../html/pedidos.html">
+                    <button class="btn-color mt-3" type="submit">
+                        Ver mis pedidos
+                    </button>
+                </form>
             </div>
         </div>
         <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
@@ -759,6 +830,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
+    <script src="../js/bootstrap-input-spinner.js"></script>
+    <script src="../js/cart.js"></script>
 
 
 </body>

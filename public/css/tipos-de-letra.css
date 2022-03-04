@@ -6,3 +6,32 @@
     text-shadow: -1px 2px #ff3575;
     color: #ede5f1
 }
+
+.desarrollador{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 15pt;
+    letter-spacing: 1px;
+    text-shadow: -1px 1px #ff3575;
+    color: #240655
+}
+
+.nombre-del-integrante{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: white;
+    background: linear-gradient(180deg, #c04bf280 28.33%, #6232a680 71.67%);
+}
+
+.pregunta {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12pt;
+    color: rgb(102, 94, 102)
+}
+
+.respuesta{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 15pt;
+    color: black
+}
