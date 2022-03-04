@@ -124,7 +124,7 @@
         padding-left: 48px;
     }
 
-    .nav-item {
+    .navbar-collapse .nav-link {
         margin-right: 48px;
     }
 }

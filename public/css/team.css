@@ -4,26 +4,6 @@
     filter: grayscale(100%);
 }
 
-.nombre-del-integrante{
-    font-family: 'Orbitron', sans-serif;
-    text-align: center;
-    color: white;
-    background: linear-gradient(180deg, #c04bf280 28.33%, #6232a680 71.67%);
-}
-
-.pregunta {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 12pt;
-    color: rgb(102, 94, 102)
-}
-
-.respuesta{
-    font-family: 'Montserrat';
-    font-weight: 800;
-    font-size: 15pt;
-    color: black
-}
-
 .descripcion{
     display: flex;
     flex-direction: column;
@@ -68,6 +48,10 @@
 
 .imagen-selector{
     border: 8px solid #FF3575;
+}
+
+.desarrollador{
+    margin-bottom: 10px;
 }
 
 @media (max-width: 576px) {
